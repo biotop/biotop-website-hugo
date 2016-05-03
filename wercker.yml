@@ -12,6 +12,6 @@ deploy:
         packages: git ssh-client
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
-        domain: oxford-austrian-society.github.io
+        domain: biotop.github.io
         basedir: public
-        repo: oxford-austrian-society/oxford-austrian-society.github.io
+        repo: biotop/biotop.github.io
