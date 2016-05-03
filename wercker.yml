@@ -12,6 +12,6 @@ deploy:
         packages: git ssh-client
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
-        domain: biotop.github.io
+        domain: biotop.co
         basedir: public
         repo: biotop/biotop.github.io

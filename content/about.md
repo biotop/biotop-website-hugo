@@ -8,3 +8,5 @@ Biotop is the idea to build an open collective of scientists engaging in the cur
 #Who we are
 
 ## Lukas Hutter
+
+Lukas is a final year PhD student at the University of Oxford.
