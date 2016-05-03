@@ -1,5 +1,5 @@
 baseurl = "http://biotop.co/"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Biotop"
 theme = "imperfect"
 preserveTaxonomyNames = true
