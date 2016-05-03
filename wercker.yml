@@ -1,0 +1,17 @@
+box: golang:1.5.1
+build:
+  steps:
+    - arjen/hugo-build:
+        version: "0.15"
+        theme: imperfect
+        flags: --buildDrafts=true
+
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages:
+        token: $GIT_TOKEN
+        domain: oxford-austrian-society.github.io
+        basedir: public
+        repo: oxford-austrian-society/oxford-austrian-society.github.io

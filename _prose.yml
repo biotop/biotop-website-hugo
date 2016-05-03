@@ -1,0 +1,144 @@
+
+prose:
+  rooturl: 'content'
+  media: 'static/images'
+  metadata:
+    content:
+    - name: "title"
+      field:
+        element: "textarea"
+        label: "Post-Title"
+        placeholder: "Name this Post"
+        value: ""
+    - name: "author"
+      field:
+        element: "textarea"
+        label: "Author"
+        placeholder: "Must be in format FirstnameLastname - e.g. JohnGriffin"
+        value: "Oxford Austrian Society"
+    - name: "categories"
+      field:
+        element: "multiselect"
+        label: "Add Tags"
+        options:
+          - name: "Speaker Event"
+            value: "Speaker Event"
+          - name: "Termcard"
+            value: "Termcard"
+          - name: "Trip"
+            value: "Trip"
+          - name: "Exchange"
+            value: "Exchange"
+          - name: "Social Event"
+            value: "Social Event"
+          - name: "News"
+            value: "News"
+        alterable: True
+    - name: "description"
+      field:
+        element: "textarea"
+        label: "Description"
+        placeholder: "The meta description - often used by Google in search results page."
+        value: ""
+    - name: "date"
+      field:
+        element: "text"
+        label: "Date YYYY-MM-DD"
+        value: ""
+    - name: "featured"
+      field:
+        element: "text"
+        label: "Header Image"
+        placeholder: "Full-width header image - e.g. /images/myfile.png"
+    - name: "featuredalt"
+      field:
+        element: "text"
+        label: "Alternative text if featured image is not loaded"
+        placeholder: ""
+        value: ""
+    - name: "featuredpath"
+      field:
+        element: "text"
+        label: "Featured Image Path"
+        placeholder: "The all but the last part of the Path"
+        value: ""
+    - name: "linktitle"
+      field:
+        element: "text"
+        label: "Linktitle"
+        placeholder: ""
+        value: ""
+    - name: "type"
+      field:
+        element: "hidden"
+        value: "post"
+
+    content/blog:
+    - name: "title"
+      field:
+        element: "textarea"
+        label: "Post-Title"
+        placeholder: "Name this Post"
+        value: ""
+    - name: "author"
+      field:
+        element: "textarea"
+        label: "Author"
+        placeholder: "Must be in format FirstnameLastname - e.g. JohnGriffin"
+        value: "Oxford Austrian Society"
+    - name: "categories"
+      field:
+        element: "multiselect"
+        label: "Add Tags"
+        options:
+          - name: "Speaker Event"
+            value: "Speaker Event"
+          - name: "Termcard"
+            value: "Termcard"
+          - name: "Trip"
+            value: "Trip"
+          - name: "Exchange"
+            value: "Exchange"
+          - name: "Social Event"
+            value: "Social Event"
+          - name: "News"
+            value: "News"
+        alterable: True
+    - name: "description"
+      field:
+        element: "textarea"
+        label: "Description"
+        placeholder: "The meta description - often used by Google in search results page."
+        value: ""
+    - name: "date"
+      field:
+        element: "text"
+        label: "Date YYYY-MM-DD"
+        value: ""
+    - name: "featured"
+      field:
+        element: "text"
+        label: "Header Image"
+        placeholder: "Full-width header image - e.g. /images/myfile.png"
+    - name: "featuredalt"
+      field:
+        element: "text"
+        label: "Alternative text if featured image is not loaded"
+        placeholder: ""
+        value: ""
+    - name: "featuredpath"
+      field:
+        element: "text"
+        label: "Featured Image Path"
+        placeholder: "The all but the last part of the Path"
+        value: ""
+    - name: "linktitle"
+      field:
+        element: "text"
+        label: "Linktitle"
+        placeholder: ""
+        value: ""
+    - name: "type"
+      field:
+        element: "hidden"
+        value: "post"
