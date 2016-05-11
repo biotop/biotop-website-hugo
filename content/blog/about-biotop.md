@@ -1,6 +1,15 @@
 +++
-title = "About biotop*"
-date = "2016-05-03"
+author = "Lukas Hutter"
+categories = []
+date = "2016-05-11T14:10:09+01:00"
+description = ""
+featured = ""
+featuredalt = ""
+featuredpath = ""
+linktitle = ""
+title = "About Biotop"
+type = "post"
+
 +++
 
 ## Context
