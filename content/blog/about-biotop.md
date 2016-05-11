@@ -57,3 +57,14 @@ We are a group of young researchers. Biotop is our attempt at taking our future 
 
 ### Development of Open Lab Equipment
 - Development of open-source lab equipment using accessible technology: 3D printing, robotics to reduce financial barriers.
+
+## Basic Research Areas
+
+We focus on  partially overlapping partially overlapping research themes:
+
+- Computational genomics
+- Distributed computing
+- Regulation and control in biological systems
+- Interface materials and self-assembly
+- Theoretical neuroscience
+- Complexity in socio-economic systems
