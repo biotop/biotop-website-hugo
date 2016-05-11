@@ -24,7 +24,7 @@ a distorted scientific culture that predominantly fosters fashionable and novel 
 
 ## Mission Statement
 
-*Biotop is the idea to build an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative exporation and translation of ideas; it is an experiment trying to reinvent the way we do science.*
+*Biotop is the idea to build an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative exploration and translation of ideas; it is an experiment trying to reinvent the way we do science.*
 
 ## Cornerstones
 
