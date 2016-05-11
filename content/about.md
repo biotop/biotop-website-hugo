@@ -53,7 +53,7 @@ We are a group of young researchers. Biotop is our attempt at taking our future 
 
 ## Basic Research Areas
 
-We focus on  partially overlapping partially overlapping research themes:
+We focus on six overlapping research themes:
 
 - Computational genomics
 - Distributed computing
