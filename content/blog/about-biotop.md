@@ -20,6 +20,7 @@ We've all seen idealistic young academics keen on changing how academia works fr
 Science is an endeavour that should be abound with idealism and innovative thinking, yet how come that so many young researchers have become so disillusioned?
 
 We believe that the problem is systemic:
+
 - The **rigid institutional structure** of universities and research centres creates a context where linearity of carreer paths has become a prime selection criterion for success. This quenches innovation, is a source of existential anxiety for young scientists and inhibits interdisciplinarity.
 
 - The ever-expanding spectrum of scientific disciplines and sub-disciplines creates a real **measurement-problem at the heart of science**: How do the bodies that fund science assess quality of scientific output of researchers, whose potentially invaluable work may only be fully comprehended by a handful of people. The answer is an over-reliance on aggregated metrics such as the number of publications in high impact journals, with the result of
