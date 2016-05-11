@@ -28,7 +28,7 @@ a distorted scientific culture that predominantly fosters fashionable and novel 
 
 ## Cornerstones
 
-We are a group of young researchers. Biotop is our attempt at taking our future in science, and in part the future of science into our own hands. It is the idea of conceiving a research insitute/network as an ecosystem/environment that fosters a scientific culture that truly deserves this name. We belive that addressing the aformentioned systemic problems in an integrated manner, will not allow us to tackle the many problems we see in science, but also provide a sound foundation for our own research endeavours.
+We are a group of young researchers. Biotop is our attempt at taking our future in science - and in part the future of science - into our own hands. It is the idea of conceiving a research network as an ecosystem that fosters a scientific culture that truly deserves this name. We belive that addressing the aformentioned systemic problems in an integrated manner, will not allow us to tackle the many problems we see in science, but also provide a sound foundation for our own research endeavours.
 
 ### Interdisciplinarity & Collaboration
 
