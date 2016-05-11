@@ -32,15 +32,21 @@ We are a group of young researchers. Biotop is our attempt at taking our future 
 
 ### Interdisciplinarity & Collaboration
 
-Innovation-friendly, flexible organisiation, flat hierarchy, collaboration in small teams that promote interdisciplinarity.
+- Innovation-friendly, flexible organisiation
+- flat hierarchy
+- collaboration in small teams that promote interdisciplinarity.
 
 ### Rethinking the Paper & Open Science
 
-Active advocacy and development of a platform of tools to establish a new model of scientific publishing, share research openly, open up the peer-review process and allow the development of more suitable research metrics.
+- Active advocacy
+- Development of a platform of tools to establish a new model of scientific publishing, share research openly, open up the peer-review process and allow the development of more suitable research metrics.
 
 ### Integration of Outreach Activities
 
-Closely work with the public, science communication through art, develop visualisation tools to empower the public in the exploration of complex problems (economy, political budgets, scientific problems), citizen science projects that include members of the public as active contributors to research projects.
+- Closely work with the public
+- Science communication through art
+- Development of visualisation tools to empower the public in the exploration of complex problems (economy, political budgets, scientific problems)
+- Citizen science projects that include members of the public as active contributors to research projects.
 
 ### Development of Open Lab Equipment
-develop open-source lab equipment using accessible technology: 3D printing, robotics to reduce financial barriers.
+- Development of open-source lab equipment using accessible technology: 3D printing, robotics to reduce financial barriers.
