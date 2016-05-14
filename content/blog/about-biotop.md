@@ -12,11 +12,6 @@ type = "post"
 
 +++
 
-+++
-title = "About BIOTOP*"
-date = "2016-05-03"
-+++
-
 ## Context
 
 To many young scientists, the prospect of pursuing a career in academia has become a scary one.

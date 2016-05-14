@@ -1,13 +1,270 @@
 {{ partial "header" . }}
     {{ $.Scratch.Set "shareNav" true }}
     {{ partial "navbar" . }}
+    <div id="sbwrap">
+      {{ partial "sidebar-ix" . }}
+    </div>
     <!-- Main -->
     <div id="main">
-        {{ range first 1 (where .Site.Pages "Type" "post") }}
+      <!DOCTYPE html>
+<meta charset="utf-8">
+<script type="text/javascript">
+<!--
+if (window.innerWidth <= 1200) {
+document.location = "/about/";
+}
+//-->
+</script>
+<style>
+
+#sbwrap {
+  position: absolute;
+  /*display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+  -ms-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;*/
+  margin: 4.5em;
+  z-index: +10;
+  /*background: #fff;*/
+  opacity: 1;
+  padding: 1em;
+  width: 24em;
+}
+
+  body.is-menu-visible #sbwrap {
+    opacity: 0.15;
+  }
+
+  @media screen and (max-width: 1680px) {
+
+    #sbwrap {
+      padding: 3em;
+    }
+
+  }
+
+  @media screen and (max-width: 1280px) {
+
+    #sbwrap {
+      display: block;
+    }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+    #sbwrap {
+      padding: 1.5em;
+    }
+
+  }
+
+path{
+  stroke-width: 0.5px;
+  /*stroke-opacity: 0.5;
+  fill-opacity: 0.5;*/
+}
+
+.title {
+font-family: Raleway;
+font-weight: 900;
+font-size: 4em;
+letter-spacing: .5em;
+text-transform: uppercase;
+}
+
+</style>
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,100' rel='stylesheet' type='text/css'>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+
+var w             = 0.992 * window.innerWidth,
+  h             =  0.992 *window.innerHeight,
+  radius        = 5.25,
+  links         = [],
+  cellsize      = 300,
+  cellpadding   = 40,
+  bleed         = 0,
+  fillopacity   = 0.50,
+  strokeopacity = 0.50,
+  // cellsX        = Math.ceil((w+bleed*2)/cellsize),
+  // cellsY        = Math.ceil((h+bleed*2)/cellsize),
+  cellsX        = 1,
+  cellsY        = 2,
+  x_gradient    = ["#fff", "#aaa"],
+  y_gradient    = ["#fff", "#aaa"];
+  colors = ["#baf58e", "#74cb91",  "#459e8a", "#347175"]
+  fill_color = "#fbfbfb"
+  simulate      = true,
+  zoomToAdd     = true;
+
+// function color(x, y) {
+//   var color_x = d3.scale.linear()
+//                   .range(x_gradient)
+//                   .domain(d3.range(0, w, w/x_gradient.length));   //[-bleed, width+bleed]
+//   var color_y = d3.scale.linear()
+//                   .range(y_gradient)
+//                   .domain(d3.range(0, h, h/y_gradient.length));   //[-bleed, width+bleed]
+//   // return d3.interpolateRgb(color_x(x), color_y(y))(0.5);
+//   return "#fff";
+//
+// }
+
+var vertices = d3.range(cellsX*cellsY).map(function(d) {
+             var col = d % cellsX;
+             var row = Math.floor(d / cellsX);
+             var x   = Math.round(-bleed + col*cellsize + Math.random() * (cellsize - cellpadding*2) + cellpadding);
+             var y   = Math.round(-bleed + row*cellsize + Math.random() * (cellsize - cellpadding*2) + cellpadding);
+             return [x, y];
+           });
+
+var d3_geom_voronoi = d3.geom.voronoi().x(function(d) { return d.x; }).y(function(d) { return d.y; });
+
+var voronoi = d3.geom.voronoi()
+              .clipExtent([[cellpadding, cellpadding], [w - cellpadding, h - cellpadding]])
+             .x(function(d) { return d.x; })
+             .y(function(d) { return d.y; })
+              .triangles(vertices);
+
+var prevEventScale = 1;
+
+
+// define zoom
+var zoom = d3.behavior.zoom().on("zoom", function(d,i) {
+           if (zoomToAdd){
+             if (d3.event.scale > prevEventScale) {
+               angle = radius * vertices.length;
+               vertices.push({x: angle*Math.cos(angle)+(w/2), y: angle*Math.sin(angle)+(h/2)});
+               console.log("add " + vertices.length)
+             } else if (vertices.length > 2 && d3.event.scale != prevEventScale) {
+               vertices.pop();
+               console.log("remove " + vertices.length)
+             }
+             force.nodes(vertices).start();
+           } else {
+             if (d3.event.scale > prevEventScale) {
+               radius += .01;
+             } else {
+               radius -= .01;
+             }
+             vertices.forEach(function(d, i) {
+               angle = radius * (i+10);
+               vertices[i] = {x: angle*Math.cos(angle)+(w/2), y: angle*Math.sin(angle)+(h/2)};
+             });
+             force.nodes(vertices).start();
+           }
+           prevEventScale = d3.event.scale;
+         });
+
+// define hotkeys
+d3.select(window)
+.on("keydown", function() {
+  // shift
+  if(d3.event.keyCode == 16) {
+    zoomToAdd = false;
+  }
+  // s
+  if(d3.event.keyCode == 83) {
+    simulate = !simulate;
+    if(simulate) {
+      force.start();
+    } else {
+      force.stop();
+    }
+  }
+})
+.on("keyup", function() {
+  zoomToAdd = true;
+});
+
+var circlesdata = [
+  {x : 403.40295, y : 306.24, r : 88.060753, c : "#20202b"},
+  {x : 414.54303, y : 383.08, r : 113.90672, c : "#2e4653"},
+  {x : 319.24698, y : 111.22, r : 40.985046, c : "#baf58e"},
+  {x : 317.08011, y : 173.27, r : 61.188351, c : "#74cb91"},
+  {x : 314.94693, y : 245.9, r : 87.565269, c : "#459e8a"},
+  {x : 311.7247, y : 343.59, r : 111.60302, c : "#347175"}
+];
+
+// prepare svg element
+var svg = d3.select("#main")
+          .append("g")
+          .style("position", "absolute")
+          .style("left", "0")
+          .style("top", "0")
+          .style("z-index", "1")
+          .append("svg")
+          .attr("width", w)
+          .attr("height", h)
+          .call(zoom);
+
+
+// define force parameters
+var force = d3.layout.force()
+            .charge(-800)
+            .size([w, h])
+            .on("tick", update);
+
+// use the force
+force.nodes(vertices).start();
+
+// define paths
+var path = svg.append("g").attr("class", "bubbles").selectAll("path");
+
+// update function
+function update(e) {
+  path = path.data(d3_geom_voronoi(vertices));
+  //path = path.data(voronoi);
+  path.enter().append("path")
+      // drag node by dragging cell
+      .call(d3.behavior.drag()
+        .on("drag", function(d, i) {
+          vertices[i] = {x: vertices[i].x + d3.event.dx, y: vertices[i].y + d3.event.dy};
+        })
+      )
+      .style("fill", function(d, i) {
+          return colors[Math.floor((Math.random() *colors.length))];
+      })
+      .style("stroke", function(d, i) {
+          return "#aaa";
+      })
+      .style("fill-opacity", 1)
+      // .transition()
+      //   .duration(10)
+      //   .ease("linear")
+      //   .style("fill-opacity", 0)
+
+  path.attr("d", function(d) { return "M" + d.join("L") + "Z"; })
+      .transition().duration(1000)
+      .ease("linear")
+      .style("fill-opacity", 0)
+      .style("stroke", function(d, i) {
+          var x = (d[0][0] + d[1][0] + d[2][0])/3;
+          var y = (d[0][1] + d[1][1] + d[2][1])/3;
+          return "#aaa";
+          //return color(d3.geom.polygon(d).area())
+      });
+
+  path.exit().remove();
+
+  if(!simulate) force.stop()
+}
+
+</script>
+
+        <!-- {{ range first 1 (where .Site.Pages "Type" "post") }}
             {{ .Render "content-single" }}
 
             {{ partial "share-menu" . }}
-        {{ end }}
+        {{ end }} -->
     </div>
-    {{ partial "sidebar" . }}
 {{ partial "footer" . }}
