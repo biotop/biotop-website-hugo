@@ -5,7 +5,8 @@ theme = "imperfect"
 preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "shortname"
-googleAnalytics = ""
+googleAnalytics = "UA-77796485-1"
+enableRobotsTXT = true
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
