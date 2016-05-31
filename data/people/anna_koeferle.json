@@ -1,0 +1,16 @@
+{
+  "name" : "Anna Köferle",
+  "position" : {
+    "en" : "Biochemist",
+    "de" : "Biochemikerin",
+    "it" : "",
+    "si" : ""
+  },
+  "pic" : "",
+  "about" : {
+    "en" : "Anna studied Biochemistry at the University of Oxford and is now finishing her PhD at Universty College London, where she is using CRISPR/Cas9 technology to study the regulation of transcription in human cells. Her research interests include: the regulation of transcription, the functional role of chromatin architecture, development of biological screens, and non-canonical applications of CRISPR/Cas9 technology.",
+    "de" : "Anna studierte Biochemie and der University of Oxford und schließt gerade ihr Doktorat am University College London ab, wo sie CRISPR/Cas9 einsetzt um die Reguliergung von Transkription in menschlichen Zellen zu untersuchen. Ihre Forschungsinteressen beinhalten: Regulierung von Transkription und nicht-kanonische Anwendung von Genome-Editing-Techniken",
+    "it" : "",
+    "si" : ""
+  }
+}

@@ -1,0 +1,21 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    <!-- Wrapper -->
+    <div id="wrapper">
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+      <div>
+          {{ range .Data.Pages }}
+            <div class="post">
+              {{ .Render "header" }}
+              <p>
+                {{ .Params.bio | markdownify }}
+              </p>
+            </div>
+          {{ end }}
+      </div>
+    </div>
+    {{ partial "sidebar" . }}
+<!-- {{ partial "footer" . }} -->

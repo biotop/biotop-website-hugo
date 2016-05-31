@@ -1,0 +1,12 @@
++++
+bio = "Anna studied Biochemistry at the University of Oxford and is now finishing her PhD at Universty College London, where she is using CRISPR/Cas9 technology to study the regulation of transcription in human cells. Her research interests include: the regulation of transcription, the functional role of chromatin architecture, development of biological screens, and non-canonical applications of CRISPR/Cas9 technology."
+date = "2016-05-31T23:34:07+01:00"
+name = "Anna Köferle"
+featured = "luki.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+position = "Biochemist"
+title = "Anna Köferle"
+type = "person"
+
++++

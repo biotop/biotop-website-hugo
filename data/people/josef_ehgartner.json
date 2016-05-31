@@ -1,0 +1,16 @@
+{
+  "name" : "Josef Ehgartner",
+  "position" : {
+    "en" : "Analytical Chemist",
+    "de" : "Analytischer Chemiker",
+    "it" : "",
+    "si" : ""
+  },
+  "pic" : "",
+  "about" : {
+    "en" : "Josef studied chemistry in Graz. During his MSc-Thesis he conducted research on how to detect organic arsenic compounds using mass-spectrommety, before he started concentrating on the development of lab-on-a-chip technologies in the course of his PhD. His research interests include: the development of integrated analytical devices, and other forms of chemical sleuthing.",
+    "de" : "Josef studierte Chemie in Graz. Während seiner Masterarbeit entwickelte er Verfahren um organische Arsenverbindungen mittels Massenspektrometrie nachzuweisen, bevor er begann sich im Rahmen seines Doktorats mit der Entwicklung von integrierten Lab-on-a-chip-Technologien zu befassen. Seine Forschungsinteressen beinhalten: die Entwicklung neuer integrierter analytischer Technologien und andere Formen chemischer Detektivarbeit",
+    "it" : "",
+    "si" : ""
+  }
+}

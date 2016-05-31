@@ -1,0 +1,16 @@
+{
+  "name" : "Georg Fattinger",
+  "position" : {
+    "en" : "Philosphopher, Cognitive Scientist",
+    "de" : "Philosoph, Kognitionswissenschaftler",
+    "it" : "",
+    "si" : ""
+  },
+  "pic" : "",
+  "about" : {
+    "en" : "Georg studied Philosophy in Graz and Vienna. While neglecting his studies, configuring linux & unix systems has become his major obsession. He is currently working on his master-thesis exploring the relationship between probability theory and logic. His research interests include: philosophy of complex systems, cognitive science, statistics, probability",
+    "de" : "Georg studierte Philosophie in Graz und Wien. Während er seine Studien vernachlässigte, wurde das Konfigurieren von Linux und Unix Systemen eine seiner größten Obsessionen. Derzeit arbeitet er an seiner Masterarbeit in der er die Beziehung zwischen Wahrscheinlichkeitstheorie und Logik untersucht. Seine Forschungsinteressen beinhalten: Philosophie komplexer Systeme, Kognitionswissenschaften, Statistik und Wahrscheinlichkeitslehre.",
+    "it" : "",
+    "si" : ""
+  }
+}
