@@ -1,5 +1,5 @@
 +++
-bio = "Anna studied Biochemistry at the University of Oxford and is now finishing her PhD at Universty College London, where she is using CRISPR/Cas9 technology to study the regulation of transcription in human cells. Her research interests include: the **regulation of transcription**, the **functional role of chromatin architecture**, **development of biological screens**, and non-canonical applications of **CRISPR/Cas9 technology**."
+bio = "Anna studied Biochemistry at the University of Oxford and is now finishing her PhD at Universty College London, where she is using CRISPR/Cas9 technology to study the regulation of transcription in human cells. Her research interests include:  **regulation of transcription**, ** chromatin architecture**, **high-throughput screening methods**,  non-canonical applications of **CRISPR/Cas9 technology**, **bioinformatics & data analysis**."
 date = "2016-05-31T23:34:07+01:00"
 name = "Anna Köferle"
 featured = "anna.png"
@@ -9,8 +9,8 @@ position = "Biochemist"
 title = "Anna Köferle"
 type = "person"
 category = ["people"]
-website = ""
-email = ""
+website = "https://www.researchgate.net/profile/Anna_Koeferle"
+email = "anna.koeferle@me.com"
 github = "annakoe"
 twitter = ""
 facebook = ""
