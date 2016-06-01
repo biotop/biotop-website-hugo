@@ -6,16 +6,23 @@
     {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
-      <div>
           {{ range .Data.Pages }}
-            <div class="post">
-              {{ .Render "header" }}
-              <p>
-                {{ .Params.bio | markdownify }}
-              </p>
+            <div class="person">
+              {{ .Render "header-ov" }}
             </div>
           {{ end }}
-      </div>
     </div>
     {{ partial "sidebar" . }}
-<!-- {{ partial "footer" . }} -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $(function () {
+            var parent = $("#main");
+            var divs = parent.children();
+            while (divs.length) {
+                parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+            }
+        });
+      });
+    </script>
+{{ partial "footer" . }}

@@ -108,7 +108,7 @@ var svg = d3.select("#main")
           .style("z-index", "1")
           .append("svg")
           .attr("width", w)
-          .attr("height", h);
+          .attr("height", h)
           .call(zoom);
 
 

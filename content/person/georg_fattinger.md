@@ -1,0 +1,21 @@
++++
+bio = "Georg studied Philosophy in Graz and Vienna. While neglecting his studies, configuring linux & unix systems has become his major obsession. He is currently working on his master-thesis exploring the relationship between probability theory and logic. His research interests include: **philosophy of complex systems**, **cognitive science**, **statistics**, **probability**"
+date = "2016-06-01T10:59:11+01:00"
+featured = "alt.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Georg Fattinger"
+position = "Philisopher, Cognitive Scientist"
+title = "Georg Fattinger"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

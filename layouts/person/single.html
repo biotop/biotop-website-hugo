@@ -1,17 +1,20 @@
-<article class="post">
-    {{ .Render "name" }}
+{{ partial "general-title" . }}
 
-    <!-- <section id="social-share">
-        <ul class="icons">
-            {{ partial "share-links" . }}
-        </ul>
-    </section>
-    {{ .Render "featured" }}
-    <div id="content">
-        {{ .Content }}
+{{ partial "header" . }}
+    <!-- Wrapper -->
+    <div id="wrapper">
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+      <div>
+            <div class="post">
+              {{ .Render "header" }}
+              <h1>Bio</h1>
+              <p>
+                {{ .Params.bio | markdownify }}
+              </p>
+            </div>
+      </div>
     </div>
-
-    <footer>
-        {{ .Render "footer-category" }}
-    </footer> -->
-</article>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

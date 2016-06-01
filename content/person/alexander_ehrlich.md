@@ -1,0 +1,21 @@
++++
+bio = "Alexander studied physics and mathematics in Bremen and Cambridge, before he went to Oxford to study growth of soft elastic tissues. His research interests include: **continuum mechanics**, **nonlinear elasticity**, **biomechanics**, **biological physics**."
+date = "2016-06-01T11:00:02+01:00"
+featured = "alex.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Alexander Ehrlich"
+position = "Applied Mathematician"
+title = "Alexander Ehrlich"
+type = "person"
+category = ["people"]
+website = "http://airlich.de"
+email = "erlich@maths.ox.ac.uk"
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
