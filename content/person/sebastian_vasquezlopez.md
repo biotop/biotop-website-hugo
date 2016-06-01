@@ -9,4 +9,13 @@ position = "Neuroscientist"
 title = "Sebastian Vasquez-Lopez"
 type = "person"
 category = ["people"]
+website = "http://www.dpag.ox.ac.uk/team/sebastian-vasquez-lopez"
+email = "sebastian.vasquezlopez@st-hughs.ox.ac.uk"
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
 +++

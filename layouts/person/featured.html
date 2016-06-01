@@ -5,8 +5,8 @@
         {{ $.Scratch.Set "structType" "page" }}
         {{ partial "img-path" . }}
         {{ $path := $.Scratch.Get "path" }}
-        <div class="image featured">
-          <img src="{{ $path }}/{{ .Params.featured }}" alt="{{ .Params.featuredalt }}" />
+        <div class="image featured circular" style = "background: url({{ $path }}/{{ .Params.featured }}); background-repeat: no-repeat; background-position: 50% 50%; background-size: 100% 100%">
+          <!-- <img src="{{ $path }}/{{ .Params.featured }}" alt="{{ .Params.featuredalt }}" /> -->
         </div>
     {{ end }}
 {{ end }}

@@ -2,7 +2,7 @@ var w             = 0.992 * window.innerWidth,
   h             =  0.992 *window.innerHeight,
   radius        = 5.25,
   links         = [],
-  cellsize      = 300,
+  cellsize      = 10,
   cellpadding   = 40,
   bleed         = 0,
   fillopacity   = 0.50,
@@ -34,7 +34,7 @@ var voronoi = d3.geom.voronoi()
 
 var prevEventScale = 1;
 
-function grow(){
+function grow(d){
   angle = radius * vertices.length;
   vertices.push({x: angle*Math.cos(angle)+(w/2), y: angle*Math.sin(angle)+(h/2)});
   force.nodes(vertices).start();
@@ -44,7 +44,6 @@ function shrink(){
   vertices.pop();
   force.nodes(vertices).start();
 }
-
 
 // define zoom
 var zoom = d3.behavior.zoom().on("zoom", function(d,i) {
@@ -68,6 +67,7 @@ var zoom = d3.behavior.zoom().on("zoom", function(d,i) {
              force.nodes(vertices).start();
            }
            prevEventScale = d3.event.scale;
+           console.log(prevEventScale)
          });
 
 // define hotkeys
@@ -111,7 +111,6 @@ var svg = d3.select("#main")
           .attr("height", h)
           .call(zoom);
 
-
 // define force parameters
 var force = d3.layout.force()
             .charge(-800)
@@ -121,13 +120,15 @@ var force = d3.layout.force()
 // use the force
 force.nodes(vertices).start();
 
-// for (i=0; i < 101; i++) {
-//   console.log(i)
-//   // d3.dealy(100)
-//   grow()
-// }
+for(i=-5; i<80; i++){
+  zoom.scale(i);
+  svg.transition()
+    .duration(4000)
+    .ease("exp")
+    .call(zoom.event)
+}
 
-// d3.select("svg").transition()
+
 
 // define paths
 var path = svg.append("g").attr("class", "bubbles").selectAll("path");
