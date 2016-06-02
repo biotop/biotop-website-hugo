@@ -1,7 +1,7 @@
 +++
 bio = "Kilian studied PPE at Sciences Po Paris and economics at the University of Vienna and the London School of Economics and Political Science before going to Oxford, where he conducts doctoral research on the financial history of the late Habsburg Empire and the 1920s in the US. Kilian is particularly interested in the **co-evolution of banking systems, financial crisis management and regulation**. Having worked in central banking and banking supervision, Kilian believes that a theoretically and empirically grounded understanding of the past has a crucial role to play in informing present economic and financial policy-making."
 date = "2016-06-01T10:59:31+01:00"
-featured = "kilian.jpg"
+featured = "alt.jpg"
 featuredalt = ""
 featuredpath = "/img/person/"
 name = "Kilian Rieder"

@@ -3,7 +3,7 @@ title = "About BIOTOP*"
 date = "2016-05-03"
 +++
 
-## Context
+<!-- ## Context
 
 To many young scientists, the prospect of pursuing a career in academia has become a scary one.
 They've all seen idealistic young academics keen on changing how academia works from within, their grand ideas gradually stripped from them  when attempting to balance personal and professional life while trying to meet the demands of tenure track committees and funding agencies.
@@ -11,6 +11,12 @@ They've all seen idealistic young academics keen on changing how academia works 
 Science is an endeavour that should be abound with idealism and innovative thinking, yet how come that so many young researchers have become so disillusioned nowadays?
 
 We believe that the problem is systemic:
+ -->
+
+
+We are biotop* *[biotope]*, a collective of early-career scientists with grand ideas for how to change the way we do science.
+Biotop is our attempt at taking our future in Science - and in part the future of Science - into our own hands.
+To us, Science is an endeavour that should be abound with idealism and innovative thinking. Yet we believe that academia as a system is often at odds with these ideals:
 
 - The **rigid institutional structure** of universities and research centres creates a context where linearity of career paths has become a primary selection criterion for success. This quenches innovation, is a source of existential anxiety for young scientists and inhibits interdisciplinarity.
 
@@ -22,13 +28,10 @@ a distorted scientific culture that predominantly fosters fashionable and novel 
 - Overall, success in science follows typical rich-get-richer dynamics. An industry that has grown around  supplying science with anything it may need has created substantial **financial barriers**. Overpriced lab-equipment, horrendous publication fees and paywalls in front of publicly funded research articles render it virtually impossible for anyone without the financial backing of a strong and established institution to pursue science.
 
 
-## Mission Statement
-
-*Biotop is the idea to build an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative exploration and translation of ideas; it is an experiment trying to reinvent the way we do science.*
+Biotop* is the idea of establishing a research network as an ecosystem that fosters a scientific culture that truly deserves this name.
+We believe that addressing these systemic problems in an integrated manner, will not only allow us to tackle the many problems we see in science, but also provide a sound foundation for our own research endeavours.
 
 ## Cornerstones
-
-We are a group of young researchers. Biotop is our attempt at taking our future in science - and in part the future of science - into our own hands. It is the idea of conceiving a research network as an ecosystem that fosters a scientific culture that truly deserves this name. We believe that addressing the aforementioned systemic problems in an integrated manner, will not only allow us to tackle the many problems we see in science, but also provide a sound foundation for our own research endeavours.
 
 ### Interdisciplinarity & Collaboration
 
