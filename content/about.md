@@ -14,7 +14,7 @@ We believe that the problem is systemic:
  -->
 
 
-We are biotop* *[biotope]*, a collective of early-career scientists with grand ideas for how to change the way we do science.
+[We are biotop*](http://biotop.co/person) *[biotope]*, a collective of early-career scientists with grand ideas for how to change the way we do science.
 Biotop is our attempt at taking our future in Science - and in part the future of Science - into our own hands.
 To us, Science is an endeavour that should be abound with idealism and innovative thinking. Yet we believe that academia as a system is often at odds with these ideals:
 
