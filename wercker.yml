@@ -1,8 +1,8 @@
-box: golang:1.5.1
+box: golang:latest
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.15"
+        version: "HEAD"
         theme: imperfect
         flags: --buildDrafts=true
 
