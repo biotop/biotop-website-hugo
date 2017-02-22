@@ -35,10 +35,10 @@
     <nav class="links lang">
       <ul>
         <li>
-          <a href="{{ .Site.BaseURL }}/en/{{ slicestr (.URL | relURL) 3 }}">EN</a>
+          <a href="{{ .Site.BaseURL }}en{{ slicestr (.URL | relURL) 3 }}">EN</a>
         </li>
         <li>
-          <a href="{{ .Site.BaseURL }}/de/{{ slicestr (.URL | relURL) 3 }}">DE</a>
+          <a href="{{ .Site.BaseURL }}de{{ slicestr (.URL | relURL) 3 }}">DE</a>
         </li>
         <!-- <li>
           <a href="{{ .Site.BaseURL }}">IT</a>
@@ -112,14 +112,14 @@
         <section>
             <ul class="links lang">
               <li>
-                <a href="{{ .Site.BaseURL }}/en/{{ slicestr (.URL | relURL) 3 }}">
+                <a href="{{ .Site.BaseURL }}en{{ slicestr (.URL | relURL) 3 }}">
                   <h3>
                     English
                   </h3>
               </a>
               </li>
               <li>
-                <a href="{{ .Site.BaseURL }}/de/{{ slicestr (.URL | relURL) 3 }}">
+                <a href="{{ .Site.BaseURL }}de{{ slicestr (.URL | relURL) 3 }}">
                   <h3>
                     Deutsch
                   </h3>
