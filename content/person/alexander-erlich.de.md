@@ -1,0 +1,22 @@
++++
+bio = "Alexander studierte Physik und Mathematik in Bremen und Cambridge bevor er nach Oxford ging um im Rahmen seines Doktorats das Wachstum weicher elastischer Gewebe zu untersuchen. Seine Forschungsinteressen beinhalten: Kontinuumsmechanik, nichtlineare Elastizität, Biomechanik und Biophysik."
+date = "2016-06-01T11:00:02+01:00"
+featured = "alex.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Alexander Erlich"
+position = "Angewandter Mathematiker"
+role = "scientific-associate(m)"
+title = "Alexander Erlich"
+type = "person"
+category = ["people"]
+website = "http://airlich.de"
+email = "alexander.erlich@gmail.com"
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

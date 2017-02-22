@@ -1,0 +1,22 @@
++++
+bio = "Anna studierte in Graz (AT) und Valencia (ES) Architektur. Nach Abschluss ihres Studiums arbeitete sie als Universitätsassistentin am Institut für Architektur und Landschaft and der Technischen Universität Graz. Sie forschte an zukünftigen Hybridsystemen, die Architektur, nachhaltige Technologien, natürliche Prozesse und soziale Praktiken miteinander verbinden. Derzeit arbeitet sie selbstständig und konzentriert sich auf die Aktivierung städtischen Leerstands durch temporäre Nutzung. Ihre Arbeitsinteressen umfassen Leerstandsmanagement, partizipative Prozesse, praktischen Urbanismus, soziale Innovation und aktives Bürgerleben."
+date = "2016-06-01T11:00:02+01:00"
+featured = "anna_resch.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Anna Resch"
+position = "Architektin"
+role = "projectpartner(f)"
+title = "Anna Resch"
+type = "person"
+category = ["people"]
+website = "http://raumbasis.at/"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

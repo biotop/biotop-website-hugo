@@ -1,0 +1,131 @@
+- id: header
+  translation: "biotop*"
+
+- id: subtitle
+  translation: "Science Collective"
+
+- id: blob
+  translation: "Biotop is an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
+
+- id: learnmore
+  translation: "Learn more about us"
+
+- id: continuereading
+  translation: "Continue reading"
+
+- id: about
+  translation: "About us"
+
+- id: whoweare
+  translation: "Who We Are"
+
+- id: coreteam
+  translation: "Core Team"
+
+- id: founder(m)
+  translation: "Founder"
+
+- id: founder(f)
+  translation: "Founder"
+
+- id: scientific-associates
+  translation: "Scientific Associates"
+
+- id: scientific-associate(m)
+  translation: "Scientific Associate"
+
+- id: scientific-associate(f)
+  translation: "Scientific Associate"
+
+- id: projectpartners
+  translation: "Project Partner"
+
+- id: projectpartner(m)
+  translation: "Project Partner"
+
+- id: projectpartner(f)
+  translation: "Project Partner"
+
+- id: recentposts
+  translation: "Recent posts"
+
+- id: category
+  translation: "Category"
+
+- id: categories
+  translation: "Categories"
+
+- id: shortbio
+  translation: "Bio"
+
+- id: projects
+  translation: "Projects"
+
+- id: events
+  translation: "Events"
+
+- id: publications
+  translation: "Publications"
+
+- id: blogposts
+  translation: "Blogposts"
+
+- id: 404sorry
+  translation: "404: Sorry, but we cannot find this page.."
+
+- id: readingtime
+  translation: "minute read"
+
+- id: by
+  translation: "by"
+
+- id: authors
+  translation: "Autors"
+
+- id: contributors
+  translation: "Contributors"
+
+- id: projecttypes
+  translation: "Project Types"
+
+- id: participants
+  translation: "Participants"
+
+- id: eventtypes
+  translation: "Type of Event"
+
+- id: eventplaces
+  translation: "Locations"
+
+- id: unfortunatelynoprojects
+  translation: "Unfortunately, no projects are present at the moment."
+
+- id: unfortunatelynoevents
+  translation: "Unfortunately, no events are present at the moment."
+
+- id: unfortunatelynopublications
+  translation: "Unfortunately, no publications are present at the moment."
+
+- id: unfortunatelynoblogposts
+  translation: "Unfortunately, no blog posts are present at the moment."
+
+- id: name_unfortunatelynoprojects
+  translation: "Unfortunately, no projects are linked to {{ .name }} at the moment."
+
+- id: name_unfortunatelynoevents
+  translation: "Unfortunately, no events are linked to {{ .name }} at the moment."
+
+- id: name_unfortunatelynopublications
+  translation: "Unfortunately, no publications are linked to {{ .name }} at the moment."
+
+- id: name_unfortunatelynoblogposts
+  translation: "Unfortunately, no blog posts are linked to {{ .name }} at the moment."
+
+- id: blog
+  translation: "Blog"
+
+- id: project
+  translation: "Project"
+
+- id: place
+  translation: "Location:"

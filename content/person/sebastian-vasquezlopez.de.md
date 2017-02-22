@@ -1,0 +1,22 @@
++++
+bio = "Sebastian studierte Medizin in Medellin (Kolumbien) bevor er an der University of Newcastle Genetik studierte. Derzeit schließt er an der University of Oxford sein Doktorat im Fach Neurowissenschaften ab, wo er sich mit der Anwendung neuer bildgebender Verfahren beschäftigt um die Reizverarbeitung im Gehirn zu untersuchen. Seine Forschungsinteressen beinhalten: Neurologie des Hörens, funktionale Neurophysiologie un ddue entwicklung neuer bildgebender Verfahren um neuronale Schaltkreise zu untersuchen."
+date = "2016-06-01T11:00:15+01:00"
+featured = "sebas.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Sebastian Vasquez-Lopez"
+position = "Neurowissenschafter"
+role = "scientific-associate(m)"
+title = "Sebastian Vasquez-Lopez"
+type = "person"
+category = ["people"]
+website = "http://www.dpag.ox.ac.uk/team/sebastian-vasquez-lopez"
+email = "sebastian.vasquezlopez@st-hughs.ox.ac.uk"
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

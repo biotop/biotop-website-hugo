@@ -1,6 +1,6 @@
 /* Person */
 	.person {
-		padding: 3em 3em 1em 3em ;
+		padding: 1em 3em 1em 3em ;
 		background: #ffffff;
 		border: solid 1px rgba(160, 160, 160, 0.3);
 		margin: 0 0 3em 0;
@@ -92,6 +92,29 @@
           background-size: 15em 15em;
           background-repeat: no-repeat;
         	}
+
+				.circular-small {
+					width: 3em;
+					max-width:3em;
+					height: 3em;
+					border-radius: 7.5em;
+					-webkit-border-radius: 7.5em;
+					-moz-border-radius: 7.5em;
+					background-position:50% 50%;
+					background-size: 15em 15em;
+					background-repeat: no-repeat;
+					border-bottom:none;
+					}
+
+				div.circular-small:hover{
+					-moz-transform: scale(2);
+				  -webkit-transform: scale(2);
+				  transform: scale(2);
+				}
+
+
+
+
 
       .person > footer {
         display: -moz-flex;

@@ -6,6 +6,7 @@ featured = "anna.png"
 featuredalt = ""
 featuredpath = "/img/person/"
 position = "Biochemist"
+role = "scientific-associate(f)"
 title = "Anna Köferle"
 type = "person"
 category = ["people"]

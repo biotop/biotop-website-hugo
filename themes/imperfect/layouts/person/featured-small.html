@@ -1,0 +1,15 @@
+{{ if and (isset .Params "featuredpath") (ne .Params.featuredpath "") }}
+    {{ $.Scratch.Set "path" .Params.featuredpath }}
+
+    {{ if and (isset .Params "featured") (ne .Params.featuredpath "") }}
+        {{ $.Scratch.Set "structType" "page" }}
+        {{ partial "img-path" . }}
+        {{ $path := $.Scratch.Get "path" }}
+        <a href="{{ .Permalink }}" style="border-bottom:none;" title="{{ .Title}}">
+          <div class="image circular-small" style = "background: url({{ $path }}/{{ .Params.featured }}); background-repeat: no-repeat; background-position: 50% 50%; background-size: 100% 100%">
+            <!-- <img src="{{ $path }}/{{ .Params.featured }}" alt="{{ .Params.featuredalt }}" /> -->
+            <!-- <p class="hoverlabel">{{ .Title }}</p> -->
+          </div>
+        </a>
+    {{ end }}
+{{ end }}

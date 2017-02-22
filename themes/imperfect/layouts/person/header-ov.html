@@ -1,45 +1,263 @@
 <header>
+  {{ $name := .Params.name }}
   <div class="meta">
     {{ .Render "featured" }}
   </div>
     <div class="title">
-      <a href="{{ .Permalink }}">
-        <h2 style="margin:0px;">{{ .Params.name}}</h2>
-        <h3>{{ .Params.position }}</h3>
-      </a>
-      <ul class="icons">
+      <div>
+        <ul class="collapsible" data-collapsible="expandable">
+          <li>
+            <div class="collapsible-header">
+              <a href="{{ .Permalink }}">
+                <h2 style="margin:0px;">{{ .Params.name}}</h2>
+                <h3>{{ .Params.position }}</h3>
+                <h4>{{ i18n .Params.role }}</h4>
+              </a>
+            </div>
+          </li>
           {{ with .Params.website }}
-              <li><a href="{{ . }}" target="_blank" title="Website" class="fa fa-globe"></a></li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="fa fa-globe"></i>
+                  <a href="{{ . }}" target="_blank" title="Website">
+                      Website
+                  </a>
+                </div>
+              </li>
           {{ end }}
           {{ with .Params.email }}
-          <li><a href="mailto:{{.}}" title="Email" class="fa fa-envelope"></a></li>
+            <li>
+              <div class="collapsible-header">
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:{{ . }}" title="Email">
+                    Email
+                </a>
+              </div>
+            </li>
           {{ end }}
           {{ with .Params.github }}
-          <li><a href="//github.com/{{.}}" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+            <li>
+              <div class="collapsible-header">
+                <i class="fa fa-github"></i>
+                <a href="//github.com/{{ . }}" target="_blank" title="Github">
+                    {{ . }}
+                </a>
+              </div>
+            </li>
           {{ end }}
           {{ with .Params.twitter }}
-          <li><a href="//twitter.com/{{.}}" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+            <li>
+              <div class="collapsible-header">
+                <i class="fa fa-twitter"></i>
+                <a href="//twitter.com/{{ . }}" target="_blank" title="Twitter">
+                    {{ . }}
+                </a>
+              </div>
+            </li>
           {{ end }}
           {{ with .Params.facebook }}
-          <li><a href="//facebook.com/{{.}}" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+            <li>
+              <div class="collapsible-header">
+                <i class="fa fa-facebook"></i>
+                <a href="//facebook.com/{{ . }}" target="_blank" title="Facebook">
+                    {{ . }}
+                </a>
+              </div>
+            </li>
           {{ end }}
           {{ with .Params.instagram }}
-          <li><a href="//instagram.com/{{.}}" target="_blank" title="Instagram" class="fa fa-instagram"></a></li>
+            <li>
+              <div class="collapsible-header">
+                <i class="fa fa-instagram"></i>
+                <a href="//instagram.com/{{ . }}" target="_blank" title="Instagram">
+                    {{ . }}
+                </a>
+              </div>
+            </li>
           {{ end }}
           {{ with .Params.slideshare }}
-          <li><a href="//slideshare.com/{{.}}" target="_blank" title="SlideShare" class="fa fa-slideshare"></a></li>
+            <li>
+              <div class="collapsible-header">
+                <i class="fa fa-slideshare"></i>
+                <a href="//slideshare.com/{{ . }}" target="_blank" title="Slideshare">
+                    {{ . }}
+                </a>
+              </div>
+            </li>
           {{ end }}
           {{ with .Params.xing }}
-          <li><a href="//xing.com/profile/{{.}}" target="_blank" title="Xing" class="fa fa-xing"></a></li>
+            <li>
+              <div class="collapsible-header">
+                <i class="fa fa-xing"></i>
+                <a href="//xing.com/profile/{{ . }}" target="_blank" title="Xing">
+                    {{ . }}
+                </a>
+              </div>
+            </li>
           {{ end }}
           {{ with .Params.linkedin }}
-          <li><a href="//linkedin.com/in/{{.}}" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+            <li>
+              <div class="collapsible-header">
+                <i class="fa fa-xing"></i>
+                <a href="//linkedin.com/in/{{ . }}" target="_blank" title="Linkedin">
+                    {{ . }}
+                </a>
+              </div>
+            </li>
           {{ end }}
-      </ul>
-      <div>
-        <p>
-          {{ .Params.bio | markdownify }}
-        </p>
+          <li>
+            <div class="collapsible-header">
+              <i class="fa fa-user"></i>
+              <a>
+                {{ i18n "shortbio" }}
+              </a>
+            </div>
+            <div class="collapsible-body">
+              <p>
+                {{ .Params.bio | markdownify }}
+              </p>
+            </div>
+          </li>
+        </ul>
+        <ul class="collapsible" data-collapsible="expandable">
+          <li>
+            <div class="collapsible-header">
+              <i class="fa fa-flask"></i>
+              <a>{{ i18n "projects" }}</a>
+            </div>
+            <div class="collapsible-body">
+              <ul>
+                {{ $.Scratch.Set "noprojects" true }}
+                {{ range $i, $project := $.Site.Sections.project }}
+                  {{ if in $project.Page.Params.collaborators $name }}
+                    {{ $.Scratch.Set "noprojects" false }}
+                    <li>
+                      <div class="listitem">
+                        <a href="{{ $project.Page.URL }}">
+                          <h6 class="date">
+                            {{ dateFormat "2006" $project.Page.Date }}
+                          </h6>
+                          <h6 class="author">
+                            {{ delimit $project.Page.Params.collaborators ", " }}
+                          </h6>
+                          <h5 class="listtitle">
+                            {{ $project.Page.Title }}
+                          </h5>
+                        </a>
+                      </div>
+                    </li>
+                  {{ end }}
+                {{ end }}
+                {{ if eq ($.Scratch.Get "noprojects") true }}
+                  <h5> {{ i18n "name_unfortunatelynoprojects" .Params }}</h5>
+                {{ end }}
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="fa fa-calendar"></i>
+              <a>{{ i18n "events" }}</a>
+            </div>
+            <div class="collapsible-body">
+              <ul>
+                {{ $.Scratch.Set "noevents" true}}
+                {{ range $i, $event := $.Site.Sections.event }}
+                  {{ if in $event.Page.Params.participants $name }}
+                    {{ $.Scratch.Set "noevents" false }}
+                    <li>
+                      <div class="listitem">
+                        <a href="{{ $event.Page.URL }}">
+                          <h6 class="date">
+                            {{ dateFormat "2.1.2006" $event.Page.Date }}
+                          </h6>
+                          <h6 class="author">
+                            {{ delimit $event.Page.Params.participants ", " }}
+                          </h6>
+                          <h5 class="listtitle">
+                            {{ $event.Page.Title }}
+                          </h5>
+                        </a>
+                      </div>
+                    </li>
+                  {{ end }}
+                {{ end }}
+                {{ if eq ($.Scratch.Get "noevents") true }}
+                  <h5> {{ i18n "name_unfortunatelynoevents" .Params }}</h5>
+                {{ end }}
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="fa fa-graduation-cap"></i>
+              <a>{{ i18n "publications" }}</a>
+            </div>
+            <div class="collapsible-body">
+              <ul>
+                {{ $.Scratch.Set "nopublication" true }}
+                {{ range $i, $publication := $.Site.Sections.publication }}
+                  {{ if in $publication.Page.Params.authors $name }}
+                    {{ $.Scratch.Set "nopublication" false }}
+                    <li>
+                      <div class="listitem">
+                        <a href="{{ $publication.Page.URL }}">
+                          <h6 class="date">
+                            {{ dateFormat "2.1.2006" $publication.Page.Date }}
+                          </h6>
+                          <h6 class="author">
+                            {{ delimit $publication.Page.Params.authors ", " }}
+                          </h6>
+                          <h5 class="listtitle">
+                            {{ $publication.Page.Title }}
+                          </h5>
+                        </a>
+                      </div>
+                    </li>
+                  {{ end }}
+                {{ end }}
+                {{ if eq ($.Scratch.Get "nopublication") true }}
+                  <h5> {{ i18n "name_unfortunatelynopublications" .Params }}</h5>
+                {{ end }}
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="fa fa-newspaper-o"></i>
+              <a>{{ i18n "blogposts" }}</a>
+            </div>
+            <div class="collapsible-body">
+              <ul>
+                {{ $.Scratch.Set "noblogposts" true}}
+                {{ range $i, $post := $.Site.Sections.blog }}
+                  {{ if in $post.Page.Params.authors $name }}
+                    {{ $.Scratch.Set "noblogposts" false}}
+                    <li>
+                      <div class="listitem">
+                        <a href="{{ $post.Page.URL }}">
+                          <h6 class="date">
+                            {{ dateFormat "2.1.2006" $post.Page.Date }}
+                          </h6>
+                          <h5 class="listtitle">
+                            {{ $post.Page.Title }}
+                          </h5>
+                          <h6 class="author">
+                            {{ delimit $post.Page.Params.authors ", " }}
+                          </h6>
+                        </a>
+                      </div>
+
+                    </li>
+                  {{ end }}
+                {{ end }}
+                {{ if eq ($.Scratch.Get "noblogposts") true }}
+                  <h5> {{ i18n "name_unfortunatelynoblogposts" .Params }}</h5>
+                {{ end }}
+              </ul>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
 </header>

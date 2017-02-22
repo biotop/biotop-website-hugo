@@ -1,0 +1,94 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    <!-- Wrapper -->
+    <div id="wrapper">
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+      <article class="post">
+        <header class="topheader">
+            {{ $languageprefix := .LanguagePrefix }}
+            <div class="title">
+              <h1>
+                <i class="fa fa-calendar"></i>
+                <a href="{{ .Permalink }}">{{ i18n "events"}}</a>
+              </h1>
+              <h4>{{ i18n "participants" }}</h4>
+              <p>
+                {{ if .Site.Params.categoriesByCount }}
+                  {{ $.Scratch.Set "participants" .Site.Taxonomies.participants.ByCount }}
+                {{ else }}
+                  {{ $.Scratch.Set "participants" .Site.Taxonomies.particiapants.Alphabetical }}
+                {{ end }}
+                {{ $.Scratch.Set "firstitem" true }}
+                {{ range $key, $value := $.Scratch.Get "participants" }}
+                  {{ if eq ($.Scratch.Get "firstitem") false }}
+                    <span> / </span>
+                  {{ end }}
+                  <a href="{{ $languageprefix }}/participants/{{ $value.Name | urlize }}/">{{ $value.Name }} ({{ $value.Count }})</a>
+                  {{ $.Scratch.Set "firstitem" false }}
+                {{ end }}
+              </p>
+
+              <h4>{{ i18n "eventtypes"}}</h4>
+              <p>
+                {{ if .Site.Params.categoriesByCount }}
+                    {{ $.Scratch.Set "eventcategories" .Site.Taxonomies.eventcategories.ByCount }}
+                {{ else }}
+                    {{ $.Scratch.Set "eventcategories" .Site.Taxonomies.eventcategories.Alphabetical }}
+                {{ end }}
+                {{ $.Scratch.Set "firstitem" true }}
+                {{ range $key, $value := $.Scratch.Get "eventcategories" }}
+                  {{ if eq ($.Scratch.Get "firstitem") false }}
+                    <span> / </span>
+                  {{ end }}
+                  <a href="{{ $languageprefix }}/eventcategories/{{ $value.Name | urlize }}/">{{ $value.Name }} ({{ $value.Count }})</a>
+                  {{ $.Scratch.Set "firstitem" false }}
+                {{ end }}
+              </p>
+
+              <h4>{{ i18n "eventplaces"}}</h4>
+              <p>
+                {{ if .Site.Params.categoriesByCount }}
+                    {{ $.Scratch.Set "places" .Site.Taxonomies.places.ByCount }}
+                {{ else }}
+                    {{ $.Scratch.Set "places" .Site.Taxonomies.places.Alphabetical }}
+                {{ end }}
+                {{ $.Scratch.Set "firstitem" true }}
+                {{ range $key, $value := $.Scratch.Get "places" }}
+                  {{ if eq ($.Scratch.Get "firstitem") false }}
+                    <span> / </span>
+                  {{ end }}
+                  <a href="{{ $languageprefix }}/places/{{ $value.Name | urlize }}/">{{ $value.Name }} ({{ $value.Count }})</a>
+                  {{ $.Scratch.Set "firstitem" false }}
+                {{ end }}
+              </p>
+            </div>
+        </header>
+      </article>
+        <!-- Please note that the param orderByPublishDate is no longer being used
+             since the pagination is not what is expected. Use at your own risk! -->
+        {{ if .Site.Params.orderByPublishDate }}
+            {{ $paginator := .Paginate (where .Data.Pages.ByPublishDate.Reverse "Type" "event") }}
+        {{ else }}
+            {{ $paginator := .Paginate (where .Site.Pages "Type" "event") }}
+        {{ end }}
+
+        {{ $.Scratch.Set "itemcounter" 0}}
+        {{ range .Paginator.Pages }}
+          {{ if ne .Title "Dummy" }}
+            {{ .Render "content-list" }}
+            {{ $.Scratch.Add "itemcounter" 1}}
+          {{ end }}
+        {{ end }}
+        {{ if eq ($.Scratch.Get "itemcounter") 0 }}
+          <article class="post">
+            <h2>{{ i18n "unfortunatelynoevents" }}</h2>
+          </article>
+        {{ end }}
+
+        {{ partial "pagination" . }}
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

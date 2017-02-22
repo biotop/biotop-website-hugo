@@ -1,0 +1,77 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+    <!-- Wrapper -->
+    <div id="wrapper">
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+      <article class="post">
+        <header class="topheader">
+            {{ $languageprefix := .LanguagePrefix }}
+            <div class="title">
+              <h1>
+                <i class="fa fa-flask"></i>
+                <a href="{{ .Permalink }}">{{ i18n "projects"}}</a>
+              </h1>
+              <h4>{{ i18n "contributors" }}</h4>
+              <p>
+                {{ if .Site.Params.categoriesByCount }}
+                  {{ $.Scratch.Set "collaborators" .Site.Taxonomies.collaborators.ByCount }}
+                {{ else }}
+                  {{ $.Scratch.Set "collaborators" .Site.Taxonomies.collaborators.Alphabetical }}
+                {{ end }}
+                {{ $.Scratch.Set "firstitem" true }}
+                {{ range $key, $value := $.Scratch.Get "collaborators" }}
+                  {{ if eq ($.Scratch.Get "firstitem") false }}
+                    <span> / </span>
+                  {{ end }}
+                  <a href="{{ $languageprefix }}/collaborators/{{ $value.Name | urlize }}/">{{ $value.Name }} ({{ $value.Count }})</a>
+                  {{ $.Scratch.Set "firstitem" false }}
+                {{ end }}
+              </p>
+
+              <h4>{{ i18n "projecttypes"}}</h4>
+              <p>
+                {{ if .Site.Params.categoriesByCount }}
+                    {{ $.Scratch.Set "projectcategories" .Site.Taxonomies.projectcategories.ByCount }}
+                {{ else }}
+                    {{ $.Scratch.Set "projectcategories" .Site.Taxonomies.projectcategories.Alphabetical }}
+                {{ end }}
+                {{ $.Scratch.Set "firstitem" true }}
+                {{ range $key, $value := $.Scratch.Get "projectcategories" }}
+                  {{ if eq ($.Scratch.Get "firstitem") false}}
+                    <span> / </span>
+                  {{ end }}
+                  <a href="{{ $languageprefix }}/projectcategories/{{ $value.Name | urlize }}/">{{ $value.Name }} ({{ $value.Count }})</a>
+                  {{ $.Scratch.Set "firstitem" false }}
+                {{ end }}
+              </p>
+            </div>
+        </header>
+      </article>
+        <!-- Please note that the param orderByPublishDate is no longer being used
+             since the pagination is not what is expected. Use at your own risk! -->
+        {{ if .Site.Params.orderByPublishDate }}
+            {{ $paginator := .Paginate (where .Data.Pages.ByPublishDate.Reverse "Type" "project") }}
+        {{ else }}
+            {{ $paginator := .Paginate (where .Site.Pages "Type" "project") }}
+        {{ end }}
+
+        {{ $.Scratch.Set "itemcounter" 0}}
+        {{ range .Paginator.Pages }}
+          {{ if ne .Title "Dummy" }}
+            {{ $.Scratch.Add "itemcounter" 1}}
+            {{ .Render "content-list" }}
+          {{ end }}
+        {{ end }}
+        {{ if eq ($.Scratch.Get "itemcounter") 0 }}
+          <article class="post">
+            <h2>{{ i18n "unfortunatelynoprojects" }}</h2>
+          </article>
+        {{ end }}
+
+        {{ partial "pagination" . }}
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

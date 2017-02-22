@@ -13,12 +13,10 @@
                     <img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
                 {{ end }}
             {{ end }}
-            {{ with .Site.Params.intro }}
-                <header>
-                    <h2>{{ .header }}</h2>
-                    <p>{{ .paragraph | safeHTML }}</p>
-                </header>
-            {{ end }}
+            <header>
+                <h2>{{ i18n "header" }}</h2>
+                <p>{{ i18n "subtitle" | safeHTML }}</p>
+            </header>
             <ul class="icons">
                 {{ if .RSSLink }}
                     <li><a href="{{ .RSSLink }}" type="application/rss+xml"
@@ -28,14 +26,11 @@
                     {{ partial "social" . }}
                 {{ end }}
             </ul>
-            {{ with .Site.Params.intro.about }}
-                <h2>About</h2>
-                <p>{{ . }}</p>
-                <ul class="actions">
-                    <li><a href="/about/" class="button">Learn More About Biotop*</a></li>
-                    <!-- <li><a href="/about/" class="button">Learn More About This Visualisation</a></li> -->
-                </ul>
-            {{ end }}
+            <p>{{ i18n "blob" }}</p>
+            <ul class="actions">
+                <li><a href="{{.LanguagePrefix }}/about/" class="button">{{ i18n "learnmore" }}</a></li>
+                <!-- <li><a href="/about/" class="button">Learn More About This Visualisation</a></li> -->
+            </ul>
         </section>
 
     <!-- About -->

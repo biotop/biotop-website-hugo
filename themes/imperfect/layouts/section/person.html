@@ -1,28 +1,77 @@
 {{ partial "general-title" . }}
 
 {{ partial "header" . }}
+
     <!-- Wrapper -->
     <div id="wrapper">
     {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
-          {{ range .Data.Pages }}
-            <div class="person">
-              {{ .Render "header-ov" }}
+      <article class="post">
+        <header>
+            <div class="title">
+              <h1>
+                <i class="fa fa-users"></i>
+                <a href="{{ .Permalink }}">{{ i18n "whoweare" }}</a>
+              </h1>
+              <p>
+                <a href="#coreteam">{{ i18n "coreteam" }}</a> /
+                <a href="#scientific-associates">{{ i18n "scientific-associates" }}</a> /
+                <a href="#projectpartners">{{ i18n "projectpartners" }}</a>
+              </p>
             </div>
+        </header>
+        <div class="title">
+          <center id="small-pics" class="small-pics" style="margin-bottom:3em;">
+            {{ range .Data.Pages }}
+            {{ .Render "featured-small" }}
+            {{ end }}
+          </center>
+        </div>
+        <div id="coreteam">
+          <h1>{{ i18n "coreteam" }}</h1>
+          {{ range (shuffle .Data.Pages) }}
+            {{ if (or (eq .Params.role "founder(m)") (eq .Params.role "founder(f)"))}}
+              <div class="person" style="border:solid 0px;">
+                {{ .Render "header-ov" }}
+              </div>
+            {{ end }}
           {{ end }}
+        </div>
+        <div id="scientific-associates">
+          <h1 >{{ i18n "scientific-associates"}}</h1>
+          {{ range (shuffle .Data.Pages) }}
+            {{ if (or (eq .Params.role "scientific-associate(m)") (eq .Params.role "scientific-associate(f)"))}}
+              <div class="person" id="{{ .LinkTitle }}" style="border:solid 0px;">
+                {{ .Render "header-ov" }}
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+        <div id="projectpartners">
+          <h1> {{ i18n "projectpartners" }}</h1>
+          {{ range (shuffle .Data.Pages) }}
+            {{ if (or (eq .Params.role "projectpartner(m)") (eq .Params.role "projectpartner(f)"))}}
+              <div class="person" style="border:solid 0px;">
+                {{ .Render "header-ov" }}
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </article>
+
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function () {
+          $(function () {
+              var parent = $("#small-pics");
+              var divs = parent.children();
+              while (divs.length) {
+                  parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+              }
+          });
+        });
+      </script>
     </div>
     {{ partial "sidebar" . }}
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function () {
-        $(function () {
-            var parent = $("#main");
-            var divs = parent.children();
-            while (divs.length) {
-                parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
-            }
-        });
-      });
-    </script>
 {{ partial "footer" . }}

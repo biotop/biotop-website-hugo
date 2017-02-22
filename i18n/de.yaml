@@ -1,0 +1,131 @@
+- id: header
+  translation: "biotop*"
+
+- id: subtitle
+  translation: "Wissenschaftskollektiv"
+
+- id: blob
+  translation: "Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, disziplinenübergreifenden und kollaborativen Erforschung, Umsetzung und Vermittlung wissenschaftlicher Ideen verschreibt. Es ist der Versuch, im Sinne eines Experimentes, die Art und Weise wie wir Wissenschaft betreiben neu zu erfinden."
+
+- id: learnmore
+  translation: "Mehr über uns erfahren"
+
+- id: continuereading
+  translation: "Weiterlesen"
+
+- id: about
+  translation: "Über uns"
+
+- id: whoweare
+  translation: "Wer Wir Sind"
+
+- id: coreteam
+  translation: "Kernteam"
+
+- id: founder(m)
+  translation: "Gründer"
+
+- id: founder(f)
+  translation: "Gründerin"
+
+- id: scientific-associates
+  translation: "Wissenschaftliche Partner"
+
+- id: scientific-associate(m)
+  translation: "Wissenschaftlicher Partner"
+
+- id: scientific-associate(f)
+  translation: "Wissenschaftliche Partnerin"
+
+- id: projectpartners
+  translation: "Projektpartner"
+
+- id: projectpartner(m)
+  translation: "Projektpartner"
+
+- id: projectpartner(f)
+  translation: "Projektpartnerin"
+
+- id: recentposts
+  translation: "Kürzlich gepostet"
+
+- id: category
+  translation: "Kategorie"
+
+- id: categories
+  translation: "Kategorien"
+
+- id: shortbio
+  translation: "Kurzbiographie"
+
+- id: projects
+  translation: "Projekte"
+
+- id: events
+  translation: "Veranstaltungen"
+
+- id: publications
+  translation: "Publikationen"
+
+- id: blogposts
+  translation: "Blog Posts"
+
+- id: 404sorry
+  translation: "404: Es tut uns Leid, aber wir können diese Seite nicht finden"
+
+- id: readingtime
+  translation: "Minuten Lesezeit"
+
+- id: by
+  translation: "von"
+
+- id: authors
+  translation: "Autoren"
+
+- id: contributors
+  translation: "Beitragende"
+
+- id: projecttypes
+  translation: "Projektarten"
+
+- id: participants
+  translation: "Teilnehmer"
+
+- id: eventtypes
+  translation: "Veranstaltungsarten"
+
+- id: eventplaces
+  translation: "Veranstaltungsorte"
+
+- id: unfortunatelynoprojects
+  translation: "Leider sind vorerst keine Projekte vorhanden."
+
+- id: unfortunatelynoevents
+  translation: "Leider sind vorerst keine Veranstaltungen vorhanden."
+
+- id: unfortunatelynopublications
+  translation: "Leider sind vorerst keine Publikationen vorhanden."
+
+- id: unfortunatelynoblogposts
+  translation: "Leider sind vorerst keine Blogbeiträge vorhanden."
+
+- id: name_unfortunatelynoprojects
+  translation: "Leider sind vorerst keine Projekte mit {{ .name }} verknüpft."
+
+- id: name_unfortunatelynoevents
+  translation: "Leider sind vorerst keine Veranstaltungen mit {{ .name }} verknüpft."
+
+- id: name_unfortunatelynopublications
+  translation: "Leider sind vorerst keine Publikationen mit {{ .name }} verknüpft."
+
+- id: name_unfortunatelynoblogposts
+  translation: "Leider sind vorerst keine Blogbeiträge mit {{ .name }} verknüpft."
+
+- id: blog
+  translation: "Blog"
+
+- id: project
+  translation: "Projekt"
+
+- id: place
+  translation: "Ort"

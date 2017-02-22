@@ -9,9 +9,9 @@
         <!-- Please note that the param orderByPublishDate is no longer being used
              since the pagination is not what is expected. Use at your own risk! -->
         {{ if .Site.Params.orderByPublishDate }}
-            {{ $paginator := .Paginate (where .Data.Pages.ByPublishDate.Reverse "Type" "post") }}
+            {{ $paginator := .Paginate (where .Data.Pages.ByPublishDate.Reverse "Type" "project") }}
         {{ else }}
-            {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
+            {{ $paginator := .Paginate (where .Site.Pages "Type" "project") }}
         {{ end }}
 
         {{ range .Paginator.Pages }}

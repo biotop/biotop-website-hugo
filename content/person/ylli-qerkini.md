@@ -6,6 +6,7 @@ featuredalt = ""
 featuredpath = "/img/person/"
 name = "Ylli Qerkini"
 position = "Digital Marketing & Communication Specialist"
+role = "projectpartner(m)"
 title = "Ylli Qerkini"
 type = "person"
 category = ["people"]

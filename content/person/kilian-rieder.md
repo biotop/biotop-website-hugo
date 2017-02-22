@@ -6,6 +6,7 @@ featuredalt = ""
 featuredpath = "/img/person/"
 name = "Kilian Rieder"
 position = "Economic and Financial Historian"
+role = "scientific-associate(m)"
 title = "Kilian Rieder"
 type = "person"
 category = ["people"]

@@ -1,0 +1,22 @@
++++
+bio = "Josef studierte Chemie in Graz. Während seiner Masterarbeit entwickelte er Verfahren um organische Arsenverbindungen mittels Massenspektrometrie nachzuweisen, bevor er begann sich im Rahmen seines Doktorats mit der Entwicklung von integrierten Lab-on-a-chip-Technologien zu befassen. Seine Forschungsinteressen beinhalten: die Entwicklung neuer integrierter analytischer Technologien und andere Formen chemischer Detektivarbeit"
+date = "2016-06-01T10:58:42+01:00"
+featured = "josef.jpg"
+featuredalt = "alt.png"
+featuredpath = "/img/person/"
+name = "Josef Ehgarter"
+position = "Analytischer Chemiker"
+role = "scientific-associate(m)"
+title = "Josef Ehgarter"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

@@ -1,5 +1,5 @@
 +++
-author = "Lukas Hutter"
+authors = ["Lukas Hutter"]
 categories = ["biotop*"]
 date = "2016-05-11T14:10:09+01:00"
 description = ""
@@ -8,11 +8,9 @@ featuredalt = ""
 featuredpath = ""
 linktitle = ""
 title = "About BIOTOP*"
-type = "post"
+type = "blog"
 
 +++
-
-## Context
 
 To many young scientists, the prospect of pursuing a career in academia has become a scary one.
 They've all seen idealistic young academics keen on changing how academia works from within, their grand ideas gradually stripped from them  when attempting to balance personal and professional life while trying to meet the demands of tenure track committees and funding agencies.

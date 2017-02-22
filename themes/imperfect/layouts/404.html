@@ -1,11 +1,33 @@
+{{ partial "general-title" . }}
+
 {{ partial "header" . }}
+    <!-- Wrapper -->
+    <div id="wrapper">
     {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
         <article class="post">
-            <h1>
-                We're sorry, but that page can't be found <i class="fa fa-frown-o"></i>
-            </h1>
+            {{ $.Scratch.Set "h1" true }}
+            <div id="logo-printonly">
+              {{ $pic := .Site.Params.intro.pic }}
+              {{ with $pic.src }}
+                  {{ if $pic.circle }}
+                      <img src="{{ . }}" class="intro-circle" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+                  {{ else if $pic.imperfect }}
+                      <a href="/" class="logo"><img src="{{ . }}" alt="{{ $pic.alt }}" /></a>
+                  {{ else }}
+                      <img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
+                  {{ end }}
+              {{ end }}
+            </div>
+            <!-- {{ .Render "header" }} -->
+            <div id="content">
+              <!-- <article class="post"> -->
+                  <h2>
+                      {{ i18n "404sorry" }}<i class="fa fa-frown-o"></i>
+                  </h2>
+              <!-- </article> -->
+            </div>
         </article>
     </div>
     {{ partial "sidebar" . }}

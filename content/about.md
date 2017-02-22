@@ -1,6 +1,7 @@
 +++
-title = "About BIOTOP*"
+title = "BIOTOP* Mission Statement"
 date = "2016-05-03"
+headericon = "fa fa-rocket"
 +++
 
 <!-- ## Context

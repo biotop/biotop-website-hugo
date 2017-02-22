@@ -1,5 +1,6 @@
 <!-- Sidebar -->
 <section id="sidebar">
+  {{ $languageprefix := .LanguagePrefix }}
 
     <!-- Intro -->
         <section id="intro">
@@ -13,12 +14,10 @@
                     <img src="{{ . }}" width="{{ $pic.width }}" alt="{{ $pic.alt }}" />
                 {{ end }}
             {{ end }}
-            {{ with .Site.Params.intro }}
-                <header>
-                    <h2>{{ .header }}</h2>
-                    <p>{{ .paragraph | safeHTML }}</p>
-                </header>
-            {{ end }}
+            <header>
+                <h2>{{ i18n "header" }}</h2>
+                <p>{{ i18n "subtitle" | safeHTML }}</p>
+            </header>
             <ul class="icons">
                 {{ if .RSSLink }}
                     <li><a href="{{ .RSSLink }}" type="application/rss+xml"
@@ -34,7 +33,7 @@
         <section id="recent-posts">
             <ul class="posts">
                 <header>
-                    <h3>Recent Posts</h3>
+                    <h3>{{ i18n "recentposts" }}</h3>
                 </header>
                 {{ if .Site.Params.orderByPublishDate }}
                     {{ $.Scratch.Set "recentPosts" .Site.Pages.ByPublishDate.Reverse }}
@@ -48,7 +47,7 @@
                     {{ $.Scratch.Set "postLimit" 5 }}
                 {{ end }}
 
-                {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "post") }}
+                {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "blog") }}
                     <li>
                         <article>
                             <header>
@@ -87,28 +86,65 @@
     {{ if ne ($.Scratch.Get "showCategories") false }}
     <!-- Categories List -->
         <section id="categories">
-            <ul class="posts">
+            <div class="posts">
                 <header>
-                    <h3><a href="/categories/">Categories</a></h3>
-                </header>
+                    <h3><a href="{{.LanguagePrefix }}/categories/">{{ i18n "categories" }}</a></h3>
+                <p>
+                  {{ $.Scratch.Set "firstitemsidebartags" true }}
+                  {{ if .Site.Params.categoriesByCount }}
+                      {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.ByCount }}
+                  {{ else }}
+                      {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.Alphabetical }}
+                  {{ end }}
+                  {{ range $key, $value := $.Scratch.Get "categories" }}
+                    {{ if eq ($.Scratch.Get "firstitemsidebartags") false }}
+                      <span> / </span>
+                    {{ end }}
+                    <a href="{{ $languageprefix }}/categories/{{ $value.Name | urlize }}">{{ i18n "blog" }}: {{ $value.Name }} ({{ $value.Count }})</a>
+                    {{ $.Scratch.Set "firstitemsidebartags" false }}
+                  {{ end }}
 
-                {{ if .Site.Params.categoriesByCount }}
-                    {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.ByCount }}
-                {{ else }}
-                    {{ $.Scratch.Set "categories" .Site.Taxonomies.categories.Alphabetical }}
-                {{ end }}
+                  {{ if .Site.Params.categoriesByCount }}
+                      {{ $.Scratch.Set "projectcategories" .Site.Taxonomies.projectcategories.ByCount }}
+                  {{ else }}
+                      {{ $.Scratch.Set "projectcategories" .Site.Taxonomies.projectcategories.Alphabetical }}
+                  {{ end }}
+                  {{ range $key, $value := $.Scratch.Get "projectcategories" }}
+                    {{ if eq ($.Scratch.Get "firstitemsidebartags") false }}
+                      <span> / </span>
+                    {{ end }}
+                    <a href="{{ $languageprefix }}/projectcategories/{{ $value.Name | urlize }}"> {{ i18n "project" }}: {{ $value.Name }} ({{ $value.Count }})</a>
+                    {{ $.Scratch.Set "firstitemsidebartags" false }}
+                  {{ end }}
 
-                {{ range $key, $value := $.Scratch.Get "categories" }}
-                    <li>
-                        <article>
-                            <header>
-                                <a href="/categories/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
-                                <span style="float:right;">{{ $value.Count }}</span>
-                            </header>
-                        </article>
-                    </li>
-                {{ end }}
-            </ul>
+                  {{ if .Site.Params.categoriesByCount }}
+                      {{ $.Scratch.Set "eventcategories" .Site.Taxonomies.eventcategories.ByCount }}
+                  {{ else }}
+                      {{ $.Scratch.Set "eventcategories" .Site.Taxonomies.eventcategories.Alphabetical }}
+                  {{ end }}
+                  {{ range $key, $value := $.Scratch.Get "eventcategories" }}
+                    {{ if eq ($.Scratch.Get "firstitemsidebartags") false }}
+                      <span> / </span>
+                    {{ end }}
+                    <a href="{{ $languageprefix }}/eventcategories/{{ $value.Name | urlize }}">{{ $value.Name }} ({{ $value.Count }})</a>
+                    {{ $.Scratch.Set "firstitemsidebartags" false }}
+                  {{ end }}
+
+                  {{ if .Site.Params.categoriesByCount }}
+                      {{ $.Scratch.Set "places" .Site.Taxonomies.places.ByCount }}
+                  {{ else }}
+                      {{ $.Scratch.Set "places" .Site.Taxonomies.places.Alphabetical }}
+                  {{ end }}
+                  {{ range $key, $value := $.Scratch.Get "places" }}
+                    {{ if eq ($.Scratch.Get "firstitemsidebartags") false }}
+                      <span> / </span>
+                    {{ end }}
+                    <a href="{{ $languageprefix }}/places/{{ $value.Name | urlize }}">{{ i18n "place" }}: {{ $value.Name }} ({{ $value.Count }})</a>
+                    {{ $.Scratch.Set "firstitemsidebartags" false }}
+                  {{ end }}
+                </p>
+              </header>
+            </div>
         </section>
     {{ end }}
 
@@ -119,7 +155,7 @@
             <p>{{ . }}</p>
 
             <ul class="actions">
-                <li><a href="/about/" class="button">Learn More</a></li>
+                <li><a href="{{.LanguagePrefix }}/about/" class="button">Learn More</a></li>
             </ul>
         </section>
         {{ end }}

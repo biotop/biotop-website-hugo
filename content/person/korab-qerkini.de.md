@@ -1,0 +1,22 @@
++++
+bio = "Korab studierte Sofwareentwicklung in Graz bevor er für die Digitalagentur Scoop & Spoon zu arbeiten begann. Zusätzlich arbeitet er als externer Lektor an der FH Kärnten, wo er Kurse über Location-based Services für mobile Endgeräte betreut. In seiner Arbeit beschäftigt er sich mit Innovationsmanagement, der Entwicklung von kontext-angepassten digitalen Ökosystemen, User Experience Design und Pervasive Computing."
+date = "2016-06-01T10:58:53+01:00"
+featured = "korab.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Korab Qerkini"
+position = "Software Engineer, User Experience Designer"
+role = "projectpartner(m)"
+title = "Korab Qerkini"
+type = "person"
+category = ["people"]
+website = ""
+email = "korab@qerkini.com"
+github = ""
+twitter = "KorabQerkini"
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

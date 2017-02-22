@@ -1,6 +1,4 @@
 baseurl = "http://biotop.co/"
-languageCode = "en-gb"
-title = "Biotop"
 theme = "imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -9,8 +7,8 @@ googleAnalytics = "UA-77796485-1"
 enableRobotsTXT = true
 
 DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 copyright = "Everything is mine"
-
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
@@ -20,7 +18,7 @@ copyright = "Everything is mine"
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = true
     socialAppearAtBottom = true
-    # set this to the section name if section is not post
+    # set this to the section name if section is not blog
     viewMorePostLink     = "/blog/"
 
 # Optional Params
@@ -32,7 +30,7 @@ copyright = "Everything is mine"
     loadFavicon          = true
     faviconVersion       = "16x16"
 
-    # Load custom CSS or JavaScript files. This replaces the deprecated params
+    # Load custom CSS or JavaScript files. This replaces the deprecated languages.en.params
     # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you
     # can load multiple files if necessary. You can also load the standard theme
     # files by adding the value, "default".
@@ -43,14 +41,16 @@ copyright = "Everything is mine"
     customCSS            = ["/css/main.min.css", "/css/person.css"]
     customJS             = ["/js/main.min.js"]
 
-# parms.intro will appear on the sidebar
-# This is optional, but it's suggested to use
-[params.intro]
-    header    = "biotop*"
+[taxonomies]
+tag = "tags"
+category = "categories" #blogpost
+author = "authors" #blogpost
+collaborator = "collaborators" #project
+projectcategory = "projectcategories" #project
+participant = "participants" #event
+eventcategory = "eventcategories" #event
+place = "places" # event
 
-    paragraph = "collective of scientists. research platform. "
-
-    about     = "Biotop is the idea to build an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
@@ -64,32 +64,141 @@ copyright = "Everything is mine"
     width     = "175px"
     alt       = "Biotop logo"
 
-# Adjust the amount of recent posts on the sidebar.
+# Adjust the amount of recent blogs on the sidebar.
 # This is optional. The default value 5 will be used
 [params.postAmount]
     sidebar = 2
 
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
-[[menu.main]]
-    name = "Blog"
-    url = "/blog"
-    identifier = "fa fa-newspaper-o"
-    weight = 3
+[languages]
 
-[[menu.main]]
-    name = "About"
-    url = "/about"
+[languages.en]
+  weight= 0
+  title = "Biotop"
+
+  # parms.intro will appear on the sidebar
+  # This is optional, but it's suggested to use
+[languages.en.params.intro]
+    header    = "biotop*"
+
+    paragraph = "collective of scientists. research platform. "
+
+    about     = "Biotop is an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
+
+
+
+
+[[languages.en.menu.about]]
+    name = "Mission Statement"
+    url = "/en/about"
+    identifier = "fa fa-rocket"
     weight = 1
 
-[[menu.main]]
+[[languages.en.menu.about]]
     name = "Who We Are"
-    url = "/person"
+    url = "/en/person"
     identifier = "fa fa-users"
     weight = 2
 
+[[languages.en.menu.main]]
+    name = "Projects"
+    url = "/en/project"
+    identifier = "fa fa-flask"
+    weight = 3
+
+[[languages.en.menu.main]]
+    name = "Events"
+    url = "/en/event"
+    identifier = "fa fa-calendar"
+    weight = 4
+
+# [[languages.en.menu.main]]
+#     name = "Publications"
+#     url = "/en/publication"
+#     identifier = "fa fa-graduation-cap"
+#     weight = 5
+
+[[languages.en.menu.main]]
+    name = "Blog"
+    url = "/en/blog"
+    identifier = "fa fa-newspaper-o"
+    weight = 6
+
+[[languages.en.menu.main]]
+    name = "Participate"
+    url = "/en/participate"
+    identifier = "fa fa-bolt"
+    weight = 7
+
+[[languages.en.menu.main]]
+    name = "Thank you!"
+    url = "/en/gratitude"
+    identifier = "fa fa-heart"
+    weight = 8
+
+[languages.de]
+  weight= 20
+  title = "Biotop"
+
+[languages.de.params.intro]
+    header    = "biotop*"
+
+    paragraph = "Wissenschaftskollektiv"
+
+    about     = "Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, disziplinenübergreifenden und kollaborativen Erforschung, Umsetzung und Vermittlung wissenschaftlicher Ideen verschreibt. Es ist der Versuch, im Sinne eines Experimentes, die Art und Weise wie wir Wissenschaft betreiben neu zu erfinden."
+
+[[languages.de.menu.about]]
+    name = "Mission Statement"
+    identifier = "fa fa-rocket"
+    url = "/de/about"
+    weight = 1
+
+[[languages.de.menu.about]]
+    name = "Wer wir sind"
+    url = "/de/person"
+    identifier = "fa fa-users"
+    weight = 2
+
+[[languages.de.menu.main]]
+    name = "Projekte"
+    url = "/de/project"
+    identifier = "fa fa-flask"
+    weight = 3
+
+[[languages.de.menu.main]]
+    name = "Veranstaltungen"
+    url = "/de/event"
+    identifier = "fa fa-calendar"
+    weight = 4
+
+# [[languages.de.menu.main]]
+#     name = "Publikationen"
+#     url = "/de/publication"
+#     identifier = "fa fa-graduation-cap"
+#     weight = 5
+
+[[languages.de.menu.main]]
+    name = "Blog"
+    url = "/de/blog"
+    identifier = "fa fa-newspaper-o"
+    weight = 6
+
+[[languages.de.menu.main]]
+    name = "Mitmachen"
+    url = "/de/participate"
+    identifier = "fa fa-bolt"
+    weight = 7
+
+
+[[languages.de.menu.main]]
+    name = "Danke!"
+    url = "/de/gratitude"
+    identifier = "fa fa-heart"
+    weight = 8
+
 # Insert your username and the icon will apear on the page as long as
-# socialAppearAtTop or socialAppearAtBottom is set to true in the params area
+# socialAppearAtTop or socialAppearAtBottom is set to true in the languages.en.params area
 # The social media icons will appear on the sidebar
 [social]
     github          = "biotop"
@@ -119,4 +228,4 @@ copyright = "Everything is mine"
     facebook_admin  = ""
     twitter_domain  = ""
     twitter         = "biotop_co"
-    email           = "biotop.co@gmail.com"
+    email           = "info@biotop.co"

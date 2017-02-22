@@ -1,18 +1,52 @@
 <!-- Header -->
 <header id="header">
-    <h2><a href="/">{{ .Site.Params.navbarTitle }}</i></a></h2>
+    <h2><a href="{{ .Site.BaseURL}}/{{.LanguagePrefix }}">{{ .Site.Params.navbarTitle }}</i></a></h2>
 
     <nav class="links">
         <ul>
-            {{ range .Site.Menus.main }}
-                <li>
-                    <a href="{{ .URL }}">
-                        {{ with .Identifier }}
-                            <i class="{{ . }}">&nbsp;</i>{{ end }}{{ .Name }}
-                    </a>
-                </li>
-            {{ end }}
+          <!-- <li class="drop-in">
+            <a href="#">{{ i18n "about"}}</a>
+            <ul>
+
+            </ul>
+          </li> -->
+          {{ range .Site.Menus.about }}
+          <li>
+            <a href="{{ .URL }}">
+                {{ with .Identifier }}
+                  <i class="{{ . }}">&nbsp;</i>
+                {{ end }}
+                {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+          {{ range .Site.Menus.main }}
+            <li>
+              <a href="{{ .URL }}">
+                  {{ with .Identifier }}
+                    <i class="{{ . }}">&nbsp;</i>
+                  {{ end }}
+                  {{ .Name }}
+              </a>
+            </li>
+          {{ end }}
         </ul>
+    </nav>
+    <nav class="links lang">
+      <ul>
+        <li>
+          <a href="{{ .Site.BaseURL }}/en/{{ slicestr (.URL | relURL) 3 }}">EN</a>
+        </li>
+        <li>
+          <a href="{{ .Site.BaseURL }}/de/{{ slicestr (.URL | relURL) 3 }}">DE</a>
+        </li>
+        <!-- <li>
+          <a href="{{ .Site.BaseURL }}">IT</a>
+        </li>
+        <li>
+          <a href="{{ .Site.BaseURL }}/de/">SI</a>
+        </li> -->
+      </ul>
     </nav>
     <nav class="main">
         <ul>
@@ -21,13 +55,13 @@
                 <a class="fa-share-alt" href="#share-menu">Share</a>
             </li>
             {{ end }}
-            <li class="search">
+            <!-- <li class="search">
                 <a class="fa-search" href="#search">Search</a>
                 <form id="search" method="get" action="//google.com/search">
                     <input type="text" name="q" placeholder="Search" />
                     <input type="hidden" name="q" value="site:{{ .Site.BaseURL }}">
                 </form>
-            </li>
+            </li> -->
             <li class="menu">
                 <a class="fa-bars" href="#menu">Menu</a>
             </li>
@@ -49,6 +83,18 @@
     <!-- Links -->
         <section>
             <ul class="links">
+                {{ range .Site.Menus.about }}
+                    <li>
+                        <a href="{{ .URL }}">
+                            <h3>
+                                {{ with .Identifier }}
+                                    <i class="{{ . }}">&nbsp;</i>
+                                {{ end }}
+                                {{ .Name }}
+                            </h3>
+                        </a>
+                    </li>
+                {{ end }}
                 {{ range .Site.Menus.main }}
                     <li>
                         <a href="{{ .URL }}">
@@ -63,12 +109,37 @@
                 {{ end }}
             </ul>
         </section>
+        <section>
+            <ul class="links lang">
+              <li>
+                <a href="{{ .Site.BaseURL }}/en/{{ slicestr (.URL | relURL) 3 }}">
+                  <h3>
+                    English
+                  </h3>
+              </a>
+              </li>
+              <li>
+                <a href="{{ .Site.BaseURL }}/de/{{ slicestr (.URL | relURL) 3 }}">
+                  <h3>
+                    Deutsch
+                  </h3>
+                </a>
+              </li>
+              <!-- <li>
+                <a href="{{ .Site.BaseURL }}">IT</a>
+              </li>
+              <li>
+                <a href="{{ .Site.BaseURL }}/de/">SI</a>
+              </li> -->
+            </ul>
+        </section>
+
 
     <!-- Recent Posts -->
         <section>
             <ul class="links">
                 <header>
-                    <h3>Recent Posts</h3>
+                    <h3>{{ i18n "recentposts"}}</h3>
                 </header>
                 {{ with .Site.Params.postAmount.sidebar }}
                     {{ $.Scratch.Set "postLimit" . }}
@@ -76,7 +147,7 @@
                     {{ $.Scratch.Set "postLimit" 5 }}
                 {{ end }}
 
-                {{ range first ($.Scratch.Get "postLimit") (where .Site.Pages "Type" "post") }}
+                {{ range first ($.Scratch.Get "postLimit") (where .Site.Pages "Type" "blog") }}
                     <li>
                         <a href="{{ .Permalink }}"><p>{{ .Title }}</p></a>
                     </li>
