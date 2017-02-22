@@ -5,7 +5,7 @@ headericon = "fa fa-bolt"
 description = ""
 +++
 
-## What use is biotop to me?
+## What does biotop offer?
 Science? - Not my cup of tea!
 
 To many, science means that people with a liking of acronyms and white coats do things in sterile labs or with complex formulae; things with an air of importance; potentially groundbreaking things; things, which but a handful of people in the world understand. - And surly these people also share a love of clumsy acronyms, white labcoats and blackboards full of scribbles.
