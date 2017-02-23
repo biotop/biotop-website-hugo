@@ -129,3 +129,9 @@
 
 - id: place
   translation: "Location:"
+
+- id: nexpage
+  translation: "Next page"
+
+- id: previouspage
+  translation: "Previous page"

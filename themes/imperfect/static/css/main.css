@@ -3536,13 +3536,13 @@
 				content:"abc";
 			}
 			@page:right{
-				margin-left:30mm;
+				margin-left:25mm;
 				margin-right:12mm
 			}
 
 			@page:left{
 				margin-left:12mm;
-				margin-right:30mm
+				margin-right:25mm
 			}
 
 			body{
@@ -3572,8 +3572,9 @@
 				width:100%;
 			}*/
 
-			article > p{
-				text-align:justify;
+			p{
+				text-align: justify;
+		    text-justify: inter-word;
 			}
 
 			body{

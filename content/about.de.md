@@ -9,6 +9,14 @@ description = "[Was?](#was) / [Warum?](#warum) / [Wie?](#wie) / [Wo?](#wo)"
 
 Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, disziplinenübergreifenden und kollaborativen Erforschung, Umsetzung und Vermittlung wissenschaftlicher Ideen verschreibt. Es ist der Versuch, im Sinne eines Experimentes, die Art und Weise wie wir Wissenschaft betreiben neu zu erfinden.
 
+------
+
+#### [Was bietet mit biotop?](/de/participate/#was-bietet-mir-biotop)
+#### [Wie kann ich mitmachen?](/de/participate/#wie-kann-ich-mitmachen)
+
+-------
+
+
 ## Warum?
 
 Wissenschaft und Forschung sind Unterfangen, die vor Idealismus und Innovationsgeist strotzen sollten. Dennoch begegnen junge WissenschafterInnen einer Karriere in der Wissenschaft zunehmend mit Ernüchterung.
@@ -43,3 +51,9 @@ Der Open Science-Ansatz bedingt darüberhinaus, dass die Auseinandersetzung mit 
 ## Wo?
 
 Wir streben an **international, und gleichsam betont regional** wirksam zu werden. Auf regionaler Ebene planen wir, einen festen Standort im Raum **Villach** aufzubauen, der als zentraler Knotenpunkt für unsere Aktivitäten dienen soll.
+
+----------
+
+### Weiterfrührende Links
+#### [Wer ist biotop?](/de/person/)
+#### [Wie kann ich biotop unterstützen?](/de/participate/#wie-kann-ich-biotop-unterstützen)

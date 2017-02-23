@@ -9,6 +9,13 @@ description = "[What?](#what) / [Why?](#why) / [How?](#how) / [Where?](#where)"
 
 Biotop is an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science.
 
+------
+
+#### [What does biotop offer to me?](/en/participate/#what-does-biotop-offer-to-me)
+#### [How can I participate?](/en/participate/#how-can-i-participate)
+
+-------
+
 ## Why?
 
 Science and research are endeavours that should be abound with idealism and innovative thinking. Yet many young researchers are becoming increasingly disillusioned by the prospect of pursueing a career in academia.
@@ -39,3 +46,9 @@ Moreover, the principle of open science demands that we actively engage in probl
 
 ## Where?
 We aim at acting both **internationally, as well as regionally**. On a local level, we plan to establish a site in **Villach**, which shall serve as central hub for our activities.
+
+----------
+
+### Further reading
+#### [Who is biotop?](/en/person/)
+#### [How can I support biotop?](/en/participate/#how-can-i-support-biotop)
