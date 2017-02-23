@@ -50,7 +50,7 @@ Solltest Du Interesse haben Inhalte oder Deine Übersetzungskompetenz einzubring
 ## Wie kann ich biotop unterstützen?
 
 ### Micropayments
-Wir unterstützen
+Wir wollen unsere Website frei von Werbung halten, dennoch finden wir, dass Du als Leser eine eine Möglichkeit haben solltest Urheber von Inhalten die Dir besonders gefallen dafür zu belohnen. Deshalb unterstützen wir das Micropayment-System [**flattr**](http://flattr.com) wodurch Du Autoren von Beiträgen direkt eine kleine Spende zukommen lassen kannst, indem du auf dass kleine Icon am Ende eines Beitrags klickst.
 
 ### Private Sponsoren
 Wir sind derzeit auf der Suche nach Sponsoren und Fördermitteln, um unseren Standort in Villach aufzubauen, und Forschungsprojekte zu finanzieren. Dabei wollen wir sowohl öffentliche Fördermittel anwerben, als auch private Sponsoren finden, die unsere Vision teilen und unsere Arbeit aus ideellen Gesichtspunkten unterstützen wollen.
