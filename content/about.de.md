@@ -11,7 +11,7 @@ Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, 
 
 ------
 
-#### [Was bietet mit biotop?](/de/participate/#was-bietet-mir-biotop)
+#### [Was bietet mir biotop?](/de/participate/#was-bietet-mir-biotop)
 #### [Wie kann ich mitmachen?](/de/participate/#wie-kann-ich-mitmachen)
 
 -------
