@@ -25,7 +25,7 @@ Ihn wahrzunehmen verspricht aufregend zu werden, denn die Geschichten die wir zu
 Über unser laufendes Programm, das unter anderem Vorträge, Abendveranstaltungen und Meet-and-Greets umfasst kannst Du Dich im Bereich [*Veranstaltungen*](/de/event/) informieren.
 
 #### Workshops
-Nie zuvor war es ein derart Leichtes sich spielerisch forschend zu betätigen. Gleichsam ist Wissenschaft in erster Linie ein Prozess, der sich einem wohl am Besten erschließt, wenn man wissenschaftlich arbeitet. Um diese arbeitsweise  zu vermitteln, wollen wir regelmäßig Workshops anbieten, die sich an eine Reihe an Zielgruppen wie beispielsweise Schulklassen oder interessierte Laien wenden, und einen niederschwelligen, spielerischen Zugang zu komplexen und relevanten wissenschaftlichen Fragestellungen gewähren.
+Nie zuvor war es ein derart Leichtes sich spielerisch forschend zu betätigen. Gleichsam ist Wissenschaft in erster Linie ein Prozess, der sich einem wohl am Besten erschließt, wenn man wissenschaftlich arbeitet. Um diese Arbeitsweise  zu vermitteln, wollen wir regelmäßig Workshops anbieten, die sich an eine Reihe an Zielgruppen wie beispielsweise Schulklassen oder interessierte Laien wenden, und einen niederschwelligen, spielerischen Zugang zu komplexen und relevanten wissenschaftlichen Fragestellungen gewähren.
 
 Sobald wir über Räumlichkeiten verfügen, werden wir öffentliche Workshops im Bereich [*Veranstaltungen*](/de/event/) ankündigen.
 
@@ -58,7 +58,6 @@ Wir sind derzeit auf der Suche nach Sponsoren und Fördermitteln, um unseren Sta
 Sollten Sie Interesse daran haben, Sponsor zu werden, würden wir uns freuen [via Email von Ihnen zu hören](mailto:info@biotop.co)!
 
 ### Patenschaften
-
 Für den Aufbau eines Forschungslabors in Villach ist die Anschaffung von Laborgeräten ein entscheidender Kostenfaktor.
 Da diese Anschaffungen unmittelbar mit dem Standort in Villach verknüpft sind, und uns das Anbieten von Workshops, sowie die Öffnung unseres Labors als *Fablab* ermöglichen, möchten wir Patenschaften für Laborgeräte als Möglichkeit des Sponsoring besonders für lokale Förderer anbieten.
 Die Verwendung der Unterstützung ist so direkt mit der Anschaffung eines für die Laborarbeiten wichtigen Gerätes verknüpft und somit transparent. Förderer werden auf einer Dankestafel online und im Labor gewürdigt.
