@@ -2,7 +2,7 @@
 title = "Mitmachen"
 date = "2017-02-20"
 headericon = "fa fa-bolt"
-description="[Was bringt mir Biotop?](#was-bringt-mir-biotop) / [Wie kann ich mitmachen?](#wie-kann-ich-mitmachen) / [Wie kann ich biotop unterstützen?](#wie-kann-ich-biotop-unterstützen)"
+description="[Was bietet mir Biotop?](#was-bietet-mir-biotop) / [Wie kann ich mitmachen?](#wie-kann-ich-mitmachen) / [Wie kann ich biotop unterstützen?](#wie-kann-ich-biotop-unterstützen)"
 +++
 
 ## Was bietet mir biotop?
@@ -48,6 +48,9 @@ Solltest Du Interesse haben Inhalte oder Deine Übersetzungskompetenz einzubring
 
 
 ## Wie kann ich biotop unterstützen?
+
+### Micropayments
+Wir unterstützen
 
 ### Private Sponsoren
 Wir sind derzeit auf der Suche nach Sponsoren und Fördermitteln, um unseren Standort in Villach aufzubauen, und Forschungsprojekte zu finanzieren. Dabei wollen wir sowohl öffentliche Fördermittel anwerben, als auch private Sponsoren finden, die unsere Vision teilen und unsere Arbeit aus ideellen Gesichtspunkten unterstützen wollen.
