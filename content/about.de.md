@@ -36,21 +36,10 @@ Darüberhinaus sollen Wissenschaftsvermittlung und die Zusammenarbeit mit Künst
 Entscheidender Bestandteil der Idee ist darüber hinaus die Bildung von **Innovationspartnerschaften**. Diese sehen vor Mitglieder der Öffentlichkeit (Einzelpersonen, aber auch Vereine, oder Firmen), die Kenntnisse praktischer Probleme aus ihrem Arbeitsalltag haben, mit Wissenschafts- und Designkompetenz aus dem Biotop kurzzuschließen, um so zu versuchen sich gemeinsam der Lösung dieser Probleme zu widmen.
 
 ### Forschungsfelder
-Thematisch verorten wir uns an der Schnittstelle zwischen Biologie, Chemie, Physik, Computerwissenschaften und Angewandter Mathematik. Daraus ergeben sich mögliche Forschungsrichtungen, die sich mit Fragen aus den Bereichen der computergestützten Genomik, der Regelungsabläufe in biologischen Systemen und der Entwicklung von selbstorganisierenden Materialien, sowie mit der Untersuchung komplexer Systeme aus den Bereichen Biologie, Neurowissenschaften und Wirtschaft befassen.
+Thematisch verorten wir uns an der Schnittstelle zwischen **Biologie, Chemie, Physik, Computerwissenschaften** und **Angewandter Mathematik**. Daraus ergeben sich mögliche Forschungsrichtungen, die sich mit Fragen aus den Bereichen der computergestützten Genomik, der Regelungsabläufe in biologischen Systemen und der Entwicklung von selbstorganisierenden Materialien, sowie mit der Untersuchung komplexer Systeme aus den Bereichen Biologie, Neurowissenschaften und Wirtschaft befassen.
 
-Der Open Science-Ansatz bedingt darüberhinaus, dass die Auseinandersetzung mit Problemstellungen des wissenschaftlichen Verlagswesens, sowie die Entwicklung offener Plattformen für den Laborbetrieb längerfristig unsere Forschungstätigkeit begleiten.
+Der Open Science-Ansatz bedingt darüberhinaus, dass die Auseinandersetzung mit Problemstellungen des **wissenschaftlichen Verlagswesens**, sowie die **Entwicklung offener Plattformen für den Laborbetrieb** längerfristig unsere Forschungstätigkeit begleiten.
 
 ## Wo?
 
-Wir streben an international, und gleichsam betont regional wirksam zu werden. Auf regionaler Ebene planen wir, einen festen Standort im Raum Villach aufzubauen, der als zentraler Knotenpunkt für unsere Aktivitäten dienen soll.
-
-Wir erachten den Standort Villach in vielerlei Hinsicht als vielversprechenden Startpunkt.
-Mit 60,000 Einwohnern ist Villach zwar keine Großstadt, durchaus aber groß genug um einem internationalen Forschungszentrum ein Zuhause zu bieten, gleichsam aber auch klein genug um von einer derartigen Ansiedelung überdurchschnittlich profitieren zu können.
-
-Trotz wirtschaftlicher Probleme im Bundesland Kärnten zeigt das Land Kärnten starke Bemühungen Kärnten als Forschungsstandort zu stärken, wodurch wir uns realistische Chancen auf öffentliche Förderungen versprechen. Auch in regionaler Hinsicht glauben wir durch die erfolgreiche Umsetzung unseres Vorhabens entscheidende soziale und ökonomische Impulse setzen zu können, was für unser vorhaben, wo der soziale Impact eine entscheidende Rolle spielt, von entscheidender Bedeutung ist.
-
-Villach beherbergt bereits heute einige erfolgreiche, international-tätige Firmen mit Forschungsschwerpunkt. Ein möglicher Austausch zwischen Biotop und diesen Unternehmen bietet Möglichkeiten voneinander sowohl in wirtschaftlicher als auch in kultureller Hinsicht zu profitieren.
-
-Durch die Lage nahe and der Grenze zu Italien und Slovenien bietet die Region die Möglichkeit die Entwicklung unseres Projektes auch hinsichtlich unserer Outreach-Aktivitäten von Anbeginn an grenzüberschreitend und international zu Gestalten. Diesbezüglich sehen wir vor mittelfristig ein zumindest viersprachiges Programm (Deutsch, Englisch, Slovenisch, Italienisch) anzubieten.
-
-Durch die gute Anbingung an das europäische Eisenbahn- und Straßennetz sind Städte wie  Ljubljana, Trieste, Wien, Bratislava, Graz, Salzburg, München, Zagreb, Padova, Bologna und Milano innerhalb von fünf Stunden zu erreichen. Dies birgt Potential für den nachhaltigen Aufbau von Kollaborationen mit etablierten Forschungseinrichtungen in ganz Mitteleuropa.
+Wir streben an **international, und gleichsam betont regional** wirksam zu werden. Auf regionaler Ebene planen wir, einen festen Standort im Raum **Villach** aufzubauen, der als zentraler Knotenpunkt für unsere Aktivitäten dienen soll.
