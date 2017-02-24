@@ -51,7 +51,7 @@
         <div id="projectpartners">
           <h1> {{ i18n "projectpartners" }}</h1>
           {{ range (shuffle .Data.Pages) }}
-            {{ if (or (eq .Params.role "projectpartner(m)") (eq .Params.role "projectpartner(f)"))}}
+            {{ if (or (eq .Params.role "projectpartner(m)") (eq .Params.role "projectpartner(f)") (eq .Params.role "projectpartners"))}}
               <div class="person" style="border:solid 0px;">
                 {{ .Render "header-ov" }}
               </div>
