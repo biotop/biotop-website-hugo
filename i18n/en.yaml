@@ -28,6 +28,12 @@
 - id: founder(f)
   translation: "Founder"
 
+- id: cofounder(m)
+  translation: "Co-Founder"
+
+- id: cofounder(f)
+  translation: "Co-Founder"
+
 - id: scientific-associates
   translation: "Scientific Associates"
 
@@ -135,3 +141,6 @@
 
 - id: previouspage
   translation: "Previous page"
+
+- id: references
+  translation: "References"

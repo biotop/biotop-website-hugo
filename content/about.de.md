@@ -3,6 +3,7 @@ title = "BIOTOP* Wissenschaftskollektiv"
 date = "2016-05-03"
 headericon = "fa fa-rocket"
 description = "[Was?](#was) / [Warum?](#warum) / [Wie?](#wie) / [Wo?](#wo)"
+references = "about"
 +++
 
 ## Was?
@@ -22,8 +23,7 @@ Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, 
 Wissenschaft und Forschung sind Unterfangen, die vor Idealismus und Innovationsgeist strotzen sollten. Dennoch begegnen junge WissenschafterInnen einer Karriere in der Wissenschaft zunehmend mit Ernüchterung.
 Die dieser Entwicklung zugrunde liegenden Probleme sind systemisch:
 
-Die **straffe institutionelle Struktur** von Universitäten und Forschungszentren schafft ein Umfeld, in dem Linearität eines Karrierepfades zum Hauptselektionskriterium für Erfolg wird. Dies unterdrückt Innovation, hemmt den Blick über jenen Tellerrand, der eine Grundbedingung für das Eröffnen neuer Forschungsfelder darstellt, und ist Quell existentieller Angst für viele junge Forschende.
-([Afonso 2013](http://blogs.lse.ac.uk/impactofsocialsciences/2013/12/11/how-academia-resembles-a-drug-gang/), [Woolston 2016](http://www.nature.com/naturejobs/science/articles/10.1038/nj7587-555a)).
+Die **straffe institutionelle Struktur** von Universitäten und Forschungszentren schafft ein Umfeld, in dem Linearität eines Karrierepfades zum Hauptselektionskriterium für Erfolg wird. Dies unterdrückt Innovation, hemmt den Blick über jenen Tellerrand, der eine Grundbedingung für das Eröffnen neuer Forschungsfelder darstellt, und ist Quell existentieller Angst für viele junge Forschende ({{<citeID "Afonso2013">}}, {{<citeID "Woolston2016">}}).
 
 Das ständig anwachsende Spektrum wissenschaftlicher Disziplinen und Subdisziplinen führt zu einem schwerwiegenden **Messbarkeitsproblem** im Herzen der Wissenschaft: Wie beurteilen Fördergeber die Qualität der Forschungsleistungen einzelner WissenschafterInnen, deren Arbeit lediglich einer Handvoll ForscherInnen überhaupt zugänglich ist, welche oft in direkter Konkurrenz um dieselben Fördermittel stehen? Die Antwort liegt in einer Abhängigkeit von Maßzahlen, wie die Anzahl an Aufsätzen in prestigeträchtigen Journalen. Dies führt zu einer verzerrten Wissenschaftskultur, die vorzugsweise modische Forschung nährt, und Impulsen entbehrt, welche die Wiederholbarkeit von Studien und das offene Teilen von Ideen und Erkenntnissen sicherstellen.
 
@@ -36,10 +36,10 @@ Als Gruppe junger Wissenschafter ist Biotop unser Versuch, die Zukunft der Wisse
 Diesem Versuch zugrunde liegt die Idee ein Forschungsnetzwerk im Sinne eines Ökosystems zu entwickeln, welches eine Kultur des Forschens pflegt, die diesen Namen auch wirklich verdient, und gleichsam Lösungen für die oben genannten Probleme liefert.
 
 ### Leitprinzipien
-Diesen Anspruch sehen wir nur durch einen integrativen Ansatz verwirklichbar, dem die Leitmotive **disziplinenübergreifende, kollaborative Grundlagenforschung** (vgl. ["Nature focus issue on interdisciplinarity" 2015](http://www.nature.com/news/interdisciplinarity-1.18295), insbesondere ["How to catalyse collaboration", Brown 2015](http://www.nature.com/news/interdisciplinarity-how-to-catalyse-collaboration-1.18343); ["Antedisciplinary science", Eddy 2005](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010006)) sowie das auf Wissenschaft umgemünzte Open Source-Prinzip (**Open Science**) zugrunde liegen.
+Diesen Anspruch sehen wir nur durch einen integrativen Ansatz verwirklichbar, dem die Leitmotive **disziplinenübergreifende, kollaborative Grundlagenforschung** ({{<citeID "Brown2015">}}, {{<citeID "Eddy2005">}}) sowie das auf Wissenschaft umgemünzte Open Source-Prinzip (**Open Science**) zugrunde liegen.
 
 In institutioneller Hinsicht spielt hier insbesondere die Schaffung einer flexiblen und flachen Organisationsstruktur eine entscheidende Rolle, die disziplinenübergreifendes Arbeiten in kleinen Teams fördert.
-Darüberhinaus sollen Wissenschaftsvermittlung und die Zusammenarbeit mit Künstlern zu Eckpfeilern im täglichen Arbeiten werden, die Öffentlichkeit aktiv im Rahmen von "**Citizen Science**" Projekten (["The rise of the citizen scientist", Nature 2016](http://www.nature.com/news/rise-of-the-citizen-scientist-1.18192); ["Next steps for citizen science", Bonney 2014](http://science.sciencemag.org/content/343/6178/1436)) in die Forschung eingebunden werden, und ihr durch die Bereitstellung emanzipatorischer Werkzeuge wie **Datenvisualisierungsplattformen** der Zugang zu komplexen Problemen erleichtert werden.
+Darüberhinaus sollen Wissenschaftsvermittlung und die Zusammenarbeit mit Künstlern zu Eckpfeilern im täglichen Arbeiten werden, die Öffentlichkeit aktiv im Rahmen von "**Citizen Science**" Projekten ({{<citeID "noauthor2015">}}, {{<citeID "Bonney2014">}}) in die Forschung eingebunden werden, und ihr durch die Bereitstellung emanzipatorischer Werkzeuge wie **Datenvisualisierungsplattformen** der Zugang zu komplexen Problemen erleichtert werden.
 
 Entscheidender Bestandteil der Idee ist darüber hinaus die Bildung von **Innovationspartnerschaften**. Diese sehen vor Mitglieder der Öffentlichkeit (Einzelpersonen, aber auch Vereine, oder Firmen), die Kenntnisse praktischer Probleme aus ihrem Arbeitsalltag haben, mit Wissenschafts- und Designkompetenz aus dem Biotop kurzzuschließen, um so zu versuchen sich gemeinsam der Lösung dieser Probleme zu widmen.
 

@@ -30,8 +30,8 @@
         </div>
         <div id="coreteam">
           <h1>{{ i18n "coreteam" }}</h1>
-          {{ range (shuffle .Data.Pages) }}
-            {{ if (or (eq .Params.role "founder(m)") (eq .Params.role "founder(f)"))}}
+          {{ range .Data.Pages }}
+            {{ if (or (eq .Params.role "founder(m)") (eq .Params.role "founder(f)") (eq .Params.role "cofounder(m)") (eq .Params.role "cofounder(f)"))}}
               <div class="person" style="border:solid 0px;">
                 {{ .Render "header-ov" }}
               </div>

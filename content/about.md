@@ -3,6 +3,7 @@ title = "BIOTOP* Mission Statement"
 date = "2016-05-03"
 headericon = "fa fa-rocket"
 description = "[What?](#what) / [Why?](#why) / [How?](#how) / [Where?](#where)"
+references = "about"
 +++
 
 ## What?
@@ -21,7 +22,7 @@ Biotop is an open collective of scientists engaging in the curiosity-driven, cro
 Science and research are endeavours that should be abound with idealism and innovative thinking. Yet many young researchers are becoming increasingly disillusioned by the prospect of pursueing a career in academia.
 The reasons driving this development are systemic:
 
-The **rigid institutional structure** of universities and research centres creates a context where linearity of career paths has become a primary selection criterion for success. This quenches innovation, is a source of existential anxiety for young scientists and inhibits interdisciplinarity ([Afonso 2013](http://blogs.lse.ac.uk/impactofsocialsciences/2013/12/11/how-academia-resembles-a-drug-gang/), [Woolston 2016](http://www.nature.com/naturejobs/science/articles/10.1038/nj7587-555a)).
+The **rigid institutional structure** of universities and research centres creates a context where linearity of career paths has become a primary selection criterion for success. This quenches innovation, is a source of existential anxiety for young scientists and inhibits interdisciplinarity ({{<citeID "Afonso2013">}}, {{<citeID "Woolston2016">}}).
 
 The ever-expanding spectrum of scientific disciplines and sub-disciplines creates a real **measurement-problem at the heart of science**: How do public and private bodies that fund science assess the quality of scientific output of researchers, whose valuable work may only be fully comprehended by a handful of people? The answer is an over-reliance on aggregated metrics such as the number of publications in high impact journals, with the result of a distorted scientific culture that predominantly fosters fashionable and novel research, and lacks incentives to warrant reproducibility of studies and to openly share ideas.
 
@@ -33,9 +34,9 @@ As group of early career scientsts, biotop is our attempt at taking our future i
 The idea of establishing a reaserch network as an ecosystem that fosters a research culture that truly desrves this name forms the basis for our attempt.
 
 ### Guiding principles
-We believe that this cornerstone is only achieveable through an integrative approach, guided by the principles of **interdisciplinary, collaborative basic reasearch** (["Nature focus issue on interdisciplinarity" 2015](http://www.nature.com/news/interdisciplinarity-1.18295), especially ["How to catalyse collaboration", Brown 2015](http://www.nature.com/news/interdisciplinarity-how-to-catalyse-collaboration-1.18343); ["Antedisciplinary science", Eddy 2005](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0010006)), as well as the scientific sibling of the open source movement, **open science**.
+We believe that this cornerstone is only achieveable through an integrative approach, guided by the principles of **interdisciplinary, collaborative basic reasearch** ({{<citeID "Brown2015">}}, {{<citeID "Eddy2005">}}), as well as the scientific sibling of the open source movement, **open science**.
 
-To this end, it is pivotal to create an organisational culture that forsters transdisciplinary collaboration in small teams on an institutional level. In addition, science communication and collaboration with artists shall become cornerstones of the day-to-day work. We aim to actively engage the public in our reserach process in the context of **citizen science** projects (["The rise of the citizen scientist", Nature 2016](http://www.nature.com/news/rise-of-the-citizen-scientist-1.18192); ["Next steps for citizen science", Bonney 2014](http://science.sciencemag.org/content/343/6178/1436)), and to provide the public with emancipatory tools such as **data visualisation platforms** to facilitate and encourage access to complex problems.
+To this end, it is pivotal to create an organisational culture that forsters transdisciplinary collaboration in small teams on an institutional level. In addition, science communication and collaboration with artists shall become cornerstones of the day-to-day work. We aim to actively engage the public in our reserach process in the context of **citizen science** projects ({{<citeID "noauthor2015">}}, {{<citeID "Bonney2014">}}), and to provide the public with emancipatory tools such as **data visualisation platforms** to facilitate and encourage access to complex problems.
 
 Another component of our idea of designing our organisational culture from the ground with the public in mind, is to form **innovation partnerships** where we accompany members of the public, who have identified a particular problem in their daily life, and provide them with tools, scientific expertise and design competence, to collaboratively work on solutions.
 

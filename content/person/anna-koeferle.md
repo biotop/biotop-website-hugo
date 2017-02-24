@@ -1,12 +1,12 @@
 +++
 bio = "Anna studied Biochemistry at the University of Oxford and is now finishing her PhD at Universty College London, where she is using CRISPR/Cas9 technology to study the regulation of transcription in human cells. Her research interests include:  **regulation of transcription**, **chromatin architecture**, **high-throughput screening methods**,  non-canonical applications of **CRISPR/Cas9 technology**, **bioinformatics & data analysis**."
-date = "2016-05-31T23:34:07+01:00"
+date = "2015-05-31T23:34:07+01:00"
 name = "Anna Köferle"
 featured = "anna.png"
 featuredalt = ""
 featuredpath = "/img/person/"
 position = "Biochemist"
-role = "scientific-associate(f)"
+role = "cofounder(f)"
 title = "Anna Köferle"
 type = "person"
 category = ["people"]

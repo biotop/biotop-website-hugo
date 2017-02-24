@@ -1,0 +1,22 @@
++++
+bio = "Thi studierte Neurowissenschaften und Medizin in Berlin. Er forschte an der Yale University und schloss daraufhin ein Doktorat in Molekularbiologie über Aktivierungsmechanismen molekularer Motoren an der University of Cambridge ab. Thi interessiert sich für zelluläre Transportmechanismen, neuropsychiatrische Erkrankungen, personalisierte Medizin, Kollaborationen zwischen Wissenschaftern und Künstlern, sowie für Musikkomposition."
+date = "2016-06-01T10:59:31+01:00"
+featured = "thi.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Ha Thi Hoang"
+position = "Neurowissenschafter, Molekularbiologe, Arzt"
+role = "scientific-associate(m)"
+title = "Ha Thi Hoang"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

@@ -1,0 +1,61 @@
+[Afonso2013]
+  type    = "website"
+  title   = "How Academia Resembles a Drug Gang"
+  author  = "Afonso, Alexandre"
+  year    = 2013
+  url     = "http://blogs.lse.ac.uk/impactofsocialsciences/2013/12/11/how-academia-resembles-a-drug-gang/"
+  website = "blogs.lse.ac.uk"
+
+[Woolston2016]
+  type      = "article"
+  title     = "Faking it"
+  author    = "Woolston, Chris"
+  journal   = "Nature"
+  volume    =  529
+  number    =  7587
+  pages     = "555-557"
+  year      =  2016
+  url       = "http://dx.doi.org/10.1038/nj7587-555a"
+
+[Brown2015]
+  type     = "article"
+  title    = "Interdisciplinarity: How to catalyse collaboration"
+  author   = "Brown, Rebekah R and Deletic, Ana and Wong, Tony H F"
+  journal  = "Nature"
+  volume   =  525
+  number   =  7569
+  pages    = "315-317"
+  year     =  2015
+  url      = "http://www.nature.com/doifinder/10.1038/525315a"
+
+[Eddy2005]
+  type        = "article"
+  title       = "Antedisciplinary science"
+  author      = "Eddy, Sean R"
+  journal     = "PLoS Comput. Biol."
+  volume      =  1
+  number      =  1
+  year        =  2005
+  url         = "http://dx.doi.org/10.1371/journal.pcbi.0010006"
+
+[noauthor2015]
+  type     = "article"
+  author   = "Editorial"
+  title    = "Rise of the citizen scientist"
+  journal  = "Nature"
+  volume   =  524
+  number   =  7565
+  pages    = "265"
+  year     =  2015
+  url      = "http://dx.doi.org/10.1038/524265a"
+
+[Bonney2014]
+  type        = "article"
+  title       = "Citizen science. Next steps for citizen science"
+  author      = "Bonney, Rick and Shirk, Jennifer L and Phillips, Tina B and Wiggins, Andrea and Ballard, Heidi L and Miller-Rushing, Abraham J and Parrish, Julia K"
+  journal     = "Science"
+  volume      =  343
+  number      =  6178
+  pages       = "1436-1437"
+  year        =  2014
+  url         = "http://dx.doi.org/10.1126/science.1251554"

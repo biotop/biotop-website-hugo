@@ -1,5 +1,6 @@
 {{ partial "general-title" . }}
 
+
 {{ partial "header" . }}
     <!-- Wrapper -->
     <div id="wrapper">
@@ -7,6 +8,7 @@
     <!-- Main -->
     <div id="main">
         <article class="post">
+            {{ $.Scratch.Set "refs" "test"}}
             {{ $.Scratch.Set "h1" true }}
             <div id="logo-printonly">
               {{ $pic := .Site.Params.intro.pic }}
@@ -24,6 +26,9 @@
             <div id="content">
                 {{ .Content }}
             </div>
+
+            {{ partial "references" . }}
+
         </article>
     </div>
     {{ partial "sidebar" . }}

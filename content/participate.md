@@ -3,6 +3,7 @@ title = "Participate"
 date = "2017-02-20"
 headericon = "fa fa-bolt"
 description = "[What does biotop offer to me?](#what-does-biotop-offer-to-me) / [How can I participate?](#how-can-i-participate) / [How can I support biotop?](#how-can-i-support-biotop)"
+references = ""
 +++
 
 ## What does biotop offer to me?

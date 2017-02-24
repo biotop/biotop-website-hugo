@@ -1,0 +1,25 @@
+<div class="references">
+  <hr>
+  {{ $references := $.Scratch.GetSortedMapValues "references" }}
+  {{if $references}}
+    <h3>{{ i18n "references" }}</h3>
+    <ol>
+        {{ range $key, $value := $references }}
+            <li id="{{$key}}">
+              {{ with $value }}
+                {{ if eq .type "article"}}
+                  <a href="{{ .url }}">
+                    {{ .author }}, "{{ .title }}", {{ .journal }} {{ .year }} ({{ .volume }}) {{ .pages }}
+                  </a>
+                {{end}}
+                {{ if eq .type "website" }}
+                  <a href="{{ .url }}">
+                    {{ .author }}, "{{ .title }}", {{ .website }} {{ .year }}
+                  </a>
+                {{ end }}
+              {{ end }}
+            </li>
+        {{ end }}
+    </ol>
+  {{end}}
+</div>

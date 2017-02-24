@@ -3,6 +3,7 @@ title = "Mitmachen"
 date = "2017-02-20"
 headericon = "fa fa-bolt"
 description="[Was bietet mir Biotop?](#was-bietet-mir-biotop) / [Wie kann ich mitmachen?](#wie-kann-ich-mitmachen) / [Wie kann ich biotop unterstützen?](#wie-kann-ich-biotop-unterstützen)"
+references = ""
 +++
 
 ## Was bietet mir biotop?
