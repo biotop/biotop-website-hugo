@@ -8,7 +8,7 @@ enableRobotsTXT = true
 
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-copyright = "Everything is mine"
+copyright = "biotop"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
