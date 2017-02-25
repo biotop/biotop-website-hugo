@@ -20,10 +20,10 @@ references = "baz" # for file /data/references/baz.toml
   {{ with $reference }}
     {{ $lastname := index (split .author ", ") 0 }}
     {{ if eq .type "article" }}
-      <a href='#{{ $refID }}'>{{ $lastname }} {{ .year }} {{ .journal }}</a>
+      <a href='#{{ $lastname }}{{ .year }}'>{{ $lastname }} {{ .year }} {{ .journal }}</a>
     {{ end }}
     {{ if eq .type "website" }}
-      <a href='#{{ $refID }}'>{{ $lastname }} {{ .year }} {{ .website }}</a>
+      <a href="#{{ $lastname }}{{ .year }}">{{ $lastname }} {{ .year }} {{ .website }}</a>
     {{ end }}
   {{ end }}
 {{ end }}
