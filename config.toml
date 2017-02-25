@@ -12,7 +12,7 @@ copyright = "Everything is mine"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "Biotop is the idea to build an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
+    description          = "Biotop is an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
     # This will appear on the top left of the navigation bar
     navbarTitle          = "biotop*"
     # Social media buttons that appear on the sidebar
