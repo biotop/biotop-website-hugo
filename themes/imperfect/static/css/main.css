@@ -3572,9 +3572,10 @@
 				width:100%;
 			}*/
 
-			p{
+			p, li{
 				text-align: justify;
-		    text-justify: inter-word;
+		    text-justify: auto;
+				letter-spacing: 0.035em;
 			}
 
 			body{
