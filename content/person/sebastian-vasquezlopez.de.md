@@ -1,5 +1,5 @@
 +++
-bio = "Sebastian studierte Medizin in Medellin (Kolumbien) bevor er an der University of Newcastle Genetik studierte. Derzeit schließt er an der University of Oxford sein Doktorat im Fach Neurowissenschaften ab, wo er sich mit der Anwendung neuer bildgebender Verfahren beschäftigt um die Reizverarbeitung im Gehirn zu untersuchen. Seine Forschungsinteressen beinhalten: Neurologie des Hörens, funktionale Neurophysiologie un ddue entwicklung neuer bildgebender Verfahren um neuronale Schaltkreise zu untersuchen."
+bio = "Sebastian studierte Medizin in Medellin (Kolumbien) bevor er an der University of Newcastle Genetik studierte. Derzeit schließt er an der University of Oxford sein Doktorat im Fach Neurowissenschaften ab, wo er sich mit der Anwendung neuer bildgebender Verfahren beschäftigt um die Reizverarbeitung im Gehirn zu untersuchen. Seine Forschungsinteressen beinhalten: Neurologie des Hörens, funktionale Neurophysiologie und die Entwicklung neuer bildgebender Verfahren um neuronale Schaltkreise zu untersuchen."
 date = "2016-06-01T11:00:15+01:00"
 featured = "sebas.jpg"
 featuredalt = ""

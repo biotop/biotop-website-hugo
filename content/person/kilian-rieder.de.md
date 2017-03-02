@@ -1,6 +1,6 @@
 +++
 bio = "Kilian studierte Politik, Philosophie und Wirtschaft in Paris, sowie Wirtschaft an der Universität Wien und an der London School of Economics. Derzeit arbeitet er an der University of Oxford an seiner Dissertation, in deren Rahmen er sich mit der Finanzgeschichte der späten Habsburger Monarchie und den USA um 1920 befasst. Besonders interessiert Kilian hierbei die gemeinsame Entwicklung von Banksystemen, Finanzkrisenmanagement und Regulation. Bevor er an die University of Oxford ging arbeitete er für die österreichische Nationalbank sowie für die Bankenaufsicht. Vor diesem Hintergrund ist er davon überzeugt, dass ein theoretisch und empirisch begründetes Verständnis der Vergangenheit einen grundlegenden Beitrag zu heutigen Wirtschafts- und Finanzpolitischen Entscheidungsprozessen leisten kann."
-date = "2016-06-01T10:59:31+01:00"
+date = "2015-04-01T10:59:31+01:00"
 featured = "kilian.jpg"
 featuredalt = ""
 featuredpath = "/img/person/"

@@ -3022,10 +3022,10 @@
 		}
 
 		#header .lang{
-			-moz-flex: 0.1;
-			-webkit-flex: 0.1;
-			-ms-flex: 0.1;
-			flex: 0.1;
+			-moz-flex: 0.125;
+			-webkit-flex: 0.125;
+			-ms-flex: 0.125;
+			flex: 0.125;
 			border-left: solid 0px rgba(160, 160, 160, 0.3);
 			height: inherit;
 			line-height: inherit;
@@ -3571,6 +3571,9 @@
 			/*article.post header{
 				width:100%;
 			}*/
+			ul {
+		    list-style: square outside none;
+			}
 
 			p, li{
 				text-align: justify;

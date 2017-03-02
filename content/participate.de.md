@@ -16,7 +16,7 @@ Für diese Einblicke legen sich Wissenschafter_innen mit ihrer Unwissenheit an, 
 
 Doch damit wir alle von diesen Erweiterungen des Horizonts im Einzelnen profitiern können, um gemeinsam ein Stück besser mit der Komplexität unserer Welt umgehen zu können, muss Wissenschaft vermittelt werden. Nicht als reiner Selbstzweck, sondern - *lehrend lernt es sich am besten* - als natürlicher Bestandteil des Forschens, und in interaktiver Art und Weise.
 Dort sehen wir unsere Verantwortung als Wissenschafter_innen gegenüber der Gesellschaft, sowie unseren Arbeitsauftrag als Wissenschaftskollektiv.
-Ihn wahrzunehmen verspricht aufregend zu werden, denn die Geschichten die wir zu erzählen wissen sind atemberaubend, und mit Künstlern an unserer Seite, haben wir die besten Partner, um diese Geschichten spannend, und auf vielfältige Weise erzählen zu können. Doch wir wollen uns nicht auf das reine erzählen beschränken, sondern auch unsere Arbeit und unsere Werkstätte öffnen, unsere Ressourcen teilen, mit Rat und Tat zur Seite stehen, gemeinsam mit interessierten Laien forschen, und gemeinsam an Projekten tüfteln.
+Ihn wahrzunehmen verspricht aufregend zu werden, denn die Geschichten die wir zu erzählen wissen sind atemberaubend. Mit Künstlern an unserer Seite, haben wir die besten Partner, um diese Geschichten spannend, und auf vielfältige Weise erzählen zu können. Doch wir wollen uns nicht auf das reine Erzählen beschränken, sondern auch unsere Arbeit und unsere Werkstätte öffnen, unsere Ressourcen teilen, mit Rat und Tat zur Seite stehen, gemeinsam mit interessierten Laien forschen, und gemeinsam an Projekten tüfteln.
 
 ## Wie kann ich mitmachen?
 
