@@ -7,7 +7,7 @@ position = "Systems Biologist, Chemist & Data Scientist"
 role = "founder(m)"
 bio = """
 Lukas first trained as a chemist at Graz University of Technology and conducted research on optical chemical  sensors, nanoparticles and functional ceramics.
-He then switched to systems biology and is currently finishing his PhD at University of Oxford.
+He then switched to systems biology and recently finished his PhD at University of Oxford.
 His research interests include: **bits and atoms**, **self-organisation and the origin of life**, **functional chemical interfaces**, and **principles of regulation in biological systems**.
 
 """
