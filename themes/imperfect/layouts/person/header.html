@@ -193,24 +193,24 @@
               <i class="fa fa-graduation-cap"></i>
               <a>{{ i18n "publications" }}</a>
             </div>
-            <div class="collapsible-body" style="display:block;">
+            <div class="collapsible-body">
               <ul>
                 {{ $.Scratch.Set "nopublication" true }}
-                {{ range $i, $publication := $.Site.Sections.publication }}
-                  {{ if in $publication.Page.Params.authors $name }}
+                {{ with $pubid := .Params.publications }}
+                  {{ range $publication := (index $.Site.Data.publications $pubid) }}
                     {{ $.Scratch.Set "nopublication" false }}
                     <li>
                       <div class="listitem">
-                        <a href="{{ $publication.Page.URL }}">
+                        <a href="{{ $publication.url }}">
                           <h6 class="date">
-                            {{ dateFormat "2.1.2006" $publication.Page.Date }}
-                          </h6>
-                          <h6 class="author">
-                            {{ delimit $publication.Page.Params.authors ", " }}
+                            {{ $publication.year }}, {{ $publication.journal}}
                           </h6>
                           <h5 class="listtitle">
-                            {{ $publication.Page.Title }}
+                            {{ $publication.title }}
                           </h5>
+                          <h6 class="author">
+                            {{ $publication.author }}
+                          </h6>
                         </a>
                       </div>
                     </li>

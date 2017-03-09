@@ -1,0 +1,22 @@
++++
+bio = "Tobias studies Chemistry for the Life Sciences at the Zurich University of Applied Science in Wädenswil. He is currently working on his master thesis building a new 3D printing platform for the creation of nanostructured porous materials. His interests lie in the exploration of materials on a nansoscale using AFM and SEM as well as the creation of macroscopic structures by fused filament fabrication 3D printing."
+date = "2016-06-01T10:58:42+01:00"
+featured = "dunkel.png"
+featuredalt = "alt.png"
+featuredpath = "/img/person/"
+name = "Tobias Burger"
+position = "Chemiker"
+role = "scientific-associate(m)"
+title = "Tobias Burger"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

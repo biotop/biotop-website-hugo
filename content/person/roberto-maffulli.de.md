@@ -1,0 +1,22 @@
++++
+bio = "Roberto studierte Maschinenbau in Florenz und verliebte sich dort in die Strömungslehre. Während seiner Zeit in Florenz arbeitete er an der Entwicklung vertikalachsiger Windturbinen und befasste sich mit der Akustik von Flugzeugturbinen, bevor er sich für multidisziplinäre Optimierungssysteme zu interessieren begann. Als er als Doktorand an die University of Oxford wechselte setzte er sich mittels computergestützter Methoden mit der Wechselwirkung von Aerodynamik und Wärmetransfer in Hochdruckturbinen auseinander. Derzeit ist er als Forschungsingenieur am von-Karman Institut für Strömungslehre tätig und forscht an Optimierungssystemen für das Design von Flugzeugturbinen. Robertos Forschungsinteressen umfassen: Optimierungsalgorithmen, Machine Learning, sowie das Modellieren von Wechselwirkungen zwischen Wärmetransfer und Strömungen in Turbomaschinen."
+date = "2016-06-01T10:58:42+01:00"
+featured = "roberto.jpg"
+featuredalt = "alt.png"
+featuredpath = "/img/person/"
+name = "Maschninenbauingenieur"
+position = "Mechanical Engineer"
+role = "scientific-associate(m)"
+title = "Roberto Maffulli"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

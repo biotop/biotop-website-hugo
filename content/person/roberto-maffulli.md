@@ -1,0 +1,22 @@
++++
+bio = "Roberto studied as a mechanical engineer in Florence where he fell in  love with fluid dynamics. While in there he has worked on vertical axis wind turbines and aeroacustics of airplane engines before discovering  multidisciplinary optimization systems. During his DPhil at Oxford University he studied, using computational fluid dynamics, the coupling between aerodynamics and heat transfer in high pressure turbines. He is  now working as a senior research engineer at von Karman Institute for Fluid Dynamics on optimization systems for the design of airplane engines. His research interests include: optimization algorithms, machine learning, computational modeling of turbomachinery flows, conjugate heat transfer."
+date = "2016-06-01T10:58:42+01:00"
+featured = "roberto.jpg"
+featuredalt = "alt.png"
+featuredpath = "/img/person/"
+name = "Robert Maffulli"
+position = "Mechanical Engineer"
+role = "scientific-associate(m)"
+title = "Roberto Maffulli"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

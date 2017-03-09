@@ -3100,6 +3100,10 @@ ul.collapsible{
   list-style:none;
 }
 
+div.collapsible-body > ul{
+  list-style:none;
+}
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;

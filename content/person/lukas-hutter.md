@@ -24,4 +24,5 @@ instagram =""
 slideshare = ""
 xing = ""
 linkedin = ""
+publications = "lukas-hutter"
 +++

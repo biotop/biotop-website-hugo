@@ -1,0 +1,57 @@
+[Cundell2016]
+  type      = "article"
+  title     = "A PP2A-B55 recognition signal controls substrate dephosphorylation kinetics during mitotic exit"
+  author    = "Michael J Cundell, Lukas H Hutter, Ricardo Nunes Bastos, Elena Poser, James Holder, Shabaz Mohammed, Bela Novak, Francis A Barr"
+  journal   = "Journal of Cell Biology"
+  volume    =  214
+  year      =  2016
+  url       = "https://dx.doi.org/10.1083/jcb.201606033"
+
+[Koeferle2016]
+  type      = "article"
+  title     = "CORALINA: a universal method for the generation of gRNA libraries for CRISPR-based screening"
+  author    = "Anna Köferle, Karolina Worf, Christopher Breunig, Valentin Baumann, Javier Herrero, Maximilian Wiesbeck, Lukas H Hutter, Magdalena Götz, Christiane Fuchs, Stephan Beck, Stefan H Sticker"
+  journal   = "BMC Genomics"
+  volume    =  17
+  year      =  2016
+  url       = "https://dx.doi.org/10.1186/s12864-016-3268-z"
+
+[Mirkovic2015]
+  type      = "article"
+  title     = "Premature Sister Chromatid Separation Is Poorly Detected by the Spindle Assembly Checkpoint as a Result of System-Level Feedback"
+  author    = "Mihailo Mirkovic, Lukas H Hutter, Bela Novak, Raquel A Oliveira"
+  journal   = "Cell Reports"
+  volume    =  13
+  pages     = "469–478"
+  year      =  2015
+  url       = "https://dx.doi.org/10.1016/j.celrep.2015.09.020"
+
+[Hutter2014]
+  type      = "article"
+  title     = "Robust Optical Oxygen Sensors based on Polymer-bound NIR-emitting Platinum(II) Benzoporphyrins"
+  author    = "Lukas H Hutter, Bernhard J Müller, Klaus Koren, Sergey M Borisov, Ingo Klimant"
+  journal   = "Journal of Materials Chemistry C"
+  volume    =  2
+  pages     = "7589-7598"
+  year      =  2014
+  url       = "http://dx.doi.org/10.1039/C4TC00983E"
+
+[Koren2013]
+  type      = "article"
+  title     = "Tuning the dynamic range and sensitivity of optical oxygen-sensors by employing differently substituted polystyrene-derivatives"
+  author    = "Klaus Koren, Lukas H Hutter, Barbara Enko, Andreas Pein, Sergey M Borisov, Ingo Klimant"
+  journal   = "Sensors and Actuators B"
+  volume    =  176
+  pages     = "344-350"
+  year      =  2013
+  url       = "http://dx.doi.org/10.1021/ja200650w"
+
+[Njoki2011]
+  type      = "article"
+  title     = "Layer-by-Layer Processing and Optical Properties of Core/Alloy Nanostructures"
+  author    = "Peter Njoki, Wenjie Wu, Hui Zhao, Lukas H Hutter, Eric A Schiff, Matthew M Maye"
+  journal   = "Journal of the American Chemical Society"
+  volume    =  133
+  pages     = "5224–5227"
+  year      =  2011
+  url       = "http://dx.doi.org/10.1021/ja200650w"

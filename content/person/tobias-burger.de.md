@@ -1,0 +1,22 @@
++++
+bio = "Tobias studiert Chemie für Biowissenschaften an der Züricher Hochschule für Angewandte Wissenschaften in Wädenswil. Derzeit entwickelt er im Rahmen seiner Masterarbeit eine neue Plattform für den 3D-Druck nanostrukturierter pröser Materialien. Tobias interessiert sich besonders für die Erkundung von Materialien im Nanobereich mittels Elektronenmikroskopie sowie die Gestaltung von Nanostrukturen mittels 3D-Druck."
+date = "2016-06-01T10:58:42+01:00"
+featured = "dunkel.png"
+featuredalt = "alt.png"
+featuredpath = "/img/person/"
+name = "Tobias Burger"
+position = "Chemiker"
+role = "scientific-associate(m)"
+title = "Tobias Burger"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
