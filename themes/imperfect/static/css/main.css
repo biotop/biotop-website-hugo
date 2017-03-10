@@ -3524,6 +3524,10 @@
 			text-transform:uppercase;
 		}
 
+		iframe#discourse-embed-frame{
+			margin-top:30px;
+		}
+
 		@media print{
 			@page{
 				margin-top:20mm;
