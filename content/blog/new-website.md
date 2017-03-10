@@ -7,7 +7,7 @@ featured = "new_website.png"
 featuredalt = ""
 featuredpath = "/img/blog"
 linktitle = ""
-title = "Neue Website"
+title = "New Website"
 type = "blog"
 
 +++
