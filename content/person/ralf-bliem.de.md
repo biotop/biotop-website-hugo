@@ -1,0 +1,22 @@
++++
+bio = "Ralf studierte an der TU Wien und TU Berlin Architektur. Schwerpunkt seines Studiums war die Schnittstelle Computational Design, additive Herstellungsmethoden und automatisierte Entwurfsprozesse. Besonderen Fokus legte er auf das Implementieren digitaler Abläufe während der Bearbeitung von architektonischen Konzepten. Derzeit arbeitet Ralf als Architekt in einem internationalen Architekturbüro und projektiert die Umsetzung parametrischer Entwürfe. Weiters forscht er im Zuge seines Doktorates an der Verknüpfung von Computerwissenschaften mit der Architektur. Sein Forschungsinteresse liegt auch in der Verflechtung von naturwissenschaftlichen Abläufen mit der Architektur."
+date = "2016-06-01T11:00:02+01:00"
+featured = "ralf_bliem.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Ralf Bliem"
+position = "Architekt"
+role = "scientific-associate(m)"
+title = "Ralf Bliem"
+type = "person"
+category = ["people"]
+website = "http://ralfbliem.com/"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

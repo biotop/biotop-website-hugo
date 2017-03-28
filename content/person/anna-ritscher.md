@@ -1,0 +1,22 @@
++++
+bio = "Anna studied chemistry at the university of Vienna. She went Berlin for her PhD and joined the Gaduate School MatSEC (Materials for Solar Energy Conversion) at the Helmholtz Zentrum Berlin, where she worked on Kesterites and their application in photovoltaic cells. Her interests include: solid state chemistry, material science, renewable enrgy, chrystallography, digital and analogue photography and the process of analogue film development."
+date = "2016-06-01T11:00:02+01:00"
+featured = "anna-ritscher.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Anna Ritscher"
+position = "Architekt"
+role = "scientific-associate(f)"
+title = "Anna Ritscher"
+type = "person"
+category = ["people"]
+website = "http://cargocollective.com/divergenzblende"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

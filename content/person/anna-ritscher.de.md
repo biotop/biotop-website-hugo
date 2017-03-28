@@ -1,0 +1,22 @@
++++
+bio = "Anna studierte Chemie an der Universität Wien. Im Rahmen ihres Doktorats ging sie nach Berlin und wurde Mitglied der Graduiertenschule MatSEC (Materials for Solar Energy Conversion) des Helmholtz Zentrums Berlin. Sie promovierte an der Technischen Universität Berlin zum Thema Kesterite, ein aussichtsreiches Material für Absorberschichten in zukünftige Photovoltaikzellen. Ihre Forschungsinteressen beinhalten: Festkörperchemie, Materialchemie/-physik, erneuerbare Energiequellen, Kristallographie Abseits ihres Forschungsbereichs: digitale und analoge Fotografie, Filmentwicklungslabor"
+date = "2016-06-01T11:00:02+01:00"
+featured = "anna-ritscher.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Anna Ritscher"
+position = "Architekt"
+role = "scientific-associate(f)"
+title = "Anna Ritscher"
+type = "person"
+category = ["people"]
+website = "http://cargocollective.com/divergenzblende"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
