@@ -1,0 +1,22 @@
++++
+bio = "Anna studierte Molekulare Biologie an der Universität Wien und der Universität Zürich. Sie beschäftigte sich mit Zellbiologie, Immunologie und medizinischer Grundlagenforschung. Für ihre Diplomarbeit forschte sie an alternativen Signaling Pathways in Makrophagen am Universitätsspital Zürich. Niederschwellige Wissenschaftsvermittlung ist ihr ein großes Anliegen. Übers Otelo Villach sammelt und verbreitet sie derzeit Informationen zu kulinarischer Nachhaltigkeit und Vielfalt. Im Vordergrund stehen dabei die einfache Anwendung im städtischen Alltag, die Lust am Selbermachen sowie Aktivitäten im öffentlichen Raum, die zum Mitmachen animieren. "
+date = "2016-06-01T11:00:02+01:00"
+featured = "anna-waechter-mit.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Anna Wächter-Mittersteiner"
+position = "Zellbiologin"
+role = "scientific-associate(f)"
+title = "Anna Wächter-Mittersteiner"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

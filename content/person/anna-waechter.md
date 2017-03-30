@@ -1,0 +1,22 @@
++++
+bio = "Anna studied molecular biology at the University of Vienna and the University of Zurich, focussing on cell biology, immunology and fundamental medical research. For her diploma thesis, she conducted research on alternative signalling pathways in macrophages at the university clinic in Zurich. Anna is particularly interested in low-threshold communication of science. In the context of Otelo Villach, Anna is now collecting and disseminating information on culinary sustainability and diversity, focussing on accessibility, a hands-on approach and the role of public space."
+date = "2016-06-01T11:00:02+01:00"
+featured = "anna-waechter-mit.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Anna Wächter-Mittersteiner"
+position = "Cell-biologist"
+role = "scientific-associate(f)"
+title = "Anna Wächter-Mittersteiner"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
