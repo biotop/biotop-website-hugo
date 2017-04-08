@@ -1,0 +1,22 @@
++++
+bio = "Mariangela studied Neuroscience in Pisa (Italy) before moving to Oxford for her PhD. She’s currently working as a postdoctoral researcher, studying learning and memory in the cerebral cortex, the evolutionary most recent area of the mammalian brain. She’s in love with the cortex because its networks of cells are what ultimately makes us humans, and because much about it is still mysterious. She’s interested in telling everyone how cool the brain is, in finding out new ways to make scientists from different disciplines work together, and in making science more approachable and fascinating for the general public."
+date = "2016-06-01T10:58:42+01:00"
+featured = "mariangela.jpg"
+featuredalt = "alt.png"
+featuredpath = "/img/person/"
+name = "Mariangela Panniello"
+position = "Neuroscientist"
+role = "scientific-associate(f)"
+title = "Mariangela Panniello"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
