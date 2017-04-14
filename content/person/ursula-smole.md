@@ -1,0 +1,22 @@
++++
+bio = "Ursula studied Genetics/Microbiology at the University of Vienna. During her PhD, she focused on allergy research and the innate immune system. Between 2012 and 2016, she trained as a postdoctoral fellow in the field of allergic airway diseases in the lab of Marsha Wills-Karp at the Johns Hopkins Bloomberg School of Public Health. She currently works at the Medical University of Vienna, where her research focuses on innate immunity and the elucidation of novel mechanisms of allergenicity in susceptible individuals."
+date = "2016-06-01T11:00:02+01:00"
+featured = "ursula-smole.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Ursula Smole"
+position = "Immunologist"
+role = "scientific-associate(f)"
+title = "Ursula Smole"
+type = "person"
+category = ["people"]
+website = ""
+email = "Ursula.smole@meduniwien.ac.at"
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

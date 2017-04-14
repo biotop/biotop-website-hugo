@@ -1,0 +1,22 @@
++++
+bio = "Andreas ist Architekt, Forscher und Lehrer. Er studierte an der TU Wien, der Angewandten und am University College London. Nach Abschluss seines Studiums in London trat er der Platform Biophile bei und wurde Lektor an der Oxford Brookes University. Andreas arbeitete an Projekten wie GrAB, dem IoA in Wien und arbeitet gemeinsam mit Max:R+I und Anderen in den Bereichen Umweltarchitektur und digitalem Design in der Architektur. Im Rahmen seiner Forschung beschäftigt er sich mit der Kopplung von computergestützter Flüssigkeitsdynamik mit Designprozessen, Umweltstrategien im Bereich der Architektur und der Nutzung von Biomimetik um das Raumempfinden zu verbessern. "
+date = "2016-06-01T11:00:02+01:00"
+featured = "andreas-koerner.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Andreas Körner"
+position = "Architekt"
+role = "scientific-associate(m)"
+title = "Andreas Körner"
+type = "person"
+category = ["people"]
+website = "http://www.andreaskoerner.at"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

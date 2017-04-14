@@ -1,0 +1,22 @@
++++
+bio = "Andreas is an architectural designer, researcher and teacher. He has studied at TU Vienna, die Angewandte and UCL. After graduating  from the Bartlett he joined the platform Biophile and was appointed associate lectuer at Oxford Brookes University while working in practice in London. Andreas has been involved with GrAB at the IoA in Vienna and is collaborating with Max:R+I and others around the field of environmental and digital design in architecture. His research covers: Integration of CFD in design processes, environmental strategies in architecture, digital design and fabrication and the utilisation of biomimetics to enhance spatial experience."
+date = "2016-06-01T11:00:02+01:00"
+featured = "andreas-koerner.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Andreas Körner"
+position = "Architect"
+role = "scientific-associate(m)"
+title = "Andreas Körner"
+type = "person"
+category = ["people"]
+website = "http://www.andreaskoerner.at"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
