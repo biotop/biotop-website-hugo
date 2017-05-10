@@ -1,0 +1,22 @@
++++
+bio = "Christine studierte Mikrobiologie und Genetik an der Universität Wien, und  untersuchte im Rahmen ihres Doktorats mit einzigartige Stammzellmutanten des pflanzlichen Modellorganismus' Arabidopsis Thaliana. Derzeit arbeitet Christine am DNA Learning Centre des Cold Spring Harbor Labors in New York City, wo sie Programmleiterin des Urban Barcode Programms ist. Christine hat mittlerweile mehr als 10 Jahren Erfahrung im Bereich städtischer und internationaler Bildung. Sie widmet ihre Zeit, Energie und ihren Verstand, um es SchülerInnen zu ermöglichen ihr Potential im Bereich der MINT-Disziplinen voll zu entfalten, und um traditionell unterrepräsentierten Minderheiten vielfache Anknüpfungspunkte zu akademischen Karrieren im Bereich der MINT-Fächer zu bieten. Derzeit interessiert sich Christine besonders für DNA barcoding, eDNA, Metagenomik, Big Data, Gamification, Bio Art und alles was mit Essen zu tun hat."
+date = "2016-06-01T11:00:02+01:00"
+featured = "christine-marizzi.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Christine Marizzi"
+position = "Genetikerin"
+role = "scientific-associate(f)"
+title = "Christine Marizzi"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = "cmarizzi"
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

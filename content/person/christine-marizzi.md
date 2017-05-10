@@ -1,0 +1,22 @@
++++
+bio = "Christine graduated from the University of Vienna with a Ph.D. degree in microbiology and genetics for investigating unique stem-cell mutant of the plant model Arabidopsis thaliana. Her current position is Urban Barcode Program Manager at Cold Spring Harbor Laboratory’s DNA Learning Center. With 10+ years in urban and international education, she dedicates her time, energy and intellect to help students realize their greatest potential in STEM fields and provides traditionally under-represented minorities with multiple entry points to academic and professional careers in STEM disciplines. Current interests include DNA barcoding, eDNA, metagenomics, Big Data, Gamification, Bio Art and all things Food."
+date = "2016-06-01T11:00:02+01:00"
+featured = "christine-marizzi.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Christine Marizzi"
+position = "Geneticist"
+role = "scientific-associate(f)"
+title = "Christine Marizzi"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = "cmarizzi"
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
