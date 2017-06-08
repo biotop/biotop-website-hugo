@@ -25,7 +25,7 @@ Yet, we do not intent to focus on telling stories alone, but plan to open our wo
 ### Locally
 
 #### Regular Programme
-Stay informed about our regular programme encompassing talks, evening events and mett-and-greets, by visiting the [*events section*](/en/event/) of our site.
+Stay informed about our regular programme encompassing talks, evening events and meet-and-greets, by visiting the [*events section*](/en/event/) of our site.
 
 #### Workshops
 Never before has it been easier to playfully engage in research. At the same time, science is primarily a process, most accessible if one engages in the scientific method. Bringing the two together, we plan to offer workshops addressed at a variety of focus groups, such as school kids and interested members of the public, on a regular basis that provide a barrier-free and playful approach to complex and relevant scientific problems.
