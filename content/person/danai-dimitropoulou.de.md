@@ -1,0 +1,22 @@
++++
+bio = "Danai studierte Molekularbiologie und Genetik in Griechenland, bevor sie an die Universität Groningen in den Niederlanden ging. Als leidenschaftliche Wissenschaftlerin wollte sie die Arbeit im Labor nicht aufgeben, weshalb sie im Anschluss als Forscherin in verschiedenen Gruppen, unter anderem am Max Planck Institut in Nijmegen, und an der University of Cambridge arbeitete. Danai ist faszininert von der Wissenschaft in all ihren Facetten. Ihr Interesse an neuen Entwicklungen im Bereich der Biomedizin konnte sie in verschiedensten Projekten aus den Bereichen Mikrobiologie, Tissue Engineering, regenerative Medizin, Sprachgenetik und Onkologie ausleben."
+date = "2016-06-01T11:00:02+01:00"
+featured = "danai_dimitropoulou.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Danai Dimitropoulou"
+position = "Molecularbiologin"
+role = "scientific-associate(f)"
+title = "Danai Dimitropoulou"
+type = "person"
+category = ["people"]
+website = ""
+email = "danai.d.dimitropoulou@gmail.com"
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

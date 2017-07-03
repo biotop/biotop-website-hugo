@@ -1,0 +1,22 @@
++++
+bio = "Danai studied Molecular Biology and Genetics in Greece. She continued with her post-graduate studies in the University of Groningen, the Netherlands and unwilling to leave “bench-work”, she kept working as a researcher in various groups, including the Max Planck Institute in Nijmegen, the Netherlands and the University of Cambridge, UK. Fascinated by all fields of Science and constantly curious about breakthroughs in Biomedicine, she has been involved in research projects on microbiology, tissue engineering, regenerative medicine, language genetics and oncology. She believes Inspiration is the key to progress and teamwork is the key to Inspiration."
+date = "2016-06-01T11:00:02+01:00"
+featured = "danai_dimitropoulou.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Danai Dimitropoulou"
+position = "Molecular Biologist"
+role = "scientific-associate(f)"
+title = "Danai Dimitropoulou"
+type = "person"
+category = ["people"]
+website = ""
+email = "danai.d.dimitropoulou@gmail.com"
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

@@ -1,12 +1,12 @@
 +++
 bio = "Ralf studied architecture at TU Vienna and TU Berlin. His main interest during his studies was the interface between computational design, additive manufacturing and automated design, with a particular focus on the implementation of digital design processes in the development of architectural concepts. Currently, Ralf works as an architect in an international architecture studio, manages the translation of parametric designs, and conducts research at the interface of computer science and architecture in the course of his PhD studies. His particular research interest lies in the synthesis of natural processes with architecture."
-date = "2016-06-01T11:00:02+01:00"
+date = "2015-06-01T11:00:02+01:00"
 featured = "ralf_bliem.jpg"
 featuredalt = ""
 featuredpath = "/img/person/"
 name = "Ralf Bliem"
 position = "Architect"
-role = "scientific-associate(m)"
+role = "cofounder(m)"
 title = "Ralf Bliem"
 type = "person"
 category = ["people"]

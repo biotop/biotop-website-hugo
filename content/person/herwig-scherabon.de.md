@@ -1,0 +1,22 @@
++++
+bio = "Herwig ist ein preisgekrönter Graphikdesigner aus Österreich, der derzeit in Wien abreitet. Er studierte ursprünglich Architektur, legte aber dann eine Kehrtwende in Richtung Graphik-design ein, die ihn zur Daten-visualisierung und zum Informationsdesign brachte. Herwig arbeitet in den Bereichen Informationsdesign, redktionelle und bewegte Graphik und genießt es digital erzeugte Datensätze zu materialisieren. Er studierte Graphikdesign in Wien und Tallinn und erwarb 2016 einen Master von der Glasgow School of Art."
+date = "2016-06-01T11:00:02+01:00"
+featured = "herwig_scherabon.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Herwig Scherabon"
+position = "Graphikdesigner"
+role = "scientific-associate(m)"
+title = "Herwig Scherabon"
+type = "person"
+category = ["people"]
+website = "http://scherabon.com/"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

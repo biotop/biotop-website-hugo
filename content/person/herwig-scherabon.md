@@ -1,0 +1,22 @@
++++
+bio = "Herwig Scherabon is an award-winning graphic designer from Austria who is currently based in the Vienna. He studied architecture but made a u-turn towards graphic design. Data visualization and information design sums up Herwig's journey from architecture to graphic design. He is working across the fields of information design, editorial and motion graphics and enjoys to materialize digitally produced data sets in printed media. Herwig studied graphic design in Vienna and Tallinn and got his master degree from the Glasgow School of Art in 2016."
+date = "2016-06-01T11:00:02+01:00"
+featured = "herwig_scherabon.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Herwig Scherabon"
+position = "Graphic Designer"
+role = "scientific-associate(m)"
+title = "Herwig Scherabon"
+type = "person"
+category = ["people"]
+website = "http://scherabon.com/"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
