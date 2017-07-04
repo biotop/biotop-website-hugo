@@ -1,7 +1,7 @@
 +++
 title = "Lukas Hutter"
 type = "person"
-date = "2016-05-31T20:38:16+01:00"
+date = "2017-05-31T20:38:16+01:00"
 name = "Lukas Hutter"
 position = "Systems Biologist, Chemist & Data Scientist"
 role = "founder(m)"
