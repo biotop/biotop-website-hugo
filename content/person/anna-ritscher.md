@@ -1,5 +1,5 @@
 +++
-bio = "Anna studied chemistry at the University of Vienna. She went Berlin for her PhD and joined the Gaduate School MatSEC (Materials for Solar Energy Conversion) at the Helmholtz Zentrum Berlin, where she worked on *Kesterites* and their application in photovoltaic cells. Her interests include: solid state chemistry, material science, renewable enrgy, chrystallography, digital and analogue photography and the process of analogue film development."
+bio = "Anna studied chemistry at the University of Vienna. She went to Berlin for her PhD and joined the Gaduate School MatSEC (Materials for Solar Energy Conversion) at the Helmholtz Zentrum Berlin, where she worked on *Kesterites* and their application in photovoltaic cells. Her interests include: solid state chemistry, material science, renewable energy, crystallography, digital and analogue photography and the process of analogue film development."
 date = "2016-06-01T11:00:02+01:00"
 featured = "anna-ritscher.jpg"
 featuredalt = ""

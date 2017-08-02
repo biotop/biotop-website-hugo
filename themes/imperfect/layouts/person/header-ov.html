@@ -9,7 +9,7 @@
           <li>
             <div class="collapsible-header">
               <a href="{{ .Permalink }}">
-                <h2 style="margin:0px;">{{ .Params.name}}</h2>
+                <h2 style="margin:0px;">{{ $name }}</h2>
                 <h3>{{ .Params.position }}</h3>
                 <h4>{{ i18n .Params.role }}</h4>
               </a>
@@ -118,12 +118,6 @@
               </p>
             </div>
           </li>
-        </ul>
-      </div>
-    </div>
-</header>
-<div>
-  <ul class="collapsible" data-collapsible="expandable">
     <li>
       <div class="collapsible-header">
         <i class="fa fa-flask"></i>
@@ -131,29 +125,26 @@
       </div>
       <div class="collapsible-body">
         <ul>
-          {{ $.Scratch.Set "noprojects" true }}
-          {{ range $i, $project := $.Site.Sections.project }}
-            {{ if in $project.Page.Params.collaborators $name }}
-              {{ $.Scratch.Set "noprojects" false }}
-              <li>
-                <div class="listitem">
-                  <a href="{{ $project.Page.URL }}">
-                    <h6 class="date">
-                      {{ dateFormat "2006" $project.Page.Date }}
-                    </h6>
-                    <h6 class="author">
-                      {{ delimit $project.Page.Params.collaborators ", " }}
-                    </h6>
-                    <h5 class="listtitle">
-                      {{ $project.Page.Title }}
-                    </h5>
-                  </a>
-                </div>
-              </li>
-            {{ end }}
+          {{ range $collaborator, $projects := $.Site.Taxonomies.collaborators }}
+          {{ if eq $collaborator $name }}
+          {{ range $i, $project := $projects }}
+          <li>
+            <div class="listitem">
+              <a href="{{ $project.Page.URL }}">
+                <h6 class="date">
+                  {{ dateFormat "2006" $project.Page.Date }}
+                </h6>
+                <h6 class="author">
+                  {{ delimit $project.Page.Params.collaborators ", " }}
+                </h6>
+                <h5 class="listtitle">
+                  {{ $project.Page.Title }}
+                </h5>
+              </a>
+            </div>
+          </li>
           {{ end }}
-          {{ if eq ($.Scratch.Get "noprojects") true }}
-            <h5> {{ i18n "name_unfortunatelynoprojects" .Params }}</h5>
+          {{ end }}
           {{ end }}
         </ul>
       </div>
@@ -165,29 +156,26 @@
       </div>
       <div class="collapsible-body">
         <ul>
-          {{ $.Scratch.Set "noevents" true}}
-          {{ range $i, $event := $.Site.Sections.event }}
-            {{ if in $event.Page.Params.participants $name }}
-              {{ $.Scratch.Set "noevents" false }}
-              <li>
-                <div class="listitem">
-                  <a href="{{ $event.Page.URL }}">
-                    <h6 class="date">
-                      {{ dateFormat "2.1.2006" $event.Page.Date }}
-                    </h6>
-                    <h6 class="author">
-                      {{ delimit $event.Page.Params.participants ", " }}
-                    </h6>
-                    <h5 class="listtitle">
-                      {{ $event.Page.Title }}
-                    </h5>
-                  </a>
-                </div>
-              </li>
-            {{ end }}
+          {{ range $participant, $events := $.Site.Taxonomies.participants }}
+          {{ if eq $participant $name }}
+          {{ range $i, $event := $events }}
+          <li>
+            <div class="listitem">
+              <a href="{{ $event.Page.URL }}">
+                <h6 class="date">
+                  {{ dateFormat "2.1.2006" $event.Page.Date }}
+                </h6>
+                <h6 class="author">
+                  {{ delimit $event.Page.Params.participants ", " }}
+                </h6>
+                <h5 class="listtitle">
+                  {{ $event.Page.Title }}
+                </h5>
+              </a>
+            </div>
+          </li>
           {{ end }}
-          {{ if eq ($.Scratch.Get "noevents") true }}
-            <h5> {{ i18n "name_unfortunatelynoevents" .Params }}</h5>
+          {{ end }}
           {{ end }}
         </ul>
       </div>
@@ -201,27 +189,27 @@
         <ul>
           {{ $.Scratch.Set "nopublication" true }}
           {{ with $pubid := .Params.publications }}
-            {{ range $publication := (index $.Site.Data.publications $pubid) }}
-              {{ $.Scratch.Set "nopublication" false }}
-              <li>
-                <div class="listitem">
-                  <a href="{{ $publication.url }}">
-                    <h6 class="date">
-                      {{ $publication.year }}, {{ $publication.journal}}
-                    </h6>
-                    <h5 class="listtitle">
-                      {{ $publication.title }}
-                    </h5>
-                    <h6 class="author">
-                      {{ $publication.author }}
-                    </h6>
-                  </a>
-                </div>
-              </li>
-            {{ end }}
+          {{ range $publication := (index $.Site.Data.publications $pubid) }}
+          {{ $.Scratch.Set "nopublication" false }}
+          <li>
+            <div class="listitem">
+              <a href="{{ $publication.url }}">
+                <h6 class="date">
+                  {{ $publication.year }}, {{ $publication.journal}}
+                </h6>
+                <h5 class="listtitle">
+                  {{ $publication.title }}
+                </h5>
+                <h6 class="author">
+                  {{ $publication.author }}
+                </h6>
+              </a>
+            </div>
+          </li>
+          {{ end }}
           {{ end }}
           {{ if eq ($.Scratch.Get "nopublication") true }}
-            <h5> {{ i18n "name_unfortunatelynopublications" .Params }}</h5>
+          <h5> {{ i18n "name_unfortunatelynopublications" .Params }}</h5>
           {{ end }}
         </ul>
       </div>
@@ -233,33 +221,29 @@
       </div>
       <div class="collapsible-body">
         <ul>
-          {{ $.Scratch.Set "noblogposts" true}}
-          {{ range $i, $post := $.Site.Sections.blog }}
-            {{ if in $post.Page.Params.authors $name }}
-              {{ $.Scratch.Set "noblogposts" false}}
-              <li>
-                <div class="listitem">
-                  <a href="{{ $post.Page.URL }}">
-                    <h6 class="date">
-                      {{ dateFormat "2.1.2006" $post.Page.Date }}
-                    </h6>
-                    <h5 class="listtitle">
-                      {{ $post.Page.Title }}
-                    </h5>
-                    <h6 class="author">
-                      {{ delimit $post.Page.Params.authors ", " }}
-                    </h6>
-                  </a>
-                </div>
-
-              </li>
-            {{ end }}
+          {{ range $author, $posts := $.Site.Taxonomies.authors }}
+          {{ if eq $author $name }}
+          {{ range $i, $post := $posts }}
+          <li>
+            <div class="listitem">
+              <a href="{{ $post.Page.URL }}">
+                <h6 class="date">
+                  {{ dateFormat "2.1.2006" $post.Page.Date }}
+                </h6>
+                <h5 class="listtitle">
+                  {{ $post.Page.Title }}
+                </h5>
+                <h6 class="author">
+                  {{ delimit $post.Page.Params.authors ", " }}
+                </h6>
+              </a>
+            </div>
+          </li>
           {{ end }}
-          {{ if eq ($.Scratch.Get "noblogposts") true }}
-            <h5> {{ i18n "name_unfortunatelynoblogposts" .Params }}</h5>
+          {{ end }}
           {{ end }}
         </ul>
       </div>
     </li>
   </ul>
-</div>
+</header>

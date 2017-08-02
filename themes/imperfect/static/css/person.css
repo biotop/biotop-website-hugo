@@ -16,7 +16,8 @@
 			margin: -3em 0 -3em 0;
 			position: relative;
 			width: calc(100% + 6em);
-      min-height: 25em;
+			/*height: 35em;*/
+			min-height: 25em;
 		}
 
 			.person > header .title {

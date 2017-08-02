@@ -1,5 +1,5 @@
 +++
-bio = "Anna studied architecture in Graz (AT) and Valencia (ES). After studying she worked as an university assistant at the Institut for Architecture and Landscape, TU Graz. She was researching on future hybrid systems combining architecture, sustainable technologies, natural processes and social pratices. Currently, she is working self-employed focussing on vacant premises and their activation through temporary use. Her work interests included: vacancy management, participative processes, hands-on urbanism, social innovation and active citizenship."
+bio = "Anna studied architecture in Graz (AT) and Valencia (ES). After studying she worked as a university assistant at the Institut for Architecture and Landscape, TU Graz. She was researching future hybrid systems combining architecture, sustainable technologies, natural processes and social practices. Currently, she is self-employed focussing on vacant premises and their activation through temporary use. Her work interests included: vacancy management, participative processes, hands-on urbanism, social innovation and active citizenship."
 date = "2016-06-01T11:00:02+01:00"
 featured = "anna_resch.jpg"
 featuredalt = ""

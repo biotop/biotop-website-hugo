@@ -160,6 +160,15 @@
         </section>
         {{ end }}
 
+      <section class="blurb">
+        <h3><a href="{{ .LanguagePrefix}}/gratitude/"><i class = "fa fa-heart"></i> {{ i18n "gratitude" }}</a></h3>
+
+        <h3><a href="{{ .LanguagePrefix}}/imprint/"><i class = "fa fa-asterisk"></i> {{ i18n "imprint" }}</a></h3>
+
+        <h3><a href="http://meta.biotop.co"><i class ="fa fa-comments-o"></i> Forum</a></h3>
+
+      </section>
+
     <!-- Footer -->
         <section id="footer">
             <ul class="icons">
@@ -171,6 +180,7 @@
                     {{ partial "social" . }}
                 {{ end }}
             </ul>
+
 
             <p class="copyright">&copy; {{ .Site.Title }}. Design: Built by biotop. Based on <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
         </section>

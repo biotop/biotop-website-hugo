@@ -1,8 +1,9 @@
 <!-- Sidebar -->
 <section id="sidebar">
+  {{ $languageprefix := .LanguagePrefix }}
 
     <!-- Intro -->
-        <section id="intro" background="#fff">
+        <section id="intro">
             {{ $pic := .Site.Params.intro.pic }}
             {{ with $pic.src }}
                 {{ if $pic.circle }}
@@ -17,23 +18,91 @@
                 <h2>{{ i18n "header" }}</h2>
                 <p>{{ i18n "subtitle" | safeHTML }}</p>
             </header>
+
+
+            <ul class="posts">
+
+                {{ if .Site.Params.orderByPublishDate }}
+                    {{ $.Scratch.Set "recentPosts" .Site.Pages.ByPublishDate.Reverse }}
+                {{ else }}
+                    {{ $.Scratch.Set "recentPosts" .Site.Pages }}
+                {{ end }}
+
+                {{ with .Site.Params.postAmount.sidebar }}
+                    {{ $.Scratch.Set "postLimit" . }}
+                {{ else }}
+                    {{ $.Scratch.Set "postLimit" 1 }}
+                {{ end }}
+                {{ $.Scratch.Set "postLimit" 1 }}
+                {{ range first ($.Scratch.Get "postLimit") (where ($.Scratch.Get "recentPosts") "Type" "blog") }}
+                    <li>
+                        <header>
+                            <h4>{{ i18n "recentposts" }}</h4>
+                        </header>
+                        <article>
+                            <header>
+                                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                                {{ if .Site.Params.orderByPublishDate }}
+                                    {{ $.Scratch.Set "dateType" .PublishDate }}
+                                {{ else }}
+                                    {{ $.Scratch.Set "dateType" .Date }}
+                                {{ end }}
+                                <time class="published" datetime=
+                                    '{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                                    {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}</time>
+                            </header>
+                        </article>
+                    </li>
+                {{ end }}
+
+                {{ if ge (len (where .Site.Pages "Type" "post")) ($.Scratch.Get "postLimit") }}
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            {{ with .Site.Params.viewMorePostLink }}
+                                {{ . }}
+                            {{ else }}
+                                "/post/"
+                            {{ end }}
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                {{ end }}
+            </ul>
+            <h5><a href="{{ .LanguagePrefix}}/gratitude/"><i class = "fa fa-heart"></i> {{ i18n "gratitude" }}</a></h5>
+
+            <h5><a href="{{ .LanguagePrefix}}/imprint/"><i class = "fa fa-asterisk"></i> {{ i18n "imprint" }}</a></h5>
+
+            <h5><a href="http://meta.biotop.co"><i class ="fa fa-comments-o"></i> Forum</a></h5>
+        </section>
+
+    <!-- About -->
+        {{ with .Site.Params.intro.about }}
+        <section class="blurb">
+            <h2>About</h2>
+            <p>{{ . }}</p>
+
+            <ul class="actions">
+                <li><a href="{{.LanguagePrefix }}/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        {{ end }}
+
+
+    <!-- Footer -->
+        <section id="footer">
             <ul class="icons">
                 {{ if .RSSLink }}
                     <li><a href="{{ .RSSLink }}" type="application/rss+xml"
                         target="_blank" title="RSS" class="fa fa-rss"></a></li>
                 {{ end }}
-                {{ if .Site.Params.socialAppearAtTop }}
+                {{ if .Site.Params.socialAppearAtBottom }}
                     {{ partial "social" . }}
                 {{ end }}
             </ul>
-            <p>{{ i18n "blob" }}</p>
-            <ul class="actions">
-                <li><a href="{{.LanguagePrefix }}/about/" class="button">{{ i18n "learnmore" }}</a></li>
-                <!-- <li><a href="/about/" class="button">Learn More About This Visualisation</a></li> -->
-            </ul>
+
+
+            <p class="copyright">&copy; {{ .Site.Title }}. Design: Built by biotop. Based on <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
         </section>
-
-    <!-- About -->
-
 
 </section>

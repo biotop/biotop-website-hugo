@@ -125,11 +125,6 @@ place = "places" # event
     identifier = "fa fa-newspaper-o"
     weight = 6
 
-[[languages.en.menu.main]]
-    name = "Forum"
-    url = "http://meta.biotop.co"
-    identifier = "fa fa-comments-o"
-    weight = 7
 
 [[languages.en.menu.main]]
     name = "Participate"
@@ -137,11 +132,6 @@ place = "places" # event
     identifier = "fa fa-bolt"
     weight = 8
 
-[[languages.en.menu.main]]
-    name = "Thank you!"
-    url = "/en/gratitude"
-    identifier = "fa fa-heart"
-    weight = 9
 
 [languages.de]
   weight= 20
@@ -191,23 +181,10 @@ place = "places" # event
     weight = 6
 
 [[languages.de.menu.main]]
-    name = "Forum"
-    url = "http://meta.biotop.co"
-    identifier = "fa fa-comments-o"
-    weight = 7
-
-[[languages.de.menu.main]]
     name = "Mitmachen"
     url = "/de/participate"
     identifier = "fa fa-bolt"
     weight = 8
-
-
-[[languages.de.menu.main]]
-    name = "Danke!"
-    url = "/de/gratitude"
-    identifier = "fa fa-heart"
-    weight = 9
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the languages.en.params area

@@ -6,28 +6,19 @@ description ="Without the support of these people, biotop* would not exist<br>[c
 references = ""
 +++
 <center class="uppercase">
-## Concept Development
-Anna Köferle <br>
-Niko Popitsch <br>
-Korab Qerkini <br>
-Kilian Rieder <br>
-Georg Fattinger <br>
-Anna Resch <br>
-Simon Zingerle <br>
-Sebastian Vazques-Lopez <br>
-Ha Thi Hoang <br>
-Maja Sticker <br>
-Stefan Stricker <br>
-Ylli Qerkini <br>
-Alex Zojer <br>
-Fabian Lackner <br>
-Jakob Haas <br>
-Birgit Ungerböck <br>
-Josef Ehgartner
-
----------------------------
 
 ## Sponsors
+
+Concept development is generously supported by the city of Villach.
+
+{{< figure src="/img/logos/villach.png">}}
+
+The first meeting in July was generously supported by
+
+[Il Gusto](http://il-gusto.info) - Italian Deli / Rosegg</br>
+[Weingut Machherndl](http://www.machherndl.com) - Winery / Wachau AT
+
+---------------------------
 
 We're currently actively looking for sponsors.
 

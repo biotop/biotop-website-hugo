@@ -1,0 +1,62 @@
+{{ partial "general-title" . }}
+
+{{ partial "header" . }}
+<!-- Wrapper -->
+<div id="wrapper">
+    {{ partial "navbar" . }}
+    <!-- Main -->
+    <div id="main">
+      <article class="post">
+        <header class="topheader">
+            {{ $languageprefix := .LanguagePrefix }}
+            <div class="title">
+              <h1>
+                <i class="fa fa-calendar"></i>
+                <a href="{{ $languageprefix}}/event">Events </a>
+                / {{ i18n "location" }}: {{ .Title }}
+              </h1>
+              <h4>{{ i18n "participants" }}</h4>
+              <p>
+                {{ if .Site.Params.categoriesByCount }}
+                  {{ $.Scratch.Set "participant" .Site.Taxonomies.participants.ByCount }}
+                {{ else }}
+                  {{ $.Scratch.Set "participant" .Site.Taxonomies.participants.Alphabetical }}
+                {{ end }}
+                {{ $.Scratch.Set "firstitem" true }}
+                {{ range $key, $value := $.Scratch.Get "participant" }}
+                  {{ if eq ($.Scratch.Get "firstitem") false }}
+                    <span> / </span>
+                  {{ end }}
+                  <a href="{{ $languageprefix }}/participants/{{ $value.Name | urlize }}/">{{ $value.Name }} ({{ $value.Count }})</a>
+                  {{ $.Scratch.Set "firstitem" false }}
+                {{ end }}
+              </p>
+              <h4>{{ i18n "category" }}</h4>
+              <p>
+                {{ if .Site.Params.categoriesByCount }}
+                  {{ $.Scratch.Set "categories" .Site.Taxonomies.eventcategories.ByCount }}
+                {{ else }}
+                  {{ $.Scratch.Set "categories" .Site.Taxonomies.eventcategories.Alphabetical }}
+                {{ end }}
+                {{ $.Scratch.Set "firstitem" true }}
+                {{ range $key, $value := $.Scratch.Get "categories" }}
+                  {{ if eq ($.Scratch.Get "firstitem") false }}
+                    <span> / </span>
+                  {{ end }}
+                  <a href="{{ $languageprefix }}/eventcategories/{{ $value.Name | urlize }}/">{{ $value.Name }} ({{ $value.Count }})</a>
+                  {{ $.Scratch.Set "firstitem" false }}
+                {{ end }}
+              </p>
+            </div>
+        </header>
+      </article>
+        <!-- <h1>{{ i18n "categories" }}</h1> -->
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "event") }}
+        {{ range $paginator.Pages }}
+            {{ .Render "content-list" }}
+        {{ end }}
+
+        {{ partial "pagination" . }}
+    </div>
+    {{ partial "sidebar" . }}
+{{ partial "footer" . }}

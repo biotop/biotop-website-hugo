@@ -4,6 +4,21 @@
 - id: subtitle
   translation: "Science Collective"
 
+- id: gratitude
+  translation: "Gratitude"
+
+- id: imprint
+  translation: "Imprint"
+
+- id: participant
+  translation: "Participant"
+
+- id: location
+  translation: "Location"
+
+- id: locations
+  translation: "Locations"
+
 - id: blob
   translation: "Biotop is an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
 

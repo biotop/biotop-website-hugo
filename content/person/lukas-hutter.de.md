@@ -20,6 +20,6 @@ facebook = ""
 instagram =""
 slideshare = ""
 xing = ""
-linkedin = ""
+linkedin = "https://www.linkedin.com/in/lukas-hutter-4a8129146/"
 publications = "lukas-hutter"
 +++

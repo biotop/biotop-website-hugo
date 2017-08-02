@@ -9,6 +9,9 @@
         {{ with .Params.places }}
             <p>{{ delimit . ", "}}</p>
         {{ end }}
+        {{ with .Description }}
+            <p>{{ . }}</p>
+        {{ end }}
     </div>
     <div class="meta">
         {{ if .Site.Params.orderByPublishDate }}
@@ -20,7 +23,7 @@
         <time class="published"
             datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
             {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}</time>
-        <span class="author">{{ delimit .Params.participants  ", " }}</span>
+        <span class="author">{{ delimit .Params.participants  "</br>" }}</span>
         <!--<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>-->
     </div>
 </header>

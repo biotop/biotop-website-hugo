@@ -4,6 +4,21 @@
 - id: subtitle
   translation: "Wissenschaftskollektiv"
 
+- id: gratitude
+  translation: "Dankbarkeit"
+
+- id: imprint
+  translation: "Impressum"
+
+- id: participant
+  translation: "Teilnehmer"
+
+- id: location
+  translation: "Ort"
+
+- id: locations
+  translation: "Orte"
+
 - id: blob
   translation: "Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, disziplinenübergreifenden und kollaborativen Erforschung, Umsetzung und Vermittlung wissenschaftlicher Ideen verschreibt. Es ist der Versuch, im Sinne eines Experimentes, die Art und Weise wie wir Wissenschaft betreiben neu zu erfinden."
 
