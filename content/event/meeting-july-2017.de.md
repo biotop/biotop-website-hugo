@@ -11,7 +11,7 @@ linktitle = ""
 title = "Biotop Meeting"
 type = "event"
 +++
-Nun fand es also statt: das allererste Biotop-Treffen ging vergangenes Wochenende in Villach über die Bühne. Rund 20 Leute, die vorab Interesse bekundeten Teil der Biotop-Familie zu werden, aber welche (abgesehen von einigen wenigen Ausnahmen) vorher noch nicht persönlich getroffen hatten, kamen nach Villach um neue Freundschaften zu schließen, und den Grundstein für die Zusammenarbeit an gemeinsamen Projekten zu legen.
+Nun fand es also statt: das allererste Biotop-Treffen ging vergangenes Wochenende in Villach über die Bühne. Rund 20 Leute, die vorab Interesse bekundet hatten Teil der Biotop-Familie werden zu wollen, aber welche (abgesehen von einigen wenigen Ausnahmen) vorher noch nicht persönlich getroffen hatten, kamen nach Villach um neue Freundschaften zu schließen, und den Grundstein für die Zusammenarbeit an gemeinsamen Projekten zu legen.
 
 {{< figure src="/img/blog/meeting-july-2017/friday1.jpg">}}
 
