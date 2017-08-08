@@ -1,0 +1,22 @@
++++
+bio = "Jacob is a computer scientist by training that has transitioned into bioinformatics, population genetics, and finally, statistical genomics. He started working in malaria genetics at the Sanger Institute (Cambridge) and followed this line of research by completing a Ph.D. in statistical genomics at University of Oxford. He works now at the Big Data Institute (Oxford), focusing on the evolution of drug resistance in malaria parasites. His broad research interests include genomics, personalized medicine, statistics, machine learning, artificial intelligence, complexity, networks and intelligent systems. He’s also very keen on applying quantitative methods to open data in order to address social problems."
+date = "2016-06-01T11:00:02+01:00"
+featured = "jacob_almagro.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Jacob Almagro-Garcia"
+position = "Bioinformatician"
+role = "scientific-associate(m)"
+title = "Jacob Almagro-Garcia"
+type = "person"
+category = ["people"]
+website = ""
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

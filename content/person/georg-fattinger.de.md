@@ -1,7 +1,7 @@
 +++
 bio = "Georg studierte Philosophie in Graz und Wien. Während er seine Studien vernachlässigte, wurde das Konfigurieren von Linux und Unix Systemen eine seiner größten Obsessionen. Derzeit arbeitet er an seiner Masterarbeit in der er die Beziehung zwischen Wahrscheinlichkeitstheorie und Logik untersucht. Seine Forschungsinteressen beinhalten: Philosophie komplexer Systeme, Kognitionswissenschaften, Statistik und Wahrscheinlichkeitslehre."
 date = "2016-06-01T10:59:11+01:00"
-featured = "hell.png"
+featured = "georg_fattinger.jpg"
 featuredalt = ""
 featuredpath = "/img/person/"
 name = "Georg Fattinger"

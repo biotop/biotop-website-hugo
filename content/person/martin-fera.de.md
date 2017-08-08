@@ -1,0 +1,22 @@
++++
+bio = "Martin studierte prähistorische und historische Archäologie an der Universität Wien, und spezialisierte sich an der Universität Ljubljana auf die Untersuchung vergangener Landschaften mittels Luft- und Satellitenbildern und Laserscans. Im Rahmen seiner Doktorarbeit am Initiative College for Archaeological Prospection in Wien untersucht er die Struktur un Dynamik ostösterreichischer Siedlungen aus dem ersten Jahrtausend v.Chr. mittels räumlicher Analyse und Geoinformationssystemen. An der LMU in München arbeitete er als stellvertretender Felddirektor eines archäologischen Projekts auf der Insel Sai im Sudan. Im Rahmen dieses Projektes setzte er modernste Technologie für Aurgabungen, Dokumentation und Datenanalyse ein, um eine pharaonische Siedlung mit Friedhof in der Landschaft in Nubien zu untersuchen. Sein Mitwirken an vielen internationalen Forschunsprojekten in Österreich, Italien, Kroatien, Norwegen, Deutschland etc. und der interdisziplinäre Charakter archäologischer Forschung befeuern sein Interesse für neue Methoden, Technologien und Entwicklung in anderen Wissenschaftsdiziplinen."
+date = "2016-06-01T11:00:02+01:00"
+featured = "martin-fera.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Martin Fera"
+position = "Archäologe"
+role = "scientific-associate(m)"
+title = "Martin Fera"
+type = "person"
+category = ["people"]
+website = "https://univie.academia.edu/MartinFera"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++

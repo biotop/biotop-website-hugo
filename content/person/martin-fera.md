@@ -1,0 +1,22 @@
++++
+bio = "Martin studied Prehistoric and Historic Archaeology at the University of Vienna. He went into additional specialisation in Remote Sensing for Past Landscapes at the University of Ljubljana, utilising aerial and satellite imagery and laserscans. In his doctoral studies at the Initiative College for Archaeological Prospection in Vienna he investigates settlement structures and dynamics in the first Millenium BC in Estern Austria, applying spatial analysis in a geographic information system. At the LMU Munich he was engaged as a deputy field director at the archaeological project on Sai Island in Sudan, applying cutting edge technology for excavating, documenting and analysing a pharaonic town and cemetery within its landscape in Nubia. His involvement in many international research projects in Austria, Italy, Croatia, Norway, Germany etc. and the interdisiplinary nature of archaeological research fire his interest for new methods, technologies and developments in other disciplines."
+date = "2016-06-01T11:00:02+01:00"
+featured = "martin-fera.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Martin Fera"
+position = "Archaeologist"
+role = "scientific-associate(m)"
+title = "Martin Fera"
+type = "person"
+category = ["people"]
+website = "https://univie.academia.edu/MartinFera"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
