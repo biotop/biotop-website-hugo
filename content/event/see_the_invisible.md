@@ -1,6 +1,6 @@
 +++
 draft = "false"
-participants = ["Lukas Hutter", "Anna Köferle", "Andreas Körner", "Ralf Bliem", "Anna Ritscher", "Anna Wächter-Mittersteiner", "Herwig Scherabon", "Wolfgang Schütz", "Martin Fera", "Ursula Smole", "Alexander Erlich", "Mariangela Panniello", "Roberto Maffulli"]
+participants = ["Lukas Hutter", "Anna Köferle", "Andreas Körner", "Ralf Bliem", "Anna Ritscher", "Anna Wächter-Mittersteiner", "Martin Schnabl", "Michael Tatschl", "Herwig Scherabon", "Wolfgang Schütz", "Martin Fera", "Ursula Smole", "Alexander Erlich", "Mariangela Panniello", "Roberto Maffulli"]
 eventcategories = ["Exhibition"]
 places = ["Oberer Kirchenplatz 4, Villach, Austria"]
 publishdate = "2017-12-20"

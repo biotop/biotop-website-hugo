@@ -1,5 +1,5 @@
 +++
-participants = ["Lukas Hutter", "Anna Köferle", "Andreas Körner", "Kilian Rieder", "Ha Thi Hoang", "Christine Marizzi", "Ralf Bliem", "Anna Ritscher", "Anna Resch", "Anna Wächter-Mittersteiner", "Birgit Ungerböck", "Josef Ehgartner", "Herwig Scherabon", "Wolfgang Schütz", "Martin Fera", "Ursula Smole", "Korab Qerkini", "Ylli Qerkini", "Martin Dueller"]
+participants = ["Lukas Hutter", "Anna Köferle", "Andreas Körner", "Kilian Rieder", "Ha Thi Hoang", "Christine Marizzi", "Ralf Bliem", "Anna Ritscher", "Anna Resch", "Anna Wächter-Mittersteiner", "Birgit Ungerböck", "Josef Ehgartner", "Herwig Scherabon", "Wolfgang Schütz", "Martin Fera", "Martin Schnabl", "Ursula Smole", "Korab Qerkini", "Ylli Qerkini", "Martin Dueller"]
 eventcategories = ["Meeting", "Past"]
 places = ["CoQuartier Villach"]
 date = "2017-07-28"

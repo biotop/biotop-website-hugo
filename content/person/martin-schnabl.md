@@ -1,0 +1,22 @@
++++
+bio = "Martin is part of the design collective [breadedescalope](http://www.breadedescalope.com/)"
+date = "2016-06-01T11:00:02+01:00"
+featured = "martin-schnabl.jpg"
+featuredalt = ""
+featuredpath = "/img/person/"
+name = "Martin Schnabl"
+position = "Designer"
+role = "scientific-associate(m)"
+title = "Martin Schnabl"
+type = "person"
+category = ["people"]
+website = "http://www.breadedescalope.com/"
+email = ""
+github = ""
+twitter = ""
+facebook = ""
+instagram =""
+slideshare = ""
+xing = ""
+linkedin = ""
++++
