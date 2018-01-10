@@ -1,5 +1,5 @@
 +++
-bio = " "
+bio = "Wolfgang Schütz studied media design at the University of Applied Science in Salzburg. He is an illustrator and game developer, and has a passion for history, psychology, society, culture, astronomy, dinosaurs, and fictional media."
 date = "2016-06-01T11:00:02+01:00"
 featured = "wolfi-schuetz.jpg"
 featuredalt = ""
