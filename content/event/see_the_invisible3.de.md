@@ -6,7 +6,7 @@ publishdate = "2018-01-25"
 publish = true
 date = "2018-01-26"
 description = "Ausstellung verlängert"
-featured = "extension-seetheinvisible.jpg"
+featured = "extension-seetheinvisible.png"
 featuredalt = ""
 featuredpath = "/img/event"
 linktitle = ""
@@ -20,14 +20,14 @@ Wir freuen uns auf Euer Kommen!
 
 Öffnungszeiten:
 
-Fr, 26.01.2018 - 17:00-20:00
-Sa, 27.01.2018 - 17:00-20:00
-Mo, 29.01.2018 - 17:00-20:00
-Di, 30.01.2018 - 17:00-20:00
-Mi, 31.01.2018 - 17:00-20:00
-Di, 01.02.2018 - 17:00-20:00
-Fr, 02.02.2018 - 17:00-20:00
-Sa, 03.01.2018 - 17:00-20:00 **Finissage**
+- Fr, 26.01.2018 - 17:00-20:00
+- Sa, 27.01.2018 - 17:00-20:00
+- Mo, 29.01.2018 - 17:00-20:00
+- Di, 30.01.2018 - 17:00-20:00
+- Mi, 31.01.2018 - 17:00-20:00
+- Di, 01.02.2018 - 17:00-20:00
+- Fr, 02.02.2018 - 17:00-20:00
+- Sa, 03.01.2018 - 17:00-20:00 **Finissage**
 
 
 

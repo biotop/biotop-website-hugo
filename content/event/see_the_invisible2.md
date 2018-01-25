@@ -10,7 +10,7 @@ featured = "opening_hours1.png"
 featuredalt = ""
 featuredpath = "/img/blog/see-the-invisible"
 linktitle = ""
-title = "See the Invisible"
+title = "See the Invisible II"
 type = "event"
 +++
 
