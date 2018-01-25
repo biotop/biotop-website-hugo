@@ -15,7 +15,7 @@ type = "event"
 draft = false
 +++
 
-Nachdem unsere Ausstellung seit mittlerweile etwas einem Monat mehr als 400 BesucherInnen begeistern konnte, Freuen wir uns nun, dass wir unsere Ausstellung "(Un)sichtbares" verlängern können! Wir werden ab kommendem Freitag (26.01.2018) für 8 weitere Abende geöffnet haben. Die Finissage findet am Samstag, den 03.02.2018 statt.
+Nachdem unsere Ausstellung seit mittlerweile etwas einem Monat mehr als 400 BesucherInnen begeistern konnte, freuen wir uns nun, dass wir unsere Ausstellung "(Un)sichtbares" verlängern können! Wir werden ab kommendem Freitag (26.01.2018) für 8 weitere Abende geöffnet haben. Die Finissage findet am Samstag, den 03.02.2018 statt.
 
 Wir freuen uns auf Euer Kommen!
 
