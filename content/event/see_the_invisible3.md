@@ -10,7 +10,7 @@ featured = "extension-seetheinvisible.png"
 featuredalt = ""
 featuredpath = "/img/event"
 linktitle = ""
-title = "See the Invisible III - Extened"
+title = "See the Invisible III - Extended"
 type = "event"
 +++
 
