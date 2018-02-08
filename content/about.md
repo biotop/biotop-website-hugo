@@ -31,12 +31,12 @@ In light of increasing specialisation, the lack of interdisciplinarity and failu
 ## How?
 
 As group of early career scientsts, biotop is our attempt at taking our future in Science - and in part the future of Science - into our own hands.
-The idea of establishing a reaserch network as an ecosystem that fosters a research culture that truly desrves this name forms the basis for our attempt.
+The idea of establishing a research network as an ecosystem that fosters a research culture that truly deserves this name forms the basis for our attempt.
 
 ### Guiding principles
 We believe that this cornerstone is only achieveable through an integrative approach, guided by the principles of **interdisciplinary, collaborative basic reasearch** ({{<citeID "Brown2015">}}, {{<citeID "Eddy2005">}}), as well as the scientific sibling of the open source movement, **open science**.
 
-To this end, it is pivotal to create an organisational culture that forsters transdisciplinary collaboration in small teams on an institutional level. In addition, science communication and collaboration with artists shall become cornerstones of the day-to-day work. We aim to actively engage the public in our reserach process in the context of **citizen science** projects ({{<citeID "noauthor2015">}}, {{<citeID "Bonney2014">}}), and to provide the public with emancipatory tools such as **data visualisation platforms** to facilitate and encourage access to complex problems.
+To this end, it is pivotal to create an organisational culture that fosters transdisciplinary collaboration in small teams on an institutional level. In addition, science communication and collaboration with artists shall become cornerstones of the day-to-day work. We aim to actively engage the public in our reserach process in the context of **citizen science** projects ({{<citeID "noauthor2015">}}, {{<citeID "Bonney2014">}}), and to provide the public with emancipatory tools such as **data visualisation platforms** to facilitate and encourage access to complex problems.
 
 Another component of our idea of designing our organisational culture from the ground with the public in mind, is to form **innovation partnerships** where we accompany members of the public, who have identified a particular problem in their daily life, and provide them with tools, scientific expertise and design competence, to collaboratively work on solutions.
 
