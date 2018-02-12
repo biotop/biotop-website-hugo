@@ -41,7 +41,7 @@ To this end, it is pivotal to create an organisational culture that fosters tran
 Another component of our idea of designing our organisational culture from the ground with the public in mind, is to form **innovation partnerships** where we accompany members of the public, who have identified a particular problem in their daily life, and provide them with tools, scientific expertise and design competence, to collaboratively work on solutions.
 
 ### Research Areas
-Our research will focus on problems that arise at the interface between **biology, chemistry, physics, computer science** and **applied mathematics**, such as research questions concerned with computational genomics, regulation in biological systems, or the development of self-organising materials,  as well as the investgation of compex systems in the context of biology, neuroscience and economics.
+Our research will focus on problems that arise at the interface between **biology, chemistry, physics, computer science** and **applied mathematics**, such as research questions concerned with computational genomics, regulation in biological systems, or the development of self-organising materials,  as well as the investgation of complex systems in the context of biology, neuroscience and economics.
 
 Moreover, the principle of open science demands that we actively engage in problems of **scientific publishing** and the **development of open source laboratory hardware platforms**.
 
