@@ -7,12 +7,12 @@ featured = "0-mockup.png"
 featuredalt = ""
 featuredpath = "/img/blog/see-the-invisible-behind-the-scenes"
 linktitle = ""
-title = "See the invisible - A peak behind the scenes"
+title = "See the invisible - A peek behind the scenes"
 type = "blog"
 
 +++
 
-Here we would like to give you a peak behind the scenes of how we put together our exhibition "See the invisible". We came up with the concept and gathered together the individual contributions during our November meeting ([read about it in this blog post](http://biotop.co/en/blog/meeting-november-2017/)).
+Here we would like to give you a peek behind the scenes of how we put together our exhibition "See the invisible". We came up with the concept and gathered together the individual contributions during our November meeting ([read about it in this blog post](http://biotop.co/en/blog/meeting-november-2017/)).
 
 Given that we all live in separate places, we had to find a good way of orangising and coordinating tasks remotely. We decided to use the project planning app "Trello" for this purpose and created an *in silico* plan for our exhibition. Ralf drew up a floor plan and experimented with different ways of arranging the exhibits.
 
