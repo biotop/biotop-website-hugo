@@ -51,6 +51,6 @@ In the evening of the 21st, people arrived for a short talk and tour around the 
 {{< figure src="/img/blog/open_cell/10_flyer.png">}}
 {{< figure src="/img/blog/open_cell/11_tour.png">}}
 {{< figure src="/img/blog/open_cell/13_lab.png">}}
-{{< figure src="/img/blog/open_cell/10_break.png">}
+{{< figure src="/img/blog/open_cell/10_break.png">}}
 
 Photos: Ralf Bliem, Anna Ritscher, Lukas Hutter, Anna Köferle, Andreas Körner
