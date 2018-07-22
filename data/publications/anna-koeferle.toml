@@ -1,3 +1,12 @@
+[Breunig2018]
+  type      = "article"
+  title     = "One step generation of customizable gRNA vectors for multiplex CRISPR approaches through string assembly gRNA cloning (STAgR)"
+  author    = "Christopher T. Breunig, Tamara Durovic, Andrea M. Neuner, Valentin Baumann, Maximilian F. Wiesbeck, Anna Köferle, Magdalena Götz, Jovica Ninkovic, Stefan H. Stricker"
+  journal   = "PLOS ONE"
+  volume    = 13
+  year      = 2018
+  url       = " https://doi.org/10.1371/journal.pone.0196015"
+
 [Koeferle2017]
   type      = "article"
   title     = "A Universal Protocol for Large-scale gRNA Library Production from any DNA Source"

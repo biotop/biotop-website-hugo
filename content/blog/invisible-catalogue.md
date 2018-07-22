@@ -15,6 +15,7 @@ type = "blog"
 We are in the process of putting together a catalogue for our exhibition "See the invisible", which was on display in Villach from 22/12/2017 until 3/2/2018.
 
 Watch this space.
+<embed src="/img/blog/see-the-invisible-catalogue-post/Exhibition_catalogue.pdf#toolbar=0&  />
 
 Meanwhile, here are some pictures of the exhibits:
 
