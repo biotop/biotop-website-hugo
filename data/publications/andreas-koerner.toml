@@ -1,0 +1,32 @@
+[Koerner2017-2]
+  type      = "book"
+  title     = "Biophile: Biophilia in Architectural Education"
+  author    = "Andreas Körner, Barry Wark, Maria Knutsson-Hall"
+  journal   = "Oxford"
+  year      = 2017
+  url       = ""
+
+[Koerner2017]
+    type      = "book"
+    title     = "Threshold Occupation / Migratory Spaces"
+    author    = "Andreas Körner"
+    journal   = "Oxford"
+    year      = 2017
+    url       = ""
+
+[Koerner2016]
+  type      = "book"
+  title     = "Unit20 Hyper-Articulated Morphologies"
+  author    = "Andreas Körner (assistant editor), edited by Marcos Cruz and Marjan Colletti"
+  journal   = "London"
+  volume    = "ISBN: 9788899854058"
+  year      = 2016
+  url       = ""
+
+  [Koerner2015]
+  type      = "book"
+  title     = "Built to Grow – Blending Architecture and Biology"
+  author    = "Andreas Körner (assistant author), edited by Barbara Imhof and Petra Gruber"
+  journal   = "Birkhauser"
+  year      = 2015
+  url       = "https://www.researchgate.net/publication/286921745_Built_to_Grow_Blending_Architecture_and_Biology"

@@ -6,7 +6,7 @@ featured = "container.png"
 featuredalt = ""
 featuredpath = "/img/project/Container_lab/"
 description = ""
-collaborators = ["Ralf Bliem", "Martin Schnabl", "Michael Tatschl", "Lukas Hutter", "Andreas Körner", "Anna Köferle", "Ursula Smole"]
+collaborators = ["Ralf Bliem", "Anna Ritscher", "Martin Schnabl", "Michael Tatschl", "Lukas Hutter", "Andreas Körner", "Anna Köferle", "Ursula Smole"]
 projectcategories = []
 draft=false
 +++
