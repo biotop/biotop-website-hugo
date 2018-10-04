@@ -3,51 +3,69 @@
   title     = "Structural transitions of ordered kesterite-type Cu2ZnSnS4 under pressure"
   author    = "I.  Efthimiopoulos,  A.  Ritscher,  M.  Lerch,  S.  Speziale,  A.  S.  Pakhomova,  H.  P.  Liermann,  M.  Koch-Müller"
   journal   = "Appl. Phys. Lett."
-  volume    = 110, 041905/1 – 5
+  volume    = 110
   year      = 2017
   url       = ""
 
 [Quennet2017]
   type      = "article"
   title     = "The  order-disorder  transition  in  Cu2ZnSnS4: A theoretical and experimental study"
-  author    = "M. Quennet, A. Ritscher, M. Lerch, B. Paulu"
+  author    = "M. Quennet, A. Ritscher, M. Lerch, B. Paulus"
   journal   = "J. Solid State Chem."
-  volume    = 250, 140 – 144
+  volume    = 250
   year      = 2017
-  url       = ""
-
-[Ritscher2016]
-  type      = "article"
-  title     = "A mechanochemical route to single phase Cu2ZnSnS4 powder"
-  author    = "A. Ritscher, J. Just, O. Dolotko, S. Schorr, M. Lerch"
-  journal   = "J. Alloys Compd."
-  volume    = 670, 289 – 296
-  year      = 2016
   url       = ""
 
 [Ritscher2016a]
   type      = "article"
-  title     = "The order-disorder transition in Cu2ZnSnS4– a neutron scattering investigation"
-  author    = "A. Ritscher, M. Hoelzel, M. Lerch"
-  journal   = "J. Solid State Chem."
-  volume    = 238, 68 – 73
+  title     = "A mechanochemical route to single phase Cu2ZnSnS4 powder"
+  author    = "A. Ritscher, J. Just, O. Dolotko, S. Schorr, M. Lerch"
+  journal   = "J. Alloys Compd."
+  volume    = 670
   year      = 2016
   url       = ""
 
 [Ritscher2016b]
   type      = "article"
-  title     = "Study  of  the  mechanochemical  process  to crystalline Cu2ZnSnS4 powder"
-  author    = "A.  Ritscher,  M.  Schlosser,  A.  Pfitzner,  M.  Lerch"
-  journal   = "Mater. Res. Bull."
-  volume    = 84, 162 – 167
+  title     = "The order-disorder transition in Cu2ZnSnS4– a neutron scattering investigation"
+  author    = "A. Ritscher, M. Hoelzel, M. Lerch"
+  journal   = "J. Solid State Chem."
+  volume    = 238
   year      = 2016
   url       = ""
 
 [Ritscher2016c]
   type      = "article"
+  title     = "Study  of  the  mechanochemical  process  to crystalline Cu2ZnSnS4 powder"
+  author    = "A.  Ritscher,  M.  Schlosser,  A.  Pfitzner,  M.  Lerch"
+  journal   = "Mater. Res. Bull."
+  volume    = 84
+  year      = 2016
+  url       = ""
+
+[Ritscher2016d]
+  type      = "article"
   title     = "Off-stoichiometric  CZTS  –  „Neutron  scattering investigations on mechanochemical synthesized powders"
   author    = " A.  Ritscher,  A.  Franz,  S.  Schorr,  M.  Lerch"
   journal   = "J. Alloys Compd."
-  volume    = 689, 171-177
+  volume    = 689
   year      = 2016
+  url       = ""
+
+[Ritscher2012]
+  type      = "article"
+  title     = "Pressure  dependence  of  the  tin-phosphorus  phase  diagram"
+  author    = " A.  Ritscher,  C.  Schmetterer,  H.  Ipser"
+  journal   = "Monatshefte fuer Chemie – Chemical Monthly"
+  volume    = 143
+  year      = 2012
+  url       = ""
+
+[Ritscher2010]
+  type      = "article"
+  title     = "Phase  Equilibria  in  the Al-Mo-Si System"
+  author    = " N.Ponweiser,  W.Paschinger,  A.Ritscher,  J.C.Schuster,  K.W.Richter"
+  journal   = "Intermetallics"
+  volume    = 19
+  year      = 2010
   url       = ""

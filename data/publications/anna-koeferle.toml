@@ -1,7 +1,51 @@
+[Breunig2018]
+  type      = "article"
+  title     = "One step generation of customizable gRNA vectors for multiplex CRISPR approaches through string assembly gRNA cloning (STAgR)"
+  author    = "Christopher T. Breunig, Tamara Durovic, Andrea M. Neuner, Valentin Baumann, Maximilian F. Wiesbeck, Anna Köferle, Magdalena Götz, Jovica Ninkovic, Stefan H. Stricker"
+  journal   = "PLOS ONE"
+  volume    = 13
+  year      = 2018
+  url       = " https://doi.org/10.1371/journal.pone.0196015"
+
+[Koeferle2017]
+  type      = "article"
+  title     = "A Universal Protocol for Large-scale gRNA Library Production from any DNA Source"
+  author    = "Anna Köferle, Stefan H. Stricker"
+  journal   = "J. Vis. Exp."
+  volume    = 130
+  year      = 2017
+  url       = "https://dx.doi.org/10.3791/56264"
+
+[Koeferle2016]
+  type      = "article"
+  title     = "CORALINA: a universal method for the generation of gRNA libraries for CRISPR-based screening"
+  author    = "Anna Köferle, Karolina Worf, Christopher Breunig, Valentin Baumann, Javier Herrero, Maximilian Wiesbeck, Lukas H Hutter, Magdalena Götz, Christiane Fuchs, Stephan Beck, Stefan H Sticker"
+  journal   = "BMC Genomics"
+  volume    =  17
+  year      =  2016
+  url       = "https://dx.doi.org/10.1186/s12864-016-3268-z"
+
+[Stricker2016]
+  type      = "article"
+  title     = "From profiles to function in epigenomics"
+  author    = "Stefan H. Stricker, Anna Köferle, Stephan Beck"
+  journal   = "Nature Reviews Genetics"
+  volume    =  17
+  year      =  2016
+  url       = "https://dx.doi.org/10.1038/nrg.2016.138"
+
+[Kolovos2016]
+  type      = "article"
+  title     = "Binding of nuclear factor kappa B to non-canonical consensus sites reveals its multimodal role during the early inflammatory response"
+  author    = "Petros Kolovos, Theodore Georgomanolis, Anna Koeferle, Joshua D Larkin, Lilija Brant, Milos Nikolic, Eduardo G Gusmao, Anne Zirkel, Tobias A Knoch, Ivan G Costa, Wilfred F van Ijcken, Peter R Cook, Frank G Grosveld1 and Argyris Papantonis"
+  journal   = "Genome Research"
+  year      =  2016
+  url       = "https://dx.doi.org/10.1101/gr.210005.116"
+
 [Koeferle2015]
   type      = "article"
   title     = "Brave new epigenomes: The dawn of epigenetic engineering"
   author    = "Anna Köferle, Stefan H. Stricker, Stephan Beck"
   journal   = "Genome Medicine"
   year      =  2015
-  url       = "https://dx.doi.org/10.1186/s13073-015-0185-8 "
+  url = "https://dx.doi.org/10.1186/s13073-015-0185-8 "
