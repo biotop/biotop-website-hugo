@@ -30,7 +30,7 @@ In light of increasing specialisation, the lack of interdisciplinarity and failu
 
 ## How?
 
-As group of early career scientsts, biotop is our attempt at taking our future in Science - and in part the future of Science - into our own hands.
+As group of early career scientsts, Biotop is our attempt at taking our future in Science - and in part the future of Science - into our own hands.
 The idea of establishing a research network as an ecosystem that fosters a research culture that truly deserves this name forms the basis for our attempt.
 
 ### Guiding principles
@@ -38,7 +38,7 @@ We believe that this cornerstone is only achieveable through an integrative appr
 
 To this end, it is pivotal to create an organisational culture that fosters transdisciplinary collaboration in small teams on an institutional level. In addition, science communication and collaboration with artists shall become cornerstones of the day-to-day work. We aim to actively engage the public in our reserach process in the context of **citizen science** projects ({{<citeID "noauthor2015">}}, {{<citeID "Bonney2014">}}), and to provide the public with emancipatory tools such as **data visualisation platforms** to facilitate and encourage access to complex problems.
 
-Another component of our idea of designing our organisational culture from the ground with the public in mind, is to form **innovation partnerships** where we accompany members of the public, who have identified a particular problem in their daily life, and provide them with tools, scientific expertise and design competence, to collaboratively work on solutions.
+Another component of our idea of designing our organisational culture from the ground up and with the public in mind, is to form **innovation partnerships** where we accompany members of the public, who have identified a particular problem in their daily life, and provide them with tools, scientific expertise and design competence to collaboratively work on solutions.
 
 ### Research Areas
 Our research will focus on problems that arise at the interface between **biology, chemistry, physics, computer science** and **applied mathematics**, such as research questions concerned with computational genomics, regulation in biological systems, or the development of self-organising materials,  as well as the investgation of complex systems in the context of biology, neuroscience and economics.
@@ -46,7 +46,7 @@ Our research will focus on problems that arise at the interface between **biolog
 Moreover, the principle of open science demands that we actively engage in problems of **scientific publishing** and the **development of open source laboratory hardware platforms**.
 
 ## Where?
-We aim at acting both **internationally, as well as regionally**. On a local level, we plan to establish a site in **Villach**, which shall serve as central hub for our activities.
+We aim to act both **internationally, as well as regionally**. On a local level, we plan to establish a site in **Villach**, Austria, which shall serve as central hub for our activities.
 
 ----------
 
