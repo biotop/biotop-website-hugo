@@ -12,23 +12,25 @@ type = "blog"
 
 +++
 
-Im Rahmen der ["Biodesign Here Now"]((https://www.londondesignfestival.com/event/biodesign-here-now) Ausstellung am [OpenCell] (http://opencell.webflow.io/) Campus konnten wir dieses Jahr am [London Design Festival](https://www.londondesignfestival.com/) teilnehmen. Wir stellten unsere Ausstellung ["See the invisible"](http://biotop.co/en/blog/invisible-catalogue/), which we already had on display in Villach last Christmas.
+Im Rahmen der ["Biodesign Here Now"]((https://www.londondesignfestival.com/event/biodesign-here-now) Ausstellung am [OpenCell] (http://opencell.webflow.io/) Campus konnten wir am [London Design Festival 2018](https://www.londondesignfestival.com/) teilnehmen. Wir stellten unsere Ausstellung ["See the invisible"](http://biotop.co/en/blog/invisible-catalogue/) zur Schau.
 
 {{< figure src="/img/blog/biodesign_here_now/1_biodesign_container.png">}}
 
-In addition, we conducted workshops in the Open Cell container lab that [we designed the interior layout for and helped build back in May](http://biotop.co/en/blog/opencell/). Together with visitors, we made cheese and extracted DNA from strawberries. These activities are relatively simple and do not require much specialised equipment, but served as a conversation starter for a really engaging discussion on topics such as genome engineering and tools that can be used for editing DNA, genetically modified foods, and research ethics. Thanks everyone who participated!
+Zusätzlich führten wir einige Workshops im Container Labor von Open Cell, [für das wir ja die Raumplanung gemacht und Labormöbel gebaut haben](http://biotop.co/en/blog/opencell/), durch. Zusammen mit den Besuchern wurde Käse hergestellt und DNA aus Erdbeeren extrahiert, beides Aktivitäten, die einfach und ohne Spezialausstattung machbar sind, allerdings als wunderbarer Ausgangspunkt für Diskussionen zum Thema Gentechnik und ihre Methoden, gentechnisch veränderte Lebensmittel, sowie Ethik in der Forschung dienten. An dieser Stelle herzlichen Dank allen Teilnehmern, die so enthusiastisch und engagiert mitgewirkt haben!
 
 {{< figure src="/img/blog/biodesign_here_now/3_dna_workshop1.png">}}
 {{< figure src="/img/blog/biodesign_here_now/4_dna_workshop2.png">}}
 
-We had a great time at the London Design Festival. It was nice to hear that the container lab is now being used on a daily basis by the people who permanently work at OpenCell. One of the permanent residents whose project we find particularly exciting are [Chip[s] Board](https://www.chipsboard.com/); they turn potato waste into useful (building) materials with different properties. If you are interested in what else is going on at OpenCell, check out their [website](http://opencell.webflow.io/) and read [this recent article published in the Observer](https://www.theguardian.com/science/2018/aug/25/buildings-made-from-fungi-open-cell-pop-up-bio-lab-innovators-london).
+Überhaupt hatten wir eine tolle Woche am London Design Festival. Es war schön zu hören, dass "unser" Container Labor am OpenCell-Campus nun ständig in Verwendung ist. Ein seit kurzem bei OpenCell ansässiges Projekt finden wir besonders spannend: [Chip[s] Board](https://www.chipsboard.com/) wollen Abfall aus der Kartoffelchipsherstellung in nützliche (Bau-)Materialien für verschiedene Verwendugnszwecke umwandeln. Falls Sie mehr über OpenCell und die dort stattfindenden Aktivitäten erfahren möchten, hier die [Website](http://opencell.webflow.io/) sowie ein spannender [Artikel, der in der Zeitung "Observer" erschienen ist](https://www.theguardian.com/science/2018/aug/25/buildings-made-from-fungi-open-cell-pop-up-bio-lab-innovators-london).
 
 {{< figure src="/img/blog/biodesign_here_now/5_biodesign_cheese.png">}}
 
-In addition to the permanent residents' work, lots of other interesting projects were on display during Biodesign Here Now. In particular, we would like to mention:
+Unter den über 50 Ausstellern, die mit uns Teil von "Biodesign Here Now" waren,  fanden sich natürlich noch einige sehr spannende Projekte. Besonders erwähnen möchten wir hier:
 
-- [Newcotiana](https://newcotiana.org/), an EU-funded consortium that explores the use of tobacco plants for production of substances needed for medicine or cosmetics. Particularly exciting to us is the potential for multiplexing, i.e. to derive multiple desired substances from the same plant. For example, it should be possible to have one plant produce antibodies that could be used in vaccines as well as oils for cosmetics - these two could easily be separated during the extraction process as the former is water-soluble whereas the latter is not.
+- [Newcotiana](https://newcotiana.org/), ein von der EU-finanziertes Projekt, das sich mit der Nutzung von Tabakpflanzen als Bioreaktor beschäftigt. Ziel ist es die Pflanzen für Medizin und Kosmetik nützliche Stoffe erzeugen zu lassen. Für uns besonders vielversprechend bei diesem Ansatz ist die Möglichkeit, gleich mehrere Stoffe aus einundderselben Pflanze zu gewinnen - z.B. Antikörper für Impfstoffe und gleichzeitig Öle für Kosmetikprodukte. Erstere sind wasserlösliche, letzere nicht und könnten somit leicht aufgereinigt werden.
 
-- [GMO Detective](https://gmodetective.com/), a project aimed at educating the general public about genetically modified foods and empower them to conduct simple tests to find out whether food has been modified using one of the commonly used methods.
+- [GMO Detective](https://gmodetective.com/), will der Öffentlichkeit ermöglichen selbst einfache Tests an Lebensmitteln durchzuführen um gentechnisch veränderte Produkte zu erkennen.
 
-- The Biotic Games Collective who presented games such as [Mould Rush](https://biohackanddesign.com/portfolio/mould-rush/) that try to bring together the biological and the digital and create computer games driven by living microorganisms.
+- Das "Biotic Games Collective" stellte Videospiele wie [Mould Rush](https://biohackanddesign.com/portfolio/mould-rush/) vor, die an der Schnittstelle zwischen der Biologie und der Technologie ansetzen und Mikroorganismen Videospiele kontrollieren lassen.
+
+Photos: Ralf Bliem, Anna Ritscher, Lukas Hutter, Anna Köferle
