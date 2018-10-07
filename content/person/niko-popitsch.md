@@ -1,5 +1,7 @@
 +++
-bio = "Niko studied Informatics and Molecular Biology in Vienna. For his PhD, he did research on semantic web technolgies, before he switched to bioinformatics. Between 2014 and 2016 he worked as a senior post-doc at the University of Oxford's Wellcome Trust Institute for Human Genetics. Currently, he works at CCRI, Vienna where he investigates rare childhood diseases using bioinformatics. His research interests include: **method development in bioinformatics**, **translational genomics**, application and development of **semantic web technologies** and **decentralised computing**."
+
+bio = "Niko holds a PhD in Computer Science and an MSc in Molecular Biology and currently work as a bioinformatician. Since 2011, he works with next-generation sequencing data, both working with researchers on challenging biological/medical projects as well as doing basic bioinformatics research and method development. During his time at the University of Oxford, he was involved in several large-scale, translational whole-genome sequencing projects. Working with huge datasets from cancer and rare diseases, made him appreciate the power of statistical and genomics approaches for addressing fundamental medical and biological questions. He has recently started to apply Deep Learning-based methods to such data in order to uncover hidden, complex patterns that might lead to biological insight."
+
 category = ["people"]
 date = "2015-05-03T09:35:42+01:00"
 email = ""
@@ -9,7 +11,7 @@ featuredalt = "alt.png"
 featuredpath = "/img/person/"
 github = "popitsch"
 instagram = ""
-linkedin = "niko-popitsch-379b0942"
+linkedin = "niko-popitsch-379b0942/"
 name = "Niko Popitsch"
 position = "Bioinformatician"
 role = "cofounder(m)"
@@ -19,5 +21,4 @@ twitter = ""
 type = "person"
 website = "https://www.researchgate.net/profile/Niko_Popitsch"
 xing = ""
-
 +++
