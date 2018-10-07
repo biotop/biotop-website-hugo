@@ -54,3 +54,10 @@ In the evening of the 21st, people arrived for a short talk and tour around the 
 {{< figure src="/img/blog/open_cell/10_break.png">}}
 
 Photos: Ralf Bliem, Anna Ritscher, Lukas Hutter, Anna Köferle, Andreas Körner
+
+
+Rhys Votano and Jan Stöckel followed us around with their cameras during those 5 exciting days. They interviewed us about our backgrounds and how the Biotop X OpenCell project came into being. Watch the result here:
+
+<iframe src="https://player.vimeo.com/video/278735448" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+Video: Rhys Votano, Jan Stöckel

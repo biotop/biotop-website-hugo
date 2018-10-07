@@ -60,3 +60,9 @@ Am Abend des 21. Mai wurde die Öffentlichkeit zu einem kurzen Vortrag und einer
 {{< figure src="/img/blog/open_cell/10_break.png">}}
 
 Photos: Ralf Bliem, Anna Ritscher, Lukas Hutter, Anna Köferle, Andreas Körner
+
+Zwei Filmemacher, Rhys Votano und Jan Stöckel, haben uns während der fünf Tage in London begleitet. Hier das Resultat:
+
+<iframe src="https://player.vimeo.com/video/278735448" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+Video: Rhys Votano, Jan Stöckel
