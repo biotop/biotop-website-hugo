@@ -19,4 +19,5 @@ instagram =""
 slideshare = ""
 xing = ""
 linkedin = ""
+publications = "roberto-maffulli"
 +++

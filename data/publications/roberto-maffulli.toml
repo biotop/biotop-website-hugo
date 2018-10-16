@@ -1,0 +1,58 @@
+[Maffulli2018a]
+  type      = "article"
+  title     = "Fast Conjugate Heat Transfer Simulation Of Long Transient Flexible Operations Using Adaptive Time Stepping"
+  author    = "Maffulli R., He L."
+  journal   = "ASME. J. Turbomach"
+  volume    =  140
+  year      =  2018
+  url       = "https://dx.doi.org/10.1115/GT2018-75740"
+
+[Maffulli2017]
+  type      = "article"
+  title     = "Impact Of Wall Temperature On Heat Transfer Coefficient And Aerodynamics For 3-D Turbine Blade Passage"
+  author    = "Maffulli R., He L."
+  journal   = "J. Thermal Sci. Eng. Appl"
+  volume    =  9
+  year      =  2017
+  url       = "https://dx.doi.org/10.1115/1.4036012"
+
+[Bigoni2017]
+  type      = "article"
+  title     = "Metamodel Assisted Optimization of a High-Lift Low Pressure Turbine Blade"
+  author    = "Bigoni F., Maffulli R., Verstraete T., Arts T."
+  journal   = "ASME paper GT2017-63770"
+  year      =  2017
+  url       = "https://dx.doi.org/10.1115/GT2017-63991"
+
+[Romei2017]
+  type      = "article"
+  title     = "Design and Optimization of Multi-Stage Centrifugal Compressors With Uncertainty Quantification Of Off-Design Performance"
+  author    = "Romei A., Maffulli R., Garcia Sanchez C., Lavagnoli S."
+  journal   = "ASME paper GT2017-63770"
+  year      =  2017
+  url       = "https://dx.doi.org/10.1115/GT2017-63770"
+
+[Maffulli2014a]
+  type      = "article"
+  title     = "Wall Temperature Effects on Heat Transfer Coefficient for High-Pressure Turbines"
+  author    = "Maffulli R., He L."
+  journal   = "Journal of Propulsion and Power"
+  volume    =  30
+  year      =  2014
+  url       = "https://dx.doi.org/10.2514/1.B35126"
+
+[Maffulli2014b]
+  type      = "article"
+  title     = "Dependence of External Heat Transfer Coefficient and Aerodynamics on Wall Temperature For 3- D Turbine Blade Passage"
+  author    = "Maffulli R., He L."
+  journal   = "ASME Paper GT2014-26763 Proceedings of ASME Turbo Expo 2014"
+  year      =  2014
+  url       = "https://dx.doi.org/10.1115/GT2014-26763"
+
+[Maffulli2013]
+  type      = "article"
+  title     = "Wall Temperature Effects on Heat Transfer Coefficient"
+  author    = "Maffulli R., He L."
+  journal   = "ASME Paper GT2013-94291 Proceedings of ASME Turbo Expo 2013"
+  year      =  2013
+  url       = "https://dx.doi.org/10.2514/1.B35126"
