@@ -9,6 +9,7 @@ featuredpath = "/img/blog/meeting-october-2018"
 linktitle = ""
 title = "Third Biotop Meeting"
 type = "blog"
+draft = true
 
 +++
 
