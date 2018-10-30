@@ -30,7 +30,7 @@ Dieter, dessen Expertise in der Organisationsentwicklung liegt, gestaltete eine 
 
 {{< figure src="/img/blog/meeting-october-2018/6_schlucht.jpg">}}
 
-Das Abendessen genossen wir mit Ausblick vom Berggipfel, Sebastian (ursprünglich aus Kolumbien, lebt und arbeit derzeit in England) versuchte die Kaspressknödelsuppe - sie schmeckte.
+Das Abendessen genossen wir mit Ausblick vom Berggipfel, Sebastian (ursprünglich aus Kolumbien) versuchte die Kaspressknödelsuppe - sie schmeckte.
 
 Gut gestärkt, diskutierten wir noch mögliche Beiträge für eine Weihnachtsveranstaltung. Dieses Jahr bereiten wir einen Adventkalendar vor - man darf gespannt sein!
 
