@@ -29,8 +29,10 @@ Dieter, whose expertise lies in organisation developent and management lead a se
 After this, we had a quick lunch and went on a hike through the neighbouring gorge ("Groppensteinschlucht"). It was truly spectacular.
 
 {{< figure src="/img/blog/meeting-october-2018/6_schlucht.jpg">}}
+{{< figure src="/img/blog/meeting-october-2018/7_schlucht.jpg">}}
 
 In the evening, we enjoyed dinner with an amazing view from the mountain top from which we returned for another session to plan a Christmas event. This year, we will do an advent calendar. Stay tuned!
 
+{{< figure src="/img/blog/meeting-october-2018/8_Tal.jpg">}}
 
 Thanks to Julian and Judith for letting us stay at the Burg!

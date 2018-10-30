@@ -29,10 +29,12 @@ Dieter, dessen Expertise in der Organisationsentwicklung liegt, gestaltete eine 
  Später ging es dann, nach einer kleinen Stärkung, auf eine Wanderung durch die spektakuläre Groppensteinschlucht.
 
 {{< figure src="/img/blog/meeting-october-2018/6_schlucht.jpg">}}
+{{< figure src="/img/blog/meeting-october-2018/7_schlucht.jpg">}}
 
 Das Abendessen genossen wir mit Ausblick vom Berggipfel, Sebastian (ursprünglich aus Kolumbien) versuchte die Kaspressknödelsuppe - sie schmeckte.
 
 Gut gestärkt, diskutierten wir noch mögliche Beiträge für eine Weihnachtsveranstaltung. Dieses Jahr bereiten wir einen Adventkalendar vor - man darf gespannt sein!
 
+{{< figure src="/img/blog/meeting-october-2018/8_Tal.jpg">}}
 
 Vielen, vielen Dank an unsere Gastgeber Julian and Judith (Burg Groppenstein)!
