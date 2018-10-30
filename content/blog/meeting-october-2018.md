@@ -36,3 +36,5 @@ In the evening, we enjoyed dinner with an amazing view from the mountain top fro
 {{< figure src="/img/blog/meeting-october-2018/8_Tal.jpg">}}
 
 Thanks to Julian and Judith for letting us stay at the Burg!
+
+Photos: Anna Ritscher, Ralf Bliem, Andreas Körner, Anna Köferle

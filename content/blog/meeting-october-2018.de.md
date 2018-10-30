@@ -38,3 +38,5 @@ Gut gestärkt, diskutierten wir noch mögliche Beiträge für eine Weihnachtsver
 {{< figure src="/img/blog/meeting-october-2018/8_Tal.jpg">}}
 
 Vielen, vielen Dank an unsere Gastgeber Julian and Judith (Burg Groppenstein)!
+
+Photos: Anna Ritscher, Ralf Bliem, Andreas Körner, Anna Köferle
