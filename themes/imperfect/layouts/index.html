@@ -3,6 +3,7 @@
 {{ partial "header" . }}
     {{ $.Scratch.Set "shareNav" true }}
     {{ partial "navbar" . }}
+    {{ partial "landing_circle" . }}
     <div id="sbwrap">
       {{ partial "sidebar-ix" . }}
     </div>
@@ -15,6 +16,4 @@
       }
     </script>
     <script src="/js/vis/voronoi.js"></script>
-
-
 {{ partial "footer" . }}

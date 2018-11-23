@@ -5,7 +5,6 @@ paginate = 3
 disqusShortname = ""
 googleAnalytics = "UA-77796485-1"
 enableRobotsTXT = true
-
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 copyright = "biotop"
@@ -41,6 +40,12 @@ copyright = "biotop"
     customCSS            = ["/css/main.min.css", "/css/person.css"]
     customJS             = ["/js/main.min.js"]
 
+
+# Adjust the amount of recent blogs on the sidebar.
+# This is optional. The default value 5 will be used
+[params.postAmount]
+  sidebar = 2
+
 [taxonomies]
 tag = "tags"
 category = "categories" #blogpost
@@ -52,22 +57,7 @@ eventcategory = "eventcategories" #event
 place = "places" # event
 
 
-# This will also appear on the sidebar.
-# A width of less than 100px is recommended
-# This is optional
-[params.intro.pic]
-    src       = "/img/main/logo.png"
-    # modify your picture in the shape of a circle or
-    # future imperfect's hexagonal shape
-    circle    = true
-    imperfect = false
-    width     = "175px"
-    alt       = "Biotop logo"
 
-# Adjust the amount of recent blogs on the sidebar.
-# This is optional. The default value 5 will be used
-[params.postAmount]
-    sidebar = 2
 
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
@@ -81,11 +71,20 @@ place = "places" # event
   # This is optional, but it's suggested to use
 [languages.en.params.intro]
     header    = "biotop*"
-
     paragraph = "collective of scientists. research platform. "
-
     about     = "Biotop is an open collective of scientists engaging in the curiosity-driven, cross-disciplinary and collaborative translation of ideas; it is an experiment trying to reinvent the way we do science."
 
+# This will also appear on the sidebar.
+# A width of less than 100px is recommended
+# This is optional
+[languages.en.params.intro.pic]
+  src       = "/img/main/logo.png"
+  # modify your picture in the shape of a circle or
+  # future imperfect's hexagonal shape
+  circle    = true
+  imperfect = false
+  width     = "175px"
+  alt       = "Biotop logo"
 
 
 
@@ -139,10 +138,20 @@ place = "places" # event
 
 [languages.de.params.intro]
     header    = "biotop*"
-
     paragraph = "Wissenschaftskollektiv"
-
     about     = "Biotop ist ein offenes Wissenschaftskollektiv, das sich der neugiergetriebenen, disziplinenübergreifenden und kollaborativen Erforschung, Umsetzung und Vermittlung wissenschaftlicher Ideen verschreibt. Es ist der Versuch, im Sinne eines Experimentes, die Art und Weise wie wir Wissenschaft betreiben neu zu erfinden."
+
+# This will also appear on the sidebar.
+# A width of less than 100px is recommended
+# This is optional
+[languages.de.params.intro.pic]
+  src       = "/img/main/logo.png"
+  # modify your picture in the shape of a circle or
+  # future imperfect's hexagonal shape
+  circle    = true
+  imperfect = false
+  width     = "175px"
+  alt       = "Biotop logo"
 
 [[languages.de.menu.about]]
     name = "Mission Statement"
