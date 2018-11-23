@@ -159,3 +159,6 @@
 
 - id: references
   translation: "Quellenangaben"
+
+- id: xmascal_announcement
+  translation: "Hier lang zum Advent-kalender!"
