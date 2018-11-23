@@ -23,7 +23,9 @@
         <time class="published"
             datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
             {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}</time>
-        <span class="author">{{ delimit .Params.participants  "</br>" }}</span>
+        {{ if .Params.participants }}
+          <span class="author">{{ delimit .Params.participants  "</br>" }}</span>
+        {{ end }}
         <!--<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>-->
     </div>
 </header>

@@ -1,6 +1,6 @@
 <!-- Sidebar -->
 <section id="sidebar">
-  {{ $languageprefix := .LanguagePrefix }}
+  {{ $languageprefix := .Site.LanguagePrefix }}
 
     <!-- Intro -->
         <section id="intro">
@@ -69,9 +69,9 @@
                     </li>
                 {{ end }}
             </ul>
-            <h5><a href="{{ .LanguagePrefix}}/gratitude/"><i class = "fa fa-heart"></i> {{ i18n "gratitude" }}</a></h5>
+            <h5><a href="{{ $languageprefix}}/gratitude/"><i class = "fa fa-heart"></i> {{ i18n "gratitude" }}</a></h5>
 
-            <h5><a href="{{ .LanguagePrefix}}/imprint/"><i class = "fa fa-asterisk"></i> {{ i18n "imprint" }}</a></h5>
+            <h5><a href="{{ $languageprefix}}/imprint/"><i class = "fa fa-asterisk"></i> {{ i18n "imprint" }}</a></h5>
 
             <h5><a href="http://meta.biotop.co"><i class ="fa fa-comments-o"></i> Forum</a></h5>
         </section>
@@ -83,7 +83,7 @@
             <p>{{ . }}</p>
 
             <ul class="actions">
-                <li><a href="{{.LanguagePrefix }}/about/" class="button">Learn More</a></li>
+                <li><a href="{{$languageprefix }}/about/" class="button">Learn More</a></li>
             </ul>
         </section>
         {{ end }}
